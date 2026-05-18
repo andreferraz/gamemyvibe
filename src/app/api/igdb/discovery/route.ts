@@ -101,11 +101,9 @@ export async function GET(
     }
 
     // Build Apicalypse query for IGDB
-    // Request top 10 games sorted by total_rating_count (popularity)
-    // Only include games with summary (description)
     const apicalypseQuery = `
       fields id, name, summary, cover.url, cover.width, cover.height, genres.name, total_rating_count;
-      where summary != null;
+      where total_rating_count > 150 & summary != null & cover != null;
       sort total_rating_count desc;
       limit 10;
     `;
@@ -140,9 +138,14 @@ export async function GET(
 
     const games = (await igdbResponse.json()) as IGDBGameRaw[];
 
-    // Filter and normalize response
+    // Defensive filtering to guarantee roadmap constraints are respected
     const normalizedGames: GameResponse[] = games
-      .filter((game) => game.summary) // Ensure summary exists (extra safety)
+      .filter(
+        (game) =>
+          Boolean(game.summary) &&
+          Boolean(game.cover?.url) &&
+          (game.total_rating_count ?? 0) > 150,
+      )
       .map(normalizeGameResponse);
 
     return NextResponse.json(

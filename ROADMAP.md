@@ -8,7 +8,7 @@ As the user interacts with the cards, the system performs client-side vector mat
 
 ## Phase 1: Backend & APIs (Next.js Routes)
 
-1. [] **Endpoint 1 (`/api/igdb/discovery`)**: Fetches a rotating list of 20 to 30 highly recognizable, diverse games (filtering for `total_rating_count > 150`, `summary != null`, and `cover != null`) to serve as immediate interaction "bait" for the user.
+1. [x] **Endpoint 1 (`/api/igdb/discovery`)**: Fetches a list of 10 most popular games (filtering for `total_rating_count > 150`, `summary != null`, and `cover != null`) to serve as immediate interaction "bait" for the user.
 2. [] **Endpoint 2 (`/api/igdb/candidates`)**: Fetches a fixed pool of 100 highly popular games from the IGDB API, ordered by global popularity, which will serve as the base dataset for generating recommendations.
 
 ## Phase 2: Layout & User Interface (Frontend)

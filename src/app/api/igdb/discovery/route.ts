@@ -63,7 +63,7 @@ function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
 }
 
 export async function GET(
-  request: NextRequest,
+  _request: NextRequest,
 ): Promise<NextResponse<APIResponse<GameResponse[]>>> {
   try {
     // Validate environment variables

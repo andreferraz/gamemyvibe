@@ -6,7 +6,7 @@
 - Use `pnpm` for all package and script commands.
 - Do not use `npm` or `yarn` commands.
 - When a roadmap task is completed, update `ROADMAP.md` by checking the corresponding checkbox.
-- Make sure to encapsulate blocks of UI in separate and reusable components when appropriate.
+- Make sure to encapsulate blocks of UI in separate and reusable components in the src/components folder with a clear and descriptive name when appropriate.
 - For API routes, ensure that the handlers are modular and can be easily tested.
 
 ## Package Manager and Commands

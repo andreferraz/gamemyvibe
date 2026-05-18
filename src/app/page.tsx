@@ -1,5 +1,5 @@
-import { Badge, Box, Container, Flex, Heading, Text } from "@radix-ui/themes";
-import Image from "next/image";
+import { Box, Container, Flex, Heading, Text } from "@radix-ui/themes";
+import { GamesList } from "../components/GamesList";
 import type { APIResponse, GameResponse } from "./api/igdb/types";
 
 async function fetchPopularGames(): Promise<GameResponse[]> {
@@ -24,69 +24,6 @@ async function fetchPopularGames(): Promise<GameResponse[]> {
   }
 }
 
-interface GameRowProps {
-  game: GameResponse;
-}
-
-function GameRow({ game }: GameRowProps) {
-  return (
-    <Box
-      key={game.id}
-      p="3"
-      mb="2"
-      style={{
-        border: "1px solid var(--gray-6)",
-        borderRadius: "var(--radius-2)",
-      }}
-    >
-      <Flex direction="column" gap="2">
-        <Flex justify="between" align="start">
-          <div>
-            <Heading size="2" mb="1">
-              {game.name}
-            </Heading>
-            {game.genres && game.genres.length > 0 && (
-              <Flex gap="1" mb="2" wrap="wrap">
-                {game.genres.map((genre) => (
-                  <Badge key={genre} size="1" variant="soft">
-                    {genre}
-                  </Badge>
-                ))}
-              </Flex>
-            )}
-          </div>
-          {game.coverUrl && (
-            <Box
-              style={{
-                width: "80px",
-                height: "100px",
-                borderRadius: "var(--radius-2)",
-                overflow: "hidden",
-                flexShrink: 0,
-                position: "relative",
-              }}
-            >
-              <Image
-                src={game.coverUrl}
-                alt={game.name}
-                fill
-                sizes="80px"
-                style={{
-                  objectFit: "cover",
-                }}
-              />
-            </Box>
-          )}
-        </Flex>
-        <Text size="2" color="gray">
-          {game.summary.substring(0, 150)}
-          {game.summary.length > 150 ? "..." : ""}
-        </Text>
-      </Flex>
-    </Box>
-  );
-}
-
 export default async function Home() {
   const games = await fetchPopularGames();
 
@@ -105,11 +42,7 @@ export default async function Home() {
             </div>
 
             {games.length > 0 ? (
-              <Box>
-                {games.map((game) => (
-                  <GameRow key={game.id} game={game} />
-                ))}
-              </Box>
+              <GamesList games={games} />
             ) : (
               <Box
                 p="4"

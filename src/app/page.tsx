@@ -1,12 +1,17 @@
-import { Box, Container, Flex, Heading, Text } from "@radix-ui/themes";
-import { GamesList } from "../components/GamesList";
+import { Container, Flex, Heading, Text } from "@radix-ui/themes";
+import { DiscoveryPanel } from "../components/DiscoveryPanel";
+import {
+  RecommendationPanel,
+  type RecommendedGame,
+} from "../components/RecommendationPanel";
 import type { APIResponse, GameResponse } from "./api/igdb/types";
+import styles from "./page.module.css";
 
-async function fetchPopularGames(): Promise<GameResponse[]> {
+async function fetchDiscoveryGames(): Promise<GameResponse[]> {
   try {
     const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
     const response = await fetch(`${baseUrl}/api/igdb/discovery`, {
-      cache: "no-store", // Disable caching for now; consider revalidate later
+      cache: "no-store",
     });
 
     if (!response.ok) {
@@ -19,47 +24,69 @@ async function fetchPopularGames(): Promise<GameResponse[]> {
   } catch (error) {
     const errorMessage =
       error instanceof Error ? error.message : "Unknown error";
-    console.error("Error fetching popular games:", errorMessage);
+    console.error("Error fetching discovery games:", errorMessage);
+    return [];
+  }
+}
+
+async function fetchCandidateGames(): Promise<GameResponse[]> {
+  try {
+    const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
+    const response = await fetch(`${baseUrl}/api/igdb/candidates`, {
+      cache: "no-store",
+    });
+
+    if (!response.ok) {
+      const errorData = (await response.json()) as APIResponse<null>;
+      throw new Error(errorData.error || "Failed to fetch candidate games");
+    }
+
+    const data = (await response.json()) as APIResponse<GameResponse[]>;
+    return data.data || [];
+  } catch (error) {
+    const errorMessage =
+      error instanceof Error ? error.message : "Unknown error";
+    console.error("Error fetching candidate games:", errorMessage);
     return [];
   }
 }
 
 export default async function Home() {
-  const games = await fetchPopularGames();
+  const [discoveryGames, candidateGames] = await Promise.all([
+    fetchDiscoveryGames(),
+    fetchCandidateGames(),
+  ]);
+
+  const activeDiscoveryGame = discoveryGames[0];
+
+  const recommendations: RecommendedGame[] = candidateGames
+    .slice(0, 8)
+    .map((game, index) => ({
+      ...game,
+      similarity: Math.max(58, 94 - index * 5),
+    }));
 
   return (
-    <Box>
-      <main>
-        <Container size="3">
-          <Flex direction="column" gap="4" py="4">
-            <div>
-              <Heading size="3" mb="2">
-                🎮 Top 10 Popular Games
-              </Heading>
-              <Text size="2" color="gray">
-                The most popular games on IGDB, based on rating count
-              </Text>
-            </div>
+    <main className={styles.page}>
+      <Container size="4" py="6" className={styles.container}>
+        <Flex direction="column" gap="5">
+          <div>
+            <Text className={styles.kicker}>Steamder MVP</Text>
+            <Heading size="7" className={styles.title}>
+              Descubra no swipe. Refine em tempo real.
+            </Heading>
+            <Text size="3" color="gray" className={styles.subtitle}>
+              A esquerda, um card para avaliar agora. A direita, as melhores
+              recomendacoes com score de similaridade.
+            </Text>
+          </div>
 
-            {games.length > 0 ? (
-              <GamesList games={games} />
-            ) : (
-              <Box
-                p="4"
-                style={{
-                  border: "1px dashed var(--gray-6)",
-                  borderRadius: "var(--radius-2)",
-                  textAlign: "center",
-                }}
-              >
-                <Text color="gray">
-                  Unable to fetch games. Please try again later.
-                </Text>
-              </Box>
-            )}
-          </Flex>
-        </Container>
-      </main>
-    </Box>
+          <section className={styles.splitGrid}>
+            <DiscoveryPanel game={activeDiscoveryGame} />
+            <RecommendationPanel games={recommendations} />
+          </section>
+        </Flex>
+      </Container>
+    </main>
   );
 }

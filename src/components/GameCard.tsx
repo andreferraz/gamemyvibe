@@ -33,7 +33,7 @@ export function GameCard({ game }: GameCardProps) {
               </Flex>
             )}
           </div>
-          {game.coverUrl && (
+          {(game.thumbnailUrl || game.coverUrl) && (
             <Box
               style={{
                 width: "80px",
@@ -45,7 +45,7 @@ export function GameCard({ game }: GameCardProps) {
               }}
             >
               <Image
-                src={game.coverUrl}
+                src={game.thumbnailUrl || game.coverUrl || ""}
                 alt={game.name}
                 fill
                 sizes="80px"

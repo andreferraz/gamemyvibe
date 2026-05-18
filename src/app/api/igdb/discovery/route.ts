@@ -1,17 +1,17 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { getTwitchAccessToken } from "@/utils/igdb";
+import { buildIgdbCoverUrls, getTwitchAccessToken } from "@/utils/igdb";
 import type { APIResponse, GameResponse, IGDBGameRaw } from "../types";
 
 const IGDB_API_URL = "https://api.igdb.com/v4/games";
 
 function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
-  // Extract cover URL, handling Twitch image URL format
+  // Keep both original thumbnail and a larger cover URL variant.
+  let thumbnailUrl: string | undefined;
   let coverUrl: string | undefined;
   if (game.cover?.url) {
-    // IGDB returns URLs like //images.igdb.com/..., prepend https:
-    coverUrl = game.cover.url.startsWith("http")
-      ? game.cover.url
-      : `https:${game.cover.url}`;
+    const urls = buildIgdbCoverUrls(game.cover.url);
+    thumbnailUrl = urls.thumbnailUrl;
+    coverUrl = urls.coverUrl;
   }
 
   // Extract genre names
@@ -21,6 +21,7 @@ function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
     id: game.id,
     name: game.name,
     summary: game.summary || "",
+    thumbnailUrl,
     coverUrl,
     genres,
     popularity: game.total_rating_count,

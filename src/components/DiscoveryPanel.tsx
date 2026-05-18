@@ -39,10 +39,10 @@ export function DiscoveryPanel({ game }: DiscoveryPanelProps) {
             ) : null}
           </div>
 
-          {game.coverUrl ? (
+          {game.coverUrl || game.thumbnailUrl ? (
             <Box className={styles.discoveryCoverWrap}>
               <Image
-                src={game.coverUrl}
+                src={game.coverUrl || game.thumbnailUrl || ""}
                 alt={game.name}
                 fill
                 sizes="(max-width: 1024px) 160px, 200px"

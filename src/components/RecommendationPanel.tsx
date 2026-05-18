@@ -34,10 +34,10 @@ export function RecommendationPanel({ games }: RecommendationPanelProps) {
               >
                 <Flex align="center" gap="3">
                   <Text className={styles.rank}>{index + 1}</Text>
-                  {game.coverUrl ? (
+                  {game.thumbnailUrl || game.coverUrl ? (
                     <Box className={styles.recThumbWrap}>
                       <Image
-                        src={game.coverUrl}
+                        src={game.thumbnailUrl || game.coverUrl || ""}
                         alt={game.name}
                         fill
                         sizes="52px"

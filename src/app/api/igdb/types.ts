@@ -28,6 +28,7 @@ export interface GameResponse {
   id: number;
   name: string;
   summary: string;
+  thumbnailUrl?: string;
   coverUrl?: string;
   genres: string[];
   popularity?: number;

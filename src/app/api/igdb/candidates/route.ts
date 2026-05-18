@@ -1,15 +1,16 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { getTwitchAccessToken } from "@/utils/igdb";
+import { buildIgdbCoverUrls, getTwitchAccessToken } from "@/utils/igdb";
 import type { APIResponse, GameResponse, IGDBGameRaw } from "../types";
 
 const IGDB_API_URL = "https://api.igdb.com/v4/games";
 
 function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
+  let thumbnailUrl: string | undefined;
   let coverUrl: string | undefined;
   if (game.cover?.url) {
-    coverUrl = game.cover.url.startsWith("http")
-      ? game.cover.url
-      : `https:${game.cover.url}`;
+    const urls = buildIgdbCoverUrls(game.cover.url);
+    thumbnailUrl = urls.thumbnailUrl;
+    coverUrl = urls.coverUrl;
   }
 
   const genres = game.genres?.map((g) => g.name) || [];
@@ -18,6 +19,7 @@ function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
     id: game.id,
     name: game.name,
     summary: game.summary || "",
+    thumbnailUrl,
     coverUrl,
     genres,
     popularity: game.total_rating_count,

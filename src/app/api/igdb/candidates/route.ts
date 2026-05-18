@@ -5,16 +5,13 @@ import type { APIResponse, GameResponse, IGDBGameRaw } from "../types";
 const IGDB_API_URL = "https://api.igdb.com/v4/games";
 
 function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
-  // Extract cover URL, handling Twitch image URL format
   let coverUrl: string | undefined;
   if (game.cover?.url) {
-    // IGDB returns URLs like //images.igdb.com/..., prepend https:
     coverUrl = game.cover.url.startsWith("http")
       ? game.cover.url
       : `https:${game.cover.url}`;
   }
 
-  // Extract genre names
   const genres = game.genres?.map((g) => g.name) || [];
 
   return {
@@ -31,7 +28,6 @@ export async function GET(
   _request: NextRequest,
 ): Promise<NextResponse<APIResponse<GameResponse[]>>> {
   try {
-    // Validate environment variables
     const clientId = process.env.CLIENT_ID;
     const clientSecret = process.env.CLIENT_SECRET;
 
@@ -47,7 +43,6 @@ export async function GET(
       );
     }
 
-    // Get Twitch access token
     let accessToken: string;
     try {
       accessToken = await getTwitchAccessToken(clientId, clientSecret);
@@ -65,15 +60,14 @@ export async function GET(
       );
     }
 
-    // Build Apicalypse query for IGDB
+    // Fixed candidate pool for recommendation ranking.
     const apicalypseQuery = `
       fields id, name, summary, cover.url, cover.width, cover.height, genres.name, total_rating_count;
       where total_rating_count > 150 & summary != null & cover != null;
       sort total_rating_count desc;
-      limit 10;
+      limit 100;
     `;
 
-    // Make request to IGDB API
     const igdbResponse = await fetch(IGDB_API_URL, {
       method: "POST",
       headers: {
@@ -103,7 +97,7 @@ export async function GET(
 
     const games = (await igdbResponse.json()) as IGDBGameRaw[];
 
-    // Defensive filtering to guarantee roadmap constraints are respected
+    // Defensive filtering to ensure recommendation candidates are complete.
     const normalizedGames: GameResponse[] = games
       .filter(
         (game) =>
@@ -111,7 +105,8 @@ export async function GET(
           Boolean(game.cover?.url) &&
           (game.total_rating_count ?? 0) > 150,
       )
-      .map(normalizeGameResponse);
+      .map(normalizeGameResponse)
+      .slice(0, 100);
 
     return NextResponse.json(
       {
@@ -124,7 +119,7 @@ export async function GET(
   } catch (error) {
     const errorMessage =
       error instanceof Error ? error.message : "Unknown error";
-    console.error("Unexpected error in IGDB API route:", errorMessage);
+    console.error("Unexpected error in IGDB candidates route:", errorMessage);
     return NextResponse.json(
       {
         success: false,

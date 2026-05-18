@@ -53,3 +53,4 @@ Steamder is a zero-infrastructure game recommendation app with:
 - Prefer clear TypeScript types for IGDB payloads and recommendation data.
 - Keep API handlers and frontend logic modular and testable.
 - Avoid unnecessary backend processing for recommendation math; prefer client-side computation.
+- **Always avoid duplicating code.** When a function or logic is needed in multiple places, extract it into a shared utility or module and reuse it instead of copying. Check for existing utilities before writing new code.

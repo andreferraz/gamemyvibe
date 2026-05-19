@@ -27,9 +27,17 @@ function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
 }
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
 ): Promise<NextResponse<APIResponse<GameResponse[]>>> {
   try {
+    const DEFAULT_LIMIT = 100;
+    const MAX_LIMIT = 500;
+    const limitParam = request.nextUrl.searchParams.get("limit");
+    const parsedLimit = typeof limitParam === "string" ? Number(limitParam) : NaN;
+    const limit = Number.isInteger(parsedLimit)
+      ? Math.min(Math.max(parsedLimit, 1), MAX_LIMIT)
+      : DEFAULT_LIMIT;
+
     const clientId = process.env.CLIENT_ID;
     const clientSecret = process.env.CLIENT_SECRET;
 
@@ -67,7 +75,7 @@ export async function GET(
       fields id, name, summary, cover.url, cover.width, cover.height, genres.name, total_rating_count;
       where total_rating_count > 150 & summary != null & cover != null;
       sort total_rating_count desc;
-      limit 100;
+      limit ${limit};
     `;
 
     const igdbResponse = await fetch(IGDB_API_URL, {
@@ -108,7 +116,7 @@ export async function GET(
           (game.total_rating_count ?? 0) > 150,
       )
       .map(normalizeGameResponse)
-      .slice(0, 100);
+      .slice(0, limit);
 
     return NextResponse.json(
       {

@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "collect:genres": "node scripts/collect-candidate-genres.mjs",
     "lint": "biome check",
     "format": "biome format --write"
   },

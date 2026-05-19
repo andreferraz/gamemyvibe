@@ -1,0 +1,23 @@
+{
+  "source": "http://localhost:3000/api/igdb/candidates",
+  "generatedAt": "2026-05-19T23:14:07.309Z",
+  "totalGenres": 16,
+  "genres": [
+    "Adventure",
+    "Arcade",
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Indie",
+    "Platform",
+    "Point-and-click",
+    "Puzzle",
+    "Racing",
+    "Real Time Strategy (RTS)",
+    "Role-playing (RPG)",
+    "Shooter",
+    "Simulator",
+    "Strategy",
+    "Tactical",
+    "Turn-based strategy (TBS)"
+  ]
+}

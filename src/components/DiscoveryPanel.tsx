@@ -7,6 +7,7 @@ interface DiscoveryPanelProps {
   game?: GameResponse;
   interactionsCount?: number;
   isModelReady?: boolean;
+  isCandidatesReady?: boolean;
   onNoInterest?: () => void;
   onLike?: () => void;
   onLove?: () => void;
@@ -16,6 +17,7 @@ export function DiscoveryPanel({
   game,
   interactionsCount,
   isModelReady,
+  isCandidatesReady,
   onNoInterest,
   onLike,
   onLove,
@@ -46,6 +48,10 @@ export function DiscoveryPanel({
             ) : null}
             <Text as="p" size="1" color="gray" mt="1">
               Modelo USE: {isModelReady ? "pronto" : "carregando..."}
+            </Text>
+            <Text as="p" size="1" color="gray" mt="1">
+              Candidatos vetorizados:{" "}
+              {isCandidatesReady ? "pronto" : "carregando..."}
             </Text>
             <Heading size="5" mt="1">
               {game.name}

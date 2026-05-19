@@ -3,6 +3,10 @@
 import { useEffect, useMemo, useState } from "react";
 import type { GameResponse } from "../app/api/igdb/types";
 import styles from "../app/page.module.css";
+import {
+  getCandidateEmbeddingCount,
+  preVectorizeCandidateGames,
+} from "../utils/candidateEmbeddings";
 import { loadUniversalSentenceEncoder } from "../utils/universalSentenceEncoder";
 import { DiscoveryPanel } from "./DiscoveryPanel";
 import {
@@ -27,7 +31,8 @@ const WEIGHTS = {
   love: 2.0,
 } as const;
 
-let model: Awaited<ReturnType<typeof loadUniversalSentenceEncoder>> | null = null;
+let model: Awaited<ReturnType<typeof loadUniversalSentenceEncoder>> | null =
+  null;
 
 export function SteamderExperience({
   discoveryGames,
@@ -36,6 +41,7 @@ export function SteamderExperience({
   const [currentDiscoveryIndex, setCurrentDiscoveryIndex] = useState(0);
   const [userPreferences, setUserPreferences] = useState<UserPreference[]>([]);
   const [isModelReady, setIsModelReady] = useState(false);
+  const [isCandidatesReady, setIsCandidatesReady] = useState(false);
 
   useEffect(() => {
     let isActive = true;
@@ -62,6 +68,42 @@ export function SteamderExperience({
       isActive = false;
     };
   }, []);
+
+  useEffect(() => {
+    if (!isModelReady || candidateGames.length === 0 || !model) {
+      return;
+    }
+
+    const loadedModel = model;
+
+    let isActive = true;
+
+    async function preVectorizeCandidates() {
+      try {
+        setIsCandidatesReady(false);
+        await preVectorizeCandidateGames(loadedModel, candidateGames);
+
+        if (isActive) {
+          setIsCandidatesReady(true);
+          console.info("Candidate pre-vectorization complete", {
+            count: getCandidateEmbeddingCount(),
+          });
+        }
+      } catch (error) {
+        console.error("Candidate pre-vectorization failed:", error);
+
+        if (isActive) {
+          setIsCandidatesReady(false);
+        }
+      }
+    }
+
+    void preVectorizeCandidates();
+
+    return () => {
+      isActive = false;
+    };
+  }, [candidateGames, isModelReady]);
 
   const activeDiscoveryGame = discoveryGames[currentDiscoveryIndex];
 
@@ -103,6 +145,7 @@ export function SteamderExperience({
         game={activeDiscoveryGame}
         interactionsCount={userPreferences.length}
         isModelReady={isModelReady}
+        isCandidatesReady={isCandidatesReady}
         onNoInterest={() => registerPreference(WEIGHTS.noInterest)}
         onLike={() => registerPreference(WEIGHTS.like)}
         onLove={() => registerPreference(WEIGHTS.love)}

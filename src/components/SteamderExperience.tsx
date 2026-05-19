@@ -8,7 +8,10 @@ import {
   getCandidateEmbeddingCount,
   preVectorizeCandidateGames,
 } from "../utils/candidateEmbeddings";
-import { applyWeightedPreference } from "../utils/profileInference";
+import {
+  applyWeightedPreference,
+  rankByCosineSimilarity,
+} from "../utils/profileInference";
 import { loadUniversalSentenceEncoder } from "../utils/universalSentenceEncoder";
 import { DiscoveryPanel } from "./DiscoveryPanel";
 import {
@@ -48,6 +51,7 @@ export function SteamderExperience({
   const [profileVector, setProfileVector] = useState<number[] | null>(null);
   const profileSumVectorRef = useRef<number[] | null>(null);
   const profileWeightMagnitudeRef = useRef(0);
+  const [recommendations, setRecommendations] = useState<RecommendedGame[]>([]);
 
   useEffect(() => {
     let isActive = true;
@@ -113,13 +117,52 @@ export function SteamderExperience({
 
   const activeDiscoveryGame = discoveryGames[currentDiscoveryIndex];
 
-  const recommendations: RecommendedGame[] = useMemo(
-    () =>
-      candidateGames.slice(0, 8).map((game, index) => ({
+  useEffect(() => {
+    if (recommendations.length > 0) {
+      return;
+    }
+
+    setRecommendations(
+      candidateGames.slice(0, 8).map((game) => ({
         ...game,
-        similarity: Math.max(58, 94 - index * 5),
+        similarity: 0,
       })),
-    [candidateGames],
+    );
+  }, [candidateGames, recommendations.length]);
+
+  const refreshRecommendations = useMemo(
+    () => (nextProfileVector: number[]) => {
+      if (!isCandidatesReady || nextProfileVector.length === 0) {
+        return;
+      }
+
+      const rankedCandidates = rankByCosineSimilarity(
+        nextProfileVector,
+        candidateGames
+          .map((candidateGame) => {
+            const embedding = getCandidateEmbedding(candidateGame.id);
+
+            if (!embedding) {
+              return null;
+            }
+
+            return {
+              item: candidateGame,
+              embedding,
+            };
+          })
+          .filter((candidate) => candidate !== null),
+        8,
+      );
+
+      setRecommendations(
+        rankedCandidates.map((result) => ({
+          ...result.item,
+          similarity: result.similarity,
+        })),
+      );
+    },
+    [candidateGames, isCandidatesReady],
   );
 
   async function getGameEmbedding(game: GameResponse) {
@@ -172,6 +215,7 @@ export function SteamderExperience({
       profileSumVectorRef.current = nextProfile.sumVector;
       profileWeightMagnitudeRef.current = nextProfile.weightMagnitude;
       setProfileVector(nextProfile.profileVector);
+      refreshRecommendations(nextProfile.profileVector);
 
       setUserPreferences((currentPreferences) => [
         ...currentPreferences,
@@ -186,12 +230,14 @@ export function SteamderExperience({
       return;
     }
 
-    setCurrentDiscoveryIndex((currentIndex) => {
-      if (currentIndex >= discoveryGames.length) {
-        return currentIndex;
-      }
+    requestAnimationFrame(() => {
+      setCurrentDiscoveryIndex((currentIndex) => {
+        if (currentIndex >= discoveryGames.length) {
+          return currentIndex;
+        }
 
-      return currentIndex + 1;
+        return currentIndex + 1;
+      });
     });
   }
 

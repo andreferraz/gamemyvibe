@@ -1,9 +1,5 @@
 import { Container, Flex, Heading, Text } from "@radix-ui/themes";
-import { DiscoveryPanel } from "../components/DiscoveryPanel";
-import {
-  RecommendationPanel,
-  type RecommendedGame,
-} from "../components/RecommendationPanel";
+import { SteamderExperience } from "../components/SteamderExperience";
 import type { APIResponse, GameResponse } from "./api/igdb/types";
 import styles from "./page.module.css";
 
@@ -57,15 +53,6 @@ export default async function Home() {
     fetchCandidateGames(),
   ]);
 
-  const activeDiscoveryGame = discoveryGames[0];
-
-  const recommendations: RecommendedGame[] = candidateGames
-    .slice(0, 8)
-    .map((game, index) => ({
-      ...game,
-      similarity: Math.max(58, 94 - index * 5),
-    }));
-
   return (
     <main className={styles.page}>
       <Container size="4" py="6" className={styles.container}>
@@ -81,10 +68,10 @@ export default async function Home() {
             </Text>
           </div>
 
-          <section className={styles.splitGrid}>
-            <DiscoveryPanel game={activeDiscoveryGame} />
-            <RecommendationPanel games={recommendations} />
-          </section>
+          <SteamderExperience
+            discoveryGames={discoveryGames}
+            candidateGames={candidateGames}
+          />
         </Flex>
       </Container>
     </main>

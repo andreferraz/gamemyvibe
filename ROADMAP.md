@@ -18,7 +18,7 @@ As the user interacts with the cards, the system performs client-side vector mat
 - [x] **Left Side**: The active discovery card displaying the game's title, cover art, a brief summary, and three action buttons ("Não tenho interesse", "Gosto", "Amo").
 - [x] **Right Side**: The Real-Time Recommendation Panel displaying a vertical list of the top 5 to 10 recommended games along with their similarity percentage scores.
 
-4. [] **State Management**: A local React state array (`userPreferences`) to store the ID, description embedding, and mathematical weight of every game the user interacts with.
+4. [x] **State Management**: A local React state array (`userPreferences`) to store the ID, description embedding, and mathematical weight of every game the user interacts with.
 
 ## Phase 3: The Embedded Engine (Local TensorFlow.js)
 

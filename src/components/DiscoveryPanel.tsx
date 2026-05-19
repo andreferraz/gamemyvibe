@@ -5,9 +5,19 @@ import styles from "../app/page.module.css";
 
 interface DiscoveryPanelProps {
   game?: GameResponse;
+  interactionsCount?: number;
+  onNoInterest?: () => void;
+  onLike?: () => void;
+  onLove?: () => void;
 }
 
-export function DiscoveryPanel({ game }: DiscoveryPanelProps) {
+export function DiscoveryPanel({
+  game,
+  interactionsCount,
+  onNoInterest,
+  onLike,
+  onLove,
+}: DiscoveryPanelProps) {
   if (!game) {
     return (
       <Box className={styles.panelCard}>
@@ -25,6 +35,11 @@ export function DiscoveryPanel({ game }: DiscoveryPanelProps) {
         <Flex justify="between" align="start" gap="3">
           <div>
             <Text className={styles.panelEyebrow}>Descoberta Ativa</Text>
+            {typeof interactionsCount === "number" ? (
+              <Text size="1" color="gray" mt="1">
+                Interacoes registradas: {interactionsCount}
+              </Text>
+            ) : null}
             <Heading size="5" mt="1">
               {game.name}
             </Heading>
@@ -62,13 +77,24 @@ export function DiscoveryPanel({ game }: DiscoveryPanelProps) {
             variant="outline"
             color="gray"
             className={styles.actionButton}
+            onClick={onNoInterest}
           >
             Nao tenho interesse
           </Button>
-          <Button size="3" color="cyan" className={styles.actionButton}>
+          <Button
+            size="3"
+            color="cyan"
+            className={styles.actionButton}
+            onClick={onLike}
+          >
             Gosto
           </Button>
-          <Button size="3" color="amber" className={styles.actionButton}>
+          <Button
+            size="3"
+            color="amber"
+            className={styles.actionButton}
+            onClick={onLove}
+          >
             Amo
           </Button>
         </Flex>

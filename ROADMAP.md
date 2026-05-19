@@ -22,7 +22,7 @@ As the user interacts with the cards, the system performs client-side vector mat
 
 ## Phase 3: The Embedded Engine (Local TensorFlow.js)
 
-5. [] **Model Initialization**: Load the pre-trained `Universal Sentence Encoder` model asynchronously in the background as soon as the landing page mounts.
+5. [x] **Model Initialization**: Load the pre-trained `Universal Sentence Encoder` model asynchronously in the background as soon as the landing page mounts.
 6. [] **Candidate Pre-Vectorization**: Immediately fetch the 100 candidate games upon page load and generate their semantic embeddings once, caching them in browser memory to eliminate redundant API calls or heavy recalculations during swiping.
 
 ## Phase 4: Real-Time Algorithmic Adaptation

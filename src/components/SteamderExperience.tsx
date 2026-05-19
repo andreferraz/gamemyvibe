@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { GameResponse } from "../app/api/igdb/types";
 import styles from "../app/page.module.css";
+import { loadUniversalSentenceEncoder } from "../utils/universalSentenceEncoder";
 import { DiscoveryPanel } from "./DiscoveryPanel";
 import {
   RecommendationPanel,
@@ -26,12 +27,41 @@ const WEIGHTS = {
   love: 2.0,
 } as const;
 
+let model: Awaited<ReturnType<typeof loadUniversalSentenceEncoder>> | null = null;
+
 export function SteamderExperience({
   discoveryGames,
   candidateGames,
 }: SteamderExperienceProps) {
   const [currentDiscoveryIndex, setCurrentDiscoveryIndex] = useState(0);
   const [userPreferences, setUserPreferences] = useState<UserPreference[]>([]);
+  const [isModelReady, setIsModelReady] = useState(false);
+
+  useEffect(() => {
+    let isActive = true;
+
+    async function initializeModel() {
+      try {
+        model = await loadUniversalSentenceEncoder();
+
+        if (isActive) {
+          setIsModelReady(true);
+        }
+      } catch (error) {
+        const message =
+          error instanceof Error
+            ? error.message
+            : "Failed to initialize Universal Sentence Encoder";
+        console.error("USE model initialization failed:", message, error);
+      }
+    }
+
+    void initializeModel();
+
+    return () => {
+      isActive = false;
+    };
+  }, []);
 
   const activeDiscoveryGame = discoveryGames[currentDiscoveryIndex];
 
@@ -72,6 +102,7 @@ export function SteamderExperience({
       <DiscoveryPanel
         game={activeDiscoveryGame}
         interactionsCount={userPreferences.length}
+        isModelReady={isModelReady}
         onNoInterest={() => registerPreference(WEIGHTS.noInterest)}
         onLike={() => registerPreference(WEIGHTS.like)}
         onLove={() => registerPreference(WEIGHTS.love)}

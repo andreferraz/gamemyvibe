@@ -6,6 +6,7 @@ import styles from "../app/page.module.css";
 interface DiscoveryPanelProps {
   game?: GameResponse;
   interactionsCount?: number;
+  isModelReady?: boolean;
   onNoInterest?: () => void;
   onLike?: () => void;
   onLove?: () => void;
@@ -14,6 +15,7 @@ interface DiscoveryPanelProps {
 export function DiscoveryPanel({
   game,
   interactionsCount,
+  isModelReady,
   onNoInterest,
   onLike,
   onLove,
@@ -34,12 +36,17 @@ export function DiscoveryPanel({
       <Flex direction="column" gap="4">
         <Flex justify="between" align="start" gap="3">
           <div>
-            <Text className={styles.panelEyebrow}>Descoberta Ativa</Text>
+            <Text as="p" className={styles.panelEyebrow}>
+              Descoberta Ativa
+            </Text>
             {typeof interactionsCount === "number" ? (
-              <Text size="1" color="gray" mt="1">
+              <Text as="p" size="1" color="gray" mt="1">
                 Interacoes registradas: {interactionsCount}
               </Text>
             ) : null}
+            <Text as="p" size="1" color="gray" mt="1">
+              Modelo USE: {isModelReady ? "pronto" : "carregando..."}
+            </Text>
             <Heading size="5" mt="1">
               {game.name}
             </Heading>

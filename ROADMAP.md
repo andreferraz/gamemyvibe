@@ -27,6 +27,6 @@ As the user interacts with the cards, the system performs client-side vector mat
 
 ## Phase 4: Real-Time Algorithmic Adaptation
 
-7. [] **On-Click Inference**: Every time a user clicks "Gosto" ($+1.0$) or "Amo" ($+2.0$), trigger a client-side tensor operation to compute the new weighted average vector of the user's profile.
-8. [] **Vector Subtraction**: If the user selects "Não tenho interesse", apply a negative scalar multiplication (e.g., $-1.5$) to that game's vector to mathematically shift the user's profile away from that specific semantic theme.
+7. [x] **On-Click Inference**: Every time a user clicks "Gosto" ($+1.0$) or "Amo" ($+2.0$), trigger a client-side tensor operation to compute the new weighted average vector of the user's profile.
+8. [x] **Vector Subtraction**: If the user selects "Não tenho interesse", apply a negative scalar multiplication (e.g., $-0.5$) to that game's vector to mathematically shift the user's profile away from that specific semantic theme.
 9. [] **Instant UI Refresh**: Execute a cosine similarity matrix operation between the updated profile vector and the pre-cached candidate embeddings, instantly re-sorting and animating the right-hand recommendation panel before advancing the left card.

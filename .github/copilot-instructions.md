@@ -17,6 +17,8 @@
 - Start: `pnpm start`
 - Lint/type checks/tests: use available `pnpm` scripts from `package.json`
 
+Whenever running `pnpm lint`, always run `pnpm format` before to ensure code style consistency. For example: `pnpm format && pnpm lint`.
+
 ## Product Context (MVP)
 
 Steamder is a zero-infrastructure game recommendation app with:

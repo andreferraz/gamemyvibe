@@ -8,6 +8,7 @@ interface DiscoveryPanelProps {
   interactionsCount?: number;
   isModelReady?: boolean;
   isCandidatesReady?: boolean;
+  profileVectorDimensions?: number;
   onNoInterest?: () => void;
   onLike?: () => void;
   onLove?: () => void;
@@ -18,6 +19,7 @@ export function DiscoveryPanel({
   interactionsCount,
   isModelReady,
   isCandidatesReady,
+  profileVectorDimensions,
   onNoInterest,
   onLike,
   onLove,
@@ -52,6 +54,12 @@ export function DiscoveryPanel({
             <Text as="p" size="1" color="gray" mt="1">
               Candidatos vetorizados:{" "}
               {isCandidatesReady ? "pronto" : "carregando..."}
+            </Text>
+            <Text as="p" size="1" color="gray" mt="1">
+              Vetor de perfil:{" "}
+              {profileVectorDimensions
+                ? `${profileVectorDimensions}D`
+                : "aguardando interacoes"}
             </Text>
             <Heading size="5" mt="1">
               {game.name}

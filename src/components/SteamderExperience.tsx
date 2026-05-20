@@ -44,8 +44,11 @@ export function SteamderExperience({
   candidateGames,
 }: SteamderExperienceProps) {
   const discoveryEmbeddingCache = useRef(new Map<number, number[]>());
+  const votedGameIdsRef = useRef(new Set<number>());
+  const pendingPreferenceGameIdsRef = useRef(new Set<number>());
   const [currentDiscoveryIndex, setCurrentDiscoveryIndex] = useState(0);
   const [userPreferences, setUserPreferences] = useState<UserPreference[]>([]);
+  const [votedGameIds, setVotedGameIds] = useState<Set<number>>(new Set());
   const [isModelReady, setIsModelReady] = useState(false);
   const [isCandidatesReady, setIsCandidatesReady] = useState(false);
   const [profileVector, setProfileVector] = useState<number[] | null>(null);
@@ -203,6 +206,16 @@ export function SteamderExperience({
       return;
     }
 
+    if (votedGameIdsRef.current.has(activeDiscoveryGame.id)) {
+      return;
+    }
+
+    if (pendingPreferenceGameIdsRef.current.has(activeDiscoveryGame.id)) {
+      return;
+    }
+
+    pendingPreferenceGameIdsRef.current.add(activeDiscoveryGame.id);
+
     try {
       const embedding = await getGameEmbedding(activeDiscoveryGame);
       const nextProfile = applyWeightedPreference(
@@ -225,9 +238,14 @@ export function SteamderExperience({
           weight,
         },
       ]);
+
+      votedGameIdsRef.current.add(activeDiscoveryGame.id);
+      setVotedGameIds(new Set(votedGameIdsRef.current));
     } catch (error) {
       console.error("On-click inference failed:", error);
       return;
+    } finally {
+      pendingPreferenceGameIdsRef.current.delete(activeDiscoveryGame.id);
     }
 
     requestAnimationFrame(() => {
@@ -246,6 +264,7 @@ export function SteamderExperience({
       <DiscoveryPanel
         game={activeDiscoveryGame}
         interactionsCount={userPreferences.length}
+        votedGamesCount={votedGameIds.size}
         isModelReady={isModelReady}
         isCandidatesReady={isCandidatesReady}
         profileVectorDimensions={profileVector?.length}

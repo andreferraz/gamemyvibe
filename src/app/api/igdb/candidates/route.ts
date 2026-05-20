@@ -38,7 +38,8 @@ export async function GET(
     const DEFAULT_LIMIT = 100;
     const MAX_LIMIT = 500;
     const limitParam = request.nextUrl.searchParams.get("limit");
-    const parsedLimit = typeof limitParam === "string" ? Number(limitParam) : NaN;
+    const parsedLimit =
+      typeof limitParam === "string" ? Number(limitParam) : NaN;
     const limit = Number.isInteger(parsedLimit)
       ? Math.min(Math.max(parsedLimit, 1), MAX_LIMIT)
       : DEFAULT_LIMIT;

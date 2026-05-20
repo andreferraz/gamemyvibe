@@ -6,6 +6,7 @@ import styles from "../app/page.module.css";
 interface DiscoveryPanelProps {
   game?: GameResponse;
   interactionsCount?: number;
+  votedGamesCount?: number;
   isModelReady?: boolean;
   isCandidatesReady?: boolean;
   profileVectorDimensions?: number;
@@ -17,6 +18,7 @@ interface DiscoveryPanelProps {
 export function DiscoveryPanel({
   game,
   interactionsCount,
+  votedGamesCount,
   isModelReady,
   isCandidatesReady,
   profileVectorDimensions,
@@ -46,6 +48,11 @@ export function DiscoveryPanel({
             {typeof interactionsCount === "number" ? (
               <Text as="p" size="1" color="gray" mt="1">
                 Interacoes registradas: {interactionsCount}
+              </Text>
+            ) : null}
+            {typeof votedGamesCount === "number" ? (
+              <Text as="p" size="1" color="gray" mt="1">
+                Jogos votados: {votedGamesCount}
               </Text>
             ) : null}
             <Text as="p" size="1" color="gray" mt="1">

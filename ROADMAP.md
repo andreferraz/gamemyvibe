@@ -33,10 +33,10 @@ As the user interacts with the cards, the system performs client-side vector mat
 
 ## Phase 5: Discovery Query Refinement (Genre-First Sampling)
 
-10. [ ] **Genre-Coverage Discovery Pool**: Build discovery batches from the local genre source (`./data/genres.ts`), ensuring one presented game per genre without repeating the same genre during a run.
-11. [ ] **IGDB Multi-Query per Genre**: Use IGDB multi-query to fetch 5 candidate games per genre with constrained popularity (`total_rating_count > 50` and `< 300`), while preserving required quality filters (`summary != null` and `cover != null`).
-12. [ ] **Randomized Per-Genre Selection**: Randomly select one game from each genre batch to avoid popularity bias and surface more preference-revealing titles.
-13. [ ] **Voted Game Tracking**: Persist the set of games the user rated during discovery to support downstream recommendation logic and avoid duplicates.
+10. [x] **Genre-Coverage Discovery Pool**: Build discovery batches from the local genre source (`./data/genres.ts`), ensuring one presented game per genre without repeating the same genre during a run.
+11. [x] **IGDB Multi-Query per Genre**: Use IGDB multi-query to fetch 5 candidate games per genre with constrained popularity (`total_rating_count > 50` and `< 300`), while preserving required quality filters (`summary != null` and `cover != null`).
+12. [x] **Randomized Per-Genre Selection**: Randomly select one game from each genre batch to avoid popularity bias and surface more preference-revealing titles.
+13. [x] **Voted Game Tracking**: Persist the set of games the user rated during discovery to support downstream recommendation logic and avoid duplicates.
 
 ## Phase 6: Post-Discovery Recommendation Experience
 

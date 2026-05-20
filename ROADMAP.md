@@ -30,3 +30,28 @@ As the user interacts with the cards, the system performs client-side vector mat
 7. [x] **On-Click Inference**: Every time a user clicks "Gosto" ($+1.0$) or "Amo" ($+2.0$), trigger a client-side tensor operation to compute the new weighted average vector of the user's profile.
 8. [x] **Vector Subtraction**: If the user selects "Não tenho interesse", apply a negative scalar multiplication (e.g., $-0.5$) to that game's vector to mathematically shift the user's profile away from that specific semantic theme.
 9. [x] **Instant UI Refresh**: Execute a cosine similarity matrix operation between the updated profile vector and the pre-cached candidate embeddings, instantly re-sorting and animating the right-hand recommendation panel before advancing the left card.
+
+## Phase 5: Discovery Query Refinement (Genre-First Sampling)
+
+10. [ ] **Genre-Coverage Discovery Pool**: Build discovery batches from the local genre source (`./data/genres.ts`), ensuring one presented game per genre without repeating the same genre during a run.
+11. [ ] **IGDB Multi-Query per Genre**: Use IGDB multi-query to fetch 5 candidate games per genre with constrained popularity (`total_rating_count > 50` and `< 300`), while preserving required quality filters (`summary != null` and `cover != null`).
+12. [ ] **Randomized Per-Genre Selection**: Randomly select one game from each genre batch to avoid popularity bias and surface more preference-revealing titles.
+13. [ ] **Voted Game Tracking**: Persist the set of games the user rated during discovery to support downstream recommendation logic and avoid duplicates.
+
+## Phase 6: Post-Discovery Recommendation Experience
+
+14. [ ] **Deferred Recommendation Rendering**: Hide recommendation lists during discovery and only show recommendations after the user finishes the full discovery flow.
+15. [ ] **Four Result Groups**: Render four post-discovery groups:
+
+- [ ] **Liked-Genre Recommendations**: Fetch and rank games from genres with positive user preference signals.
+- [ ] **Unseen-Genre Recommendations**: Fetch and rank games from genres without explicit user preference signals.
+- [ ] **Liked/Voted Games**: Show games the user marked as "Gosto" or "Amo" for side-by-side comparison against recommendations.
+- [ ] **No-Interest/Voted Games**: Show games the user marked as "Não tenho interesse" for contrast and transparency.
+
+16. [ ] **Shared Semantic Ranking Layer**: Keep description-embedding similarity scoring active for both recommendation groups.
+
+## Phase 7: Guided Session Start (Model-Ready Intro)
+
+17. [ ] **Intro Gate Component**: Add an intro component shown before discovery begins.
+18. [ ] **Model-Ready Start Control**: Enable the "Start" button only after the Universal Sentence Encoder is loaded and a lightweight warm-up pass is complete.
+19. [ ] **State Transition to Discovery**: Transition from intro to discovery only when model readiness checks pass.

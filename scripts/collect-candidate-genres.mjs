@@ -7,6 +7,39 @@ const baseUrl = process.env.CANDIDATES_BASE_URL ?? "http://localhost:3000";
 const endpoint = new URL("/api/igdb/candidates?limit=500", baseUrl).toString();
 const outputPath = resolve(process.cwd(), "tmp/candidate-genres.json");
 
+function normalizeGenreDetails(payloadData) {
+  const genreMap = new Map();
+
+  for (const game of payloadData) {
+    const details = Array.isArray(game.genreDetails) ? game.genreDetails : [];
+    const seenGenreIds = new Set();
+
+    for (const genre of details) {
+      const id = Number(genre?.id);
+      const name = String(genre?.name ?? "").trim();
+
+      if (!Number.isInteger(id) || id <= 0 || !name || seenGenreIds.has(id)) {
+        continue;
+      }
+
+      seenGenreIds.add(id);
+
+      if (genreMap.has(id)) {
+        const existingGenre = genreMap.get(id);
+        genreMap.set(id, {
+          ...existingGenre,
+          gameCount: existingGenre.gameCount + 1,
+        });
+        continue;
+      }
+
+      genreMap.set(id, { id, name, gameCount: 1 });
+    }
+  }
+
+  return [...genreMap.values()].sort((a, b) => a.name.localeCompare(b.name));
+}
+
 async function run() {
   const response = await fetch(endpoint, {
     headers: {
@@ -27,10 +60,7 @@ async function run() {
     throw new Error("Candidates API returned an unexpected response shape.");
   }
 
-  const genres = [...new Set(payload.data.flatMap((game) => game.genres ?? []))]
-    .map((genre) => String(genre).trim())
-    .filter(Boolean)
-    .sort((a, b) => a.localeCompare(b));
+  const genres = normalizeGenreDetails(payload.data);
 
   await mkdir(resolve(process.cwd(), "tmp"), { recursive: true });
   await writeFile(
@@ -49,7 +79,11 @@ async function run() {
   );
 
   console.log(`Saved ${genres.length} genres to ${outputPath}`);
-  console.log(genres.join("\n"));
+  console.log(
+    genres
+      .map((genre) => `${genre.id}: ${genre.name} (${genre.gameCount} games)`)
+      .join("\n"),
+  );
 }
 
 run().catch((error) => {

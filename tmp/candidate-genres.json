@@ -1,23 +1,112 @@
 {
-  "source": "http://localhost:3000/api/igdb/candidates",
-  "generatedAt": "2026-05-19T23:14:07.309Z",
-  "totalGenres": 16,
+  "source": "http://localhost:3000/api/igdb/candidates?limit=500",
+  "generatedAt": "2026-05-20T00:26:34.928Z",
+  "totalGenres": 21,
   "genres": [
-    "Adventure",
-    "Arcade",
-    "Fighting",
-    "Hack and slash/Beat 'em up",
-    "Indie",
-    "Platform",
-    "Point-and-click",
-    "Puzzle",
-    "Racing",
-    "Real Time Strategy (RTS)",
-    "Role-playing (RPG)",
-    "Shooter",
-    "Simulator",
-    "Strategy",
-    "Tactical",
-    "Turn-based strategy (TBS)"
+    {
+      "id": 31,
+      "name": "Adventure",
+      "gameCount": 337
+    },
+    {
+      "id": 33,
+      "name": "Arcade",
+      "gameCount": 16
+    },
+    {
+      "id": 35,
+      "name": "Card & Board Game",
+      "gameCount": 4
+    },
+    {
+      "id": 4,
+      "name": "Fighting",
+      "gameCount": 9
+    },
+    {
+      "id": 25,
+      "name": "Hack and slash/Beat 'em up",
+      "gameCount": 36
+    },
+    {
+      "id": 32,
+      "name": "Indie",
+      "gameCount": 65
+    },
+    {
+      "id": 36,
+      "name": "MOBA",
+      "gameCount": 2
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "gameCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Platform",
+      "gameCount": 79
+    },
+    {
+      "id": 2,
+      "name": "Point-and-click",
+      "gameCount": 14
+    },
+    {
+      "id": 9,
+      "name": "Puzzle",
+      "gameCount": 89
+    },
+    {
+      "id": 10,
+      "name": "Racing",
+      "gameCount": 32
+    },
+    {
+      "id": 11,
+      "name": "Real Time Strategy (RTS)",
+      "gameCount": 11
+    },
+    {
+      "id": 12,
+      "name": "Role-playing (RPG)",
+      "gameCount": 147
+    },
+    {
+      "id": 5,
+      "name": "Shooter",
+      "gameCount": 198
+    },
+    {
+      "id": 13,
+      "name": "Simulator",
+      "gameCount": 40
+    },
+    {
+      "id": 14,
+      "name": "Sport",
+      "gameCount": 4
+    },
+    {
+      "id": 15,
+      "name": "Strategy",
+      "gameCount": 53
+    },
+    {
+      "id": 24,
+      "name": "Tactical",
+      "gameCount": 24
+    },
+    {
+      "id": 16,
+      "name": "Turn-based strategy (TBS)",
+      "gameCount": 22
+    },
+    {
+      "id": 34,
+      "name": "Visual Novel",
+      "gameCount": 1
+    }
   ]
 }

@@ -24,6 +24,11 @@ export interface IGDBGameRaw {
   follows?: number;
 }
 
+export interface GameGenre {
+  id: number;
+  name: string;
+}
+
 export interface GameResponse {
   id: number;
   name: string;
@@ -31,6 +36,7 @@ export interface GameResponse {
   thumbnailUrl?: string;
   coverUrl?: string;
   genres: string[];
+  genreDetails?: GameGenre[];
   popularity?: number;
 }
 

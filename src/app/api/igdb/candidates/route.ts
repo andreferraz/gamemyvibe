@@ -14,6 +14,10 @@ function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
   }
 
   const genres = game.genres?.map((g) => g.name) || [];
+  const genreDetails =
+    game.genres
+      ?.filter((genre) => typeof genre.id === "number" && Boolean(genre.name))
+      .map((genre) => ({ id: genre.id, name: genre.name })) || [];
 
   return {
     id: game.id,
@@ -22,6 +26,7 @@ function normalizeGameResponse(game: IGDBGameRaw): GameResponse {
     thumbnailUrl,
     coverUrl,
     genres,
+    genreDetails,
     popularity: game.total_rating_count,
   };
 }
@@ -72,8 +77,8 @@ export async function GET(
 
     // Fixed candidate pool for recommendation ranking.
     const apicalypseQuery = `
-      fields id, name, summary, cover.url, cover.width, cover.height, genres.name, total_rating_count;
-      where total_rating_count > 150 & summary != null & cover != null;
+      fields id, name, summary, cover.url, cover.width, cover.height, genres.id, genres.name, total_rating_count;
+      where total_rating_count > 100 & summary != null & cover != null;
       sort total_rating_count desc;
       limit ${limit};
     `;
@@ -113,7 +118,7 @@ export async function GET(
         (game) =>
           Boolean(game.summary) &&
           Boolean(game.cover?.url) &&
-          (game.total_rating_count ?? 0) > 150,
+          (game.total_rating_count ?? 0) > 100,
       )
       .map(normalizeGameResponse)
       .slice(0, limit);

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { GameResponse } from "../app/api/igdb/types";
 import styles from "../app/page.module.css";
 import {
@@ -45,6 +45,7 @@ export function SteamderExperience({
   candidateGames,
 }: SteamderExperienceProps) {
   const discoveryEmbeddingCache = useRef(new Map<number, number[]>());
+  const isComputingProfileRef = useRef(false);
   const votedGameIdsRef = useRef(new Set<number>());
   const pendingPreferenceGameIdsRef = useRef(new Set<number>());
   const [currentDiscoveryIndex, setCurrentDiscoveryIndex] = useState(0);
@@ -54,6 +55,7 @@ export function SteamderExperience({
   const [isCandidatesReady, setIsCandidatesReady] = useState(false);
   const [profileVector, setProfileVector] = useState<number[] | null>(null);
   const [profileReady, setProfileReady] = useState(false);
+  const [isComputingProfile, setIsComputingProfile] = useState(false);
 
   useEffect(() => {
     let isActive = true;
@@ -256,7 +258,7 @@ export function SteamderExperience({
     userPreferences,
   ]);
 
-  async function getGameEmbedding(game: GameResponse) {
+  const getGameEmbedding = useCallback(async (game: GameResponse) => {
     const cachedCandidateEmbedding = getCandidateEmbedding(game.id);
     if (cachedCandidateEmbedding) return cachedCandidateEmbedding;
     const cachedDiscoveryEmbedding = discoveryEmbeddingCache.current.get(
@@ -275,7 +277,7 @@ export function SteamderExperience({
     } finally {
       embeddingTensor.dispose();
     }
-  }
+  }, []);
 
   async function registerPreference(weight: number) {
     if (!activeDiscoveryGame || !isModelReady) return;
@@ -308,43 +310,61 @@ export function SteamderExperience({
 
   // After discovery, compute all embeddings and profile in one batch
   useEffect(() => {
-    if (!isDiscoveryComplete || profileReady || !isModelReady) return;
+    if (
+      !isDiscoveryComplete ||
+      profileReady ||
+      !isModelReady ||
+      isComputingProfileRef.current
+    ) {
+      return;
+    }
+
+    isComputingProfileRef.current = true;
+    setIsComputingProfile(true);
+
     (async () => {
-      // Compute embeddings for all voted games
-      const voted = userPreferences;
-      const embeddings: (number[] | null)[] = await Promise.all(
-        voted.map(async (pref) => {
-          const game = discoveryGamesById.get(pref.gameId);
-          if (!game) return null;
-          return await getGameEmbedding(game);
-        }),
-      );
-      // Compute weighted profile vector
-      let sumVector: number[] | null = null;
-      let weightMagnitude = 0;
-      let profile: number[] | null = null;
-      for (let i = 0; i < voted.length; ++i) {
-        const embedding = embeddings[i];
-        if (!embedding) continue;
-        const result = applyWeightedPreference(
-          sumVector,
-          weightMagnitude,
-          embedding,
-          voted[i].weight,
+      try {
+        const voted = userPreferences;
+        const embeddings: (number[] | null)[] = await Promise.all(
+          voted.map(async (pref) => {
+            const game = discoveryGamesById.get(pref.gameId);
+            if (!game) return null;
+            return await getGameEmbedding(game);
+          }),
         );
-        sumVector = result.sumVector;
-        weightMagnitude = result.weightMagnitude;
-        profile = result.profileVector;
+
+        let sumVector: number[] | null = null;
+        let weightMagnitude = 0;
+        let profile: number[] | null = null;
+
+        for (let i = 0; i < voted.length; ++i) {
+          const embedding = embeddings[i];
+          if (!embedding) continue;
+          const result = applyWeightedPreference(
+            sumVector,
+            weightMagnitude,
+            embedding,
+            voted[i].weight,
+          );
+          sumVector = result.sumVector;
+          weightMagnitude = result.weightMagnitude;
+          profile = result.profileVector;
+        }
+
+        setUserPreferences((prefs) =>
+          prefs.map((pref, i) => ({
+            ...pref,
+            descriptionEmbedding: embeddings[i],
+          })),
+        );
+        setProfileVector(profile || null);
+        setProfileReady(true);
+      } catch (error) {
+        console.error("Post-discovery batch inference failed:", error);
+      } finally {
+        isComputingProfileRef.current = false;
+        setIsComputingProfile(false);
       }
-      // Patch userPreferences with embeddings
-      setUserPreferences((prefs) =>
-        prefs.map((pref, i) => ({
-          ...pref,
-          descriptionEmbedding: embeddings[i],
-        })),
-      );
-      setProfileVector(profile || null);
-      setProfileReady(true);
     })();
   }, [
     isDiscoveryComplete,
@@ -352,7 +372,12 @@ export function SteamderExperience({
     isModelReady,
     userPreferences,
     discoveryGamesById,
+    getGameEmbedding,
   ]);
+
+  const isComputingRecommendations =
+    isDiscoveryComplete &&
+    (isComputingProfile || !profileReady || !isCandidatesReady);
 
   return (
     <section className={styles.splitGrid}>
@@ -371,6 +396,7 @@ export function SteamderExperience({
       <RecommendationPanel
         groups={recommendationGroups}
         isDiscoveryComplete={isDiscoveryComplete}
+        isComputingResults={isComputingRecommendations}
         pendingVotes={discoveryGames.length - userPreferences.length}
       />
     </section>

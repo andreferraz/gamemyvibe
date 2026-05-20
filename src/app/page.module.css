@@ -109,6 +109,25 @@
   font-weight: 700;
 }
 
+.resultsSpinner {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 3px solid rgb(255 255 255 / 20%);
+  border-top-color: #66efbd;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .resultsSection {
   border-top: 1px solid rgb(255 255 255 / 10%);
   padding-top: 0.8rem;

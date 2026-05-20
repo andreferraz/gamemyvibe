@@ -18,6 +18,7 @@ export interface RecommendationGroups {
 interface RecommendationPanelProps {
   groups: RecommendationGroups;
   isDiscoveryComplete: boolean;
+  isComputingResults: boolean;
   pendingVotes: number;
 }
 
@@ -172,6 +173,7 @@ function VotedRows({ games }: VotedRowsProps) {
 export function RecommendationPanel({
   groups,
   isDiscoveryComplete,
+  isComputingResults,
   pendingVotes,
 }: RecommendationPanelProps) {
   return (
@@ -189,6 +191,11 @@ export function RecommendationPanel({
             Continue a descoberta. As recomendacoes finais aparecem ao concluir
             todas as cartas ({Math.max(pendingVotes, 0)} restantes).
           </Text>
+        ) : isComputingResults ? (
+          <Flex direction="column" align="center" gap="3" py="4">
+            <div className={styles.resultsSpinner} aria-hidden="true" />
+            <Text color="gray">Calculando recomendacoes...</Text>
+          </Flex>
         ) : (
           <Flex direction="column" gap="4">
             <section className={styles.resultsSection}>

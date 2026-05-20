@@ -11,13 +11,8 @@
 
 ## Package Manager and Commands
 
-- Install dependencies: `pnpm install`
-- Run dev server: `pnpm dev`
-- Build: `pnpm build`
-- Start: `pnpm start`
-- Lint/type checks/tests: use available `pnpm` scripts from `package.json`
-
-Whenever running `pnpm lint`, always run `pnpm format` before to ensure code style consistency. For example: `pnpm format && pnpm lint`.
+- Whenever running `pnpm lint`, always run `pnpm format` before to ensure code style consistency. For example: `pnpm format && pnpm lint`.
+- Don't bother running `pnpm build` and `pnpm start` during development.
 
 ## Product Context (MVP)
 

@@ -40,15 +40,15 @@ As the user interacts with the cards, the system performs client-side vector mat
 
 ## Phase 6: Post-Discovery Recommendation Experience
 
-14. [ ] **Deferred Recommendation Rendering**: Hide recommendation lists during discovery and only show recommendations after the user finishes the full discovery flow.
-15. [ ] **Four Result Groups**: Render four post-discovery groups:
+14. [x] **Deferred Recommendation Rendering**: Hide recommendation lists during discovery and only show recommendations after the user finishes the full discovery flow.
+15. [x] **Four Result Groups**: Render four post-discovery groups:
 
-- [ ] **Liked-Genre Recommendations**: Fetch and rank games from genres with positive user preference signals.
-- [ ] **Unseen-Genre Recommendations**: Fetch and rank games from genres without explicit user preference signals.
-- [ ] **Liked/Voted Games**: Show games the user marked as "Gosto" or "Amo" for side-by-side comparison against recommendations.
-- [ ] **No-Interest/Voted Games**: Show games the user marked as "Não tenho interesse" for contrast and transparency.
+- [x] **Liked-Genre Recommendations**: Fetch and rank games from genres with positive user preference signals.
+- [x] **Unseen-Genre Recommendations**: Fetch and rank games from genres without explicit user preference signals.
+- [x] **Liked/Voted Games**: Show games the user marked as "Gosto" or "Amo" for side-by-side comparison against recommendations.
+- [x] **No-Interest/Voted Games**: Show games the user marked as "Não tenho interesse" for contrast and transparency.
 
-16. [ ] **Shared Semantic Ranking Layer**: Keep description-embedding similarity scoring active for both recommendation groups.
+16. [x] **Shared Semantic Ranking Layer**: Keep description-embedding similarity scoring active for both recommendation groups.
 
 ## Phase 7: Guided Session Start (Model-Ready Intro)
 

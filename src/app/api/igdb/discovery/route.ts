@@ -4,7 +4,7 @@ import { buildIgdbCoverUrls, getTwitchAccessToken } from "@/utils/igdb";
 import type { APIResponse, GameResponse, IGDBGameRaw } from "../types";
 
 const IGDB_API_URL = "https://api.igdb.com/v4/games";
-const DISCOVERY_BATCH_SIZE = 5;
+const DISCOVERY_BATCH_SIZE = 5; // batch size per genre query, but we will pick 10 unique games for the discovery phase
 const MAX_CONCURRENT_DISCOVERY_QUERIES = 10;
 const MIN_RATING_COUNT = 50;
 const MAX_RATING_COUNT = 300;
@@ -72,24 +72,26 @@ function normalizeMultiQueryResult(
 
 function pickDiscoveryGames(discoveryBatches: IGDBGameRaw[][]): GameResponse[] {
   const usedGameIds = new Set<number>();
+  const picked: GameResponse[] = [];
 
-  return shuffleArray(discoveryBatches)
-    .map((batch) =>
-      shuffleArray(batch)
-        .filter(
-          (game) =>
-            Boolean(game.summary) &&
-            Boolean(game.cover?.url) &&
-            (game.total_rating_count ?? 0) > MIN_RATING_COUNT &&
-            (game.total_rating_count ?? 0) < MAX_RATING_COUNT,
-        )
-        .find((game) => !usedGameIds.has(game.id)),
-    )
-    .filter((game): game is IGDBGameRaw => Boolean(game))
-    .map((game) => {
-      usedGameIds.add(game.id);
-      return normalizeGameResponse(game);
-    });
+  // Flatten and shuffle all games from all batches
+  const allGames = shuffleArray(discoveryBatches.flat());
+  for (const game of allGames) {
+    if (
+      picked.length >= 10 ||
+      !game.summary ||
+      !game.cover?.url ||
+      (game.total_rating_count ?? 0) <= MIN_RATING_COUNT ||
+      (game.total_rating_count ?? 0) >= MAX_RATING_COUNT ||
+      usedGameIds.has(game.id)
+    ) {
+      continue;
+    }
+    picked.push(normalizeGameResponse(game));
+    usedGameIds.add(game.id);
+    if (picked.length >= 10) break;
+  }
+  return picked;
 }
 
 export async function GET(

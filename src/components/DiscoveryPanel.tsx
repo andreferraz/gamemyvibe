@@ -10,6 +10,7 @@ interface DiscoveryPanelProps {
   isModelReady?: boolean;
   isCandidatesReady?: boolean;
   profileVectorDimensions?: number;
+  isDiscoveryComplete?: boolean;
   onNoInterest?: () => void;
   onLike?: () => void;
   onLove?: () => void;
@@ -22,6 +23,7 @@ export function DiscoveryPanel({
   isModelReady,
   isCandidatesReady,
   profileVectorDimensions,
+  isDiscoveryComplete,
   onNoInterest,
   onLike,
   onLove,
@@ -29,10 +31,22 @@ export function DiscoveryPanel({
   if (!game) {
     return (
       <Box className={styles.panelCard}>
-        <Heading size="4">Descoberta</Heading>
-        <Text color="gray" mt="3">
-          Nao foi possivel carregar os jogos para descoberta no momento.
-        </Text>
+        {isDiscoveryComplete ? (
+          <>
+            <Heading size="4">Descoberta concluida</Heading>
+            <Text color="gray" mt="3">
+              Todas as cartas foram avaliadas. Confira os grupos de resultado ao
+              lado.
+            </Text>
+          </>
+        ) : (
+          <>
+            <Heading size="4">Descoberta</Heading>
+            <Text color="gray" mt="3">
+              Nao foi possivel carregar os jogos para descoberta no momento.
+            </Text>
+          </>
+        )}
       </Box>
     );
   }

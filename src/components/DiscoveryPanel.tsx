@@ -1,10 +1,10 @@
 import { Badge, Box, Button, Flex, Heading, Text } from "@radix-ui/themes";
 import Image from "next/image";
-import type { GameResponse } from "../app/api/igdb/types";
+import type { FormattedGameObject } from "@/app/api/json/types";
 import styles from "../app/page.module.css";
 
 interface DiscoveryPanelProps {
-  game?: GameResponse;
+  game?: FormattedGameObject;
   interactionsCount?: number;
   votedGamesCount?: number;
   isModelReady?: boolean;
@@ -28,6 +28,8 @@ export function DiscoveryPanel({
   onLike,
   onLove,
 }: DiscoveryPanelProps) {
+  console.log(game);
+
   if (!game) {
     return (
       <Box className={styles.panelCard}>

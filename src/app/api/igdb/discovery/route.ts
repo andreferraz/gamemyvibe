@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { IGDB_GAME_GENRES } from "@/data/genres";
+import { IGDB_GAME_GENRES } from "@/json/genres";
 import { buildIgdbCoverUrls, getTwitchAccessToken } from "@/utils/igdb";
 import type { APIResponse, GameResponse, IGDBGameRaw } from "../types";
 

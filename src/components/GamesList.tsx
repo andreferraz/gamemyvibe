@@ -1,9 +1,9 @@
 import { Box } from "@radix-ui/themes";
-import type { GameResponse } from "../app/api/igdb/types";
+import type { FormattedGameObject } from "@/app/api/json/types";
 import { GameCard } from "./GameCard";
 
 interface GamesListProps {
-  games: GameResponse[];
+  games: FormattedGameObject[];
 }
 
 export function GamesList({ games }: GamesListProps) {

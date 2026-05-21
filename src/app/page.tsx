@@ -1,12 +1,17 @@
 import { Container, Flex, Heading, Text } from "@radix-ui/themes";
 import { SteamderExperience } from "../components/SteamderExperience";
-import type { APIResponse, GameResponse } from "./api/igdb/types";
+import type {
+  APIResponse,
+  CompactGame,
+  FormattedGameObject,
+} from "./api/json/types";
+import { toFormattedGame } from "./api/json/utils";
 import styles from "./page.module.css";
 
-async function fetchDiscoveryGames(): Promise<GameResponse[]> {
+async function fetchDiscoveryGames(): Promise<FormattedGameObject[]> {
   try {
     const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
-    const response = await fetch(`${baseUrl}/api/igdb/discovery`, {
+    const response = await fetch(`${baseUrl}/api/json/discovery`, {
       cache: "no-store",
     });
 
@@ -15,8 +20,8 @@ async function fetchDiscoveryGames(): Promise<GameResponse[]> {
       throw new Error(errorData.error || "Failed to fetch games");
     }
 
-    const data = (await response.json()) as APIResponse<GameResponse[]>;
-    return data.data || [];
+    const data = (await response.json()) as APIResponse<CompactGame[]>;
+    return (data.data || []).map(toFormattedGame);
   } catch (error) {
     const errorMessage =
       error instanceof Error ? error.message : "Unknown error";
@@ -25,10 +30,10 @@ async function fetchDiscoveryGames(): Promise<GameResponse[]> {
   }
 }
 
-async function fetchCandidateGames(): Promise<GameResponse[]> {
+async function fetchCandidateGames(): Promise<FormattedGameObject[]> {
   try {
     const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
-    const response = await fetch(`${baseUrl}/api/igdb/candidates`, {
+    const response = await fetch(`${baseUrl}/api/json/candidates`, {
       cache: "no-store",
     });
 
@@ -37,8 +42,8 @@ async function fetchCandidateGames(): Promise<GameResponse[]> {
       throw new Error(errorData.error || "Failed to fetch candidate games");
     }
 
-    const data = (await response.json()) as APIResponse<GameResponse[]>;
-    return data.data || [];
+    const data = (await response.json()) as APIResponse<CompactGame[]>;
+    return (data.data || []).map(toFormattedGame);
   } catch (error) {
     const errorMessage =
       error instanceof Error ? error.message : "Unknown error";

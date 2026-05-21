@@ -1,18 +1,18 @@
 import { Box, Flex, Heading, Text } from "@radix-ui/themes";
 import Image from "next/image";
 import { useLayoutEffect, useRef } from "react";
-import type { GameResponse } from "../app/api/igdb/types";
+import type { FormattedGameObject } from "@/app/api/json/types";
 import styles from "../app/page.module.css";
 
-export interface RankedGame extends GameResponse {
+export interface RankedGame extends FormattedGameObject {
   similarity: number;
 }
 
 export interface RecommendationGroups {
   likedGenreRecommendations: RankedGame[];
   unseenGenreRecommendations: RankedGame[];
-  likedVotedGames: GameResponse[];
-  noInterestVotedGames: GameResponse[];
+  likedVotedGames: FormattedGameObject[];
+  noInterestVotedGames: FormattedGameObject[];
 }
 
 interface RecommendationPanelProps {
@@ -133,7 +133,7 @@ function RankedRows({ games }: RankedRowsProps) {
 }
 
 interface VotedRowsProps {
-  games: GameResponse[];
+  games: FormattedGameObject[];
 }
 
 function VotedRows({ games }: VotedRowsProps) {

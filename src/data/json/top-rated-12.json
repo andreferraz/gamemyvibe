@@ -1,0 +1,591 @@
+{
+  "generatedAt": "2026-05-21T01:45:17.165Z",
+  "source": "IGDB /v4/games",
+  "ratingThreshold": 50,
+  "minRatingCount": 50,
+  "requestCount": 12,
+  "offset": 2750,
+  "batchSize": 28,
+  "games": [
+    {
+      "id": 117294,
+      "name": "Throne and Liberty",
+      "rating": 57.66279243541648,
+      "totalRatingCount": 67,
+      "firstReleaseDate": 1701907200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Throne and Liberty is a free-to-play MMORPG that takes place in the vast open world of Solisium. Explore a land full of depth and opportunity, scale expansive mountain ranges for new vantage points, scan the open skies, and traverse sprawling plains. Adapt your fight to survive and thrive through strategic decisions in PvP, PvE or both as you encounter evolving battlefields impacted by weather, time of day, and other players. There is no single path to victory as you seek to defeat Kazar and claim the throne while keeping rival guilds at bay.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coajo3.jpg"
+    },
+    {
+      "id": 85663,
+      "name": "Mario Kart Tour",
+      "rating": 57.51947336265133,
+      "totalRatingCount": 56,
+      "firstReleaseDate": 1569369600,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "Mario Kart takes a world tour!\n- Mario and friends go global in this new Mario Kart as they race around courses inspired by real-world cities in addition to classic Mario Kart courses! These destinations will be featured in tours that rotate every two weeks! In addition to courses based on iconic locales, some of your favorite Mario Kart characters will get variations that incorporate the local flavor of cities featured in the game!\n\nEndless Mario Kart fun at your fingertips!\n- The Mario Kart series known and loved by many is ready to take the world by storm – one smart device at a time! With just one finger, you can steer and drift with ease and sling devastating items as you go for the gold in cups filled with new and classic Mario Kart courses.\n\nNab 1st place with items and Frenzy mode!\n- In Mario Kart Tour you have access to an arsenal of powerful items that can mix things up on the racetrack! Turn up the heat by activating the new Frenzy mode, which gives an unlimited supply of a certain item and makes you invincible! Make the most of the ensuing chaos, as Frenzy mode only lasts a short time!\n\nCollect drivers, karts, badges, and more!\n- Earn Grand Stars by racing or fire off the featured pipe to receive more drivers, karts, and gliders! You can also proudly display badges, earned by completing certain challenges, next to your in-game name!\n\nBonus challenge courses put a twist on traditional races!\n- In certain races, 1st place isn't always the goal. With names like \"Vs. Mega Bowser\" and \"Goomba Takedown,\" these bonus challenge courses demand a different approach to gameplay and strategy!\n\nRace to increase your online rank!\n- Boost with the best of 'em! Your high scores will determine how you compare to other players all over the world. Keep practicing and trying out different combinations of drivers, karts, and gliders to increase your score and rise to the top!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coafir.jpg"
+    },
+    {
+      "id": 122235,
+      "name": "Rogue Company",
+      "rating": 57.51323245639745,
+      "totalRatingCount": 67,
+      "firstReleaseDate": 1601424000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        }
+      ],
+      "summary": "Gear up and drop in to Rogue Company, the third-person tactical action shooter that puts the fate of the world in your hands. Defeat the enemy team in objective and action based game modes featuring exotic locales, thrilling gun-play, and explosions…lots of explosions. Save the day. Look Good. Get Paid.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coa995.jpg"
+    },
+    {
+      "id": 490,
+      "name": "Duke Nukem Forever",
+      "rating": 57.18144564157048,
+      "totalRatingCount": 239,
+      "firstReleaseDate": 1307664000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Cocked, loaded and ready for action, Duke delivers epic ass-kicking, massive weapons, giant explosions and pure unadulterated fun!\n\nPut on your shades and step into the boots of Duke Nukem. The alien hordes are invading and only Duke can save the world. Pig cops, alien shrink rays and enormous alien bosses can’t stop this epic hero from accomplishing his goal: to save the world, save the babes and to be a bad-ass while doing it.\n\nThe King arrives with an arsenal of over-the-top weapons, non-stop action, and unprecedented levels of interactivity. With hours and hours of action, and a range of bodacious multiplayer modes, rest assured knowing the fun goes on and on.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2f1v.jpg"
+    },
+    {
+      "id": 6930,
+      "name": "Street Fighter",
+      "rating": 57.07344586741808,
+      "totalRatingCount": 100,
+      "firstReleaseDate": 557280000,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "Street Fighter is the first fighting game produced by Capcom and the very first game in the Street Fighter series. While it did not achieve the same popularity as its sequels when it was first released, the original Street Fighter introduced some of the conventions made standard in later games such as attack buttons and special command-based techniques.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1w1w.jpg"
+    },
+    {
+      "id": 9241,
+      "name": "The Escapists",
+      "rating": 57.06255188137344,
+      "totalRatingCount": 104,
+      "firstReleaseDate": 1423785600,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "All that stands between you and your freedom is a perfectly executed escape plan. The Escapists provides players the opportunity of experiencing a light-hearted insight into everyday prison life with the main objective being that of breaking out.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1uvv.jpg"
+    },
+    {
+      "id": 1016,
+      "name": "BloodRayne 2",
+      "rating": 56.74330334359593,
+      "totalRatingCount": 86,
+      "firstReleaseDate": 1097539200,
+      "genres": [
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "BloodRayne is a dhampir, born from the unnatural union of vampire and human. Blessed with the powers of a vampire but cursed with the thirst for blood and a weakness to sunlight, Rayne is challenged with her most personal battle yet as she hunts down her siblings.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1ot9.jpg"
+    },
+    {
+      "id": 5647,
+      "name": "Enemy Front",
+      "rating": 56.55577130041592,
+      "totalRatingCount": 51,
+      "firstReleaseDate": 1402358400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "You’re Robert Hawkins, an American stuck deep in Nazi controlled territory during the height of WWII. It’s up to you whether to fight your enemies face to face, snipe them from afar, or sneak past and sabotage their positions. Join the fight against the evil Third Reich in open-ended missions across war torn Europe.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6w.jpg"
+    },
+    {
+      "id": 1367,
+      "name": "Sniper: Ghost Warrior",
+      "rating": 56.48672376087795,
+      "totalRatingCount": 109,
+      "firstReleaseDate": 1277337600,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        }
+      ],
+      "summary": "The game is a tactical shooter played from a first-person perspective. As the title suggests, a large portion of the game consists of stealth, staking out targets and firing sniper rifles. Bullet trajectories are subject to wind, gravity and flight time, all of which players must account for when taking shots. To simplify this procedure, easier difficulty settings contain indicators that highlight enemies and show precisely where a bullet will hit.\n\nThe main weapons used in the game are silenced pistols, knives and various types of sniper rifles. In missions that are played with characters who are not snipers, the stealth aspect is dropped in favor of faster-paced \"run and gun\" scenarios. An exception to this are spotting missions, in which the primary objective consists of marking targets for a computer-controlled sniper character.\n\nMost of the game takes place in a dense jungle environment. Waypoint overlays at all times display the correct routes through the areas players must traverse. While these routes need not be followed exactly, the level design usually ensures an overall linear path due to obstacle placement and invisible walls. Many waypoints trigger scripted mission events, and some waypoints act as checkpoints, which automatically save the game.\n\nThe single player campaign of Sniper: Ghost Warrior is made up of four separate acts, each of which deals with a different conflict. All acts are split up into various missions, which usually depict the same event from different points of view. For example, in one segment players may be participating in an infantry assault on an enemy camp, while the next segment has them assuming the role of a supporting sniper who backs up the assault. There is downloadable content available for the title that seamlessly continues the story line with three additional campaign missions.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2e42.jpg"
+    },
+    {
+      "id": 165346,
+      "name": "Saints Row",
+      "rating": 56.18346389538397,
+      "totalRatingCount": 70,
+      "firstReleaseDate": 1661212800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Welcome to Santo Ileso, a vibrant fictional city in the American Southwest. In a world rife with crime, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5pxl.jpg"
+    },
+    {
+      "id": 135,
+      "name": "Devil May Cry 2",
+      "rating": 55.9958432531847,
+      "totalRatingCount": 230,
+      "firstReleaseDate": 1043452800,
+      "genres": [
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Devil May Cry 2 is the sequel to Devil May Cry. From the start of the game, the player controls Dante or his new partner Lucia through various levels as they battle waves of demons. This game features an Amulet system, with different parts being acquired throughout the levels that can be equipped by accessing the pause menu. The different parts of the amulet can be equipped to change aspects of the characters Devil Triggers form like elemental moves, time stop abilities, faster movement, flight abilities, etc.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3diu.jpg"
+    },
+    {
+      "id": 103218,
+      "name": "NBA 2K19",
+      "rating": 55.6759519573808,
+      "totalRatingCount": 68,
+      "firstReleaseDate": 1536537600,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 14,
+          "name": "Sport"
+        }
+      ],
+      "summary": "NBA 2K celebrates 20 years of redefining what sports gaming can be, from best in class gameplay to ground breaking game modes and an immersive open-world \"Neighborhood.\" NBA 2K19 continues to push limits as it brings gaming one step closer to real-life basketball excitement and culture.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3wfy.jpg"
+    },
+    {
+      "id": 21063,
+      "name": "Sonic Forces",
+      "rating": 55.45963203827895,
+      "totalRatingCount": 118,
+      "firstReleaseDate": 1510012800,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Fight through a world destroyed by Dr. Eggman and a powerful new villain in Sonic Forces, the new fast-paced action platformer from the team that brought you Sonic Colors and Sonic Generations. Sonic Forces lets you speed through rolling ruined landscapes as Modern Sonic, catapult past perilous platforms as Classic Sonic, and use powerful new gadgets as your own Custom Hero Character.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1zr8.jpg"
+    },
+    {
+      "id": 265111,
+      "name": "Chained Together",
+      "rating": 55.21192432207708,
+      "totalRatingCount": 64,
+      "firstReleaseDate": 1718755200,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "From the depths of hell, climb chained to your friends through diverse worlds. Solo or co-op, try to reach the summit and discover what awaits you there...",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaazz.jpg"
+    },
+    {
+      "id": 5817,
+      "name": "Driv3r",
+      "rating": 54.62528764500338,
+      "totalRatingCount": 100,
+      "firstReleaseDate": 1087776000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "In the game you take the role of Tanner, the undercover cop from previous Driver games, as he infiltrates a worldwide high-performance car theft ring.\n\nNothing is too dangerous or too risky for Tanner, and you'll be able to hop into any car, truck, or motorcycle and cruise the streets of three re-created cities with over 156 miles of roads, from Miami, Nice, and Istanbul in over 25 storyline missions. Meet up with characters from previous driver games, the story line lives on in this installment.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1oue.jpg"
+    },
+    {
+      "id": 10964,
+      "name": "Sniper: Ghost Warrior 3",
+      "rating": 54.11717786944303,
+      "totalRatingCount": 72,
+      "firstReleaseDate": 1493078400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        }
+      ],
+      "summary": "Go behind enemy lines with the ultimate modern military shooter. Play as an American sniper dropped in Georgia, near Russian border. Choose your own path to accomplish your missions across an unforgiven open world.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coa11j.jpg"
+    },
+    {
+      "id": 543,
+      "name": "Call of Juarez: The Cartel",
+      "rating": 54.09426899096378,
+      "totalRatingCount": 78,
+      "firstReleaseDate": 1311033600,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Embark on a bloody journey from Los Angeles to Juarez as lawlessness of the Old West is brought to the present. Welcome to the new Wild West.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1uuf.jpg"
+    },
+    {
+      "id": 5335,
+      "name": "Goat Simulator",
+      "rating": 54.02838818768289,
+      "totalRatingCount": 315,
+      "firstReleaseDate": 1396310400,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "Goat Simulator is a third-person perspective game in which the player controls a goat. There does not appear to be any kind of storyline or plot. The player is free to explore the game's world as a goat, destroying things in the environment, running, jumping, and licking. \"Goat Simulator is like an old school skating game, except instead of being a skater, you're a goat, and instead of doing tricks, you wreck stuff,\" explained the game's creators.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2dhr.jpg"
+    },
+    {
+      "id": 11762,
+      "name": "Paperboy",
+      "rating": 53.75615786415583,
+      "totalRatingCount": 99,
+      "firstReleaseDate": 468115200,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "Paperboy is a 1985 arcade game by Atari Games originally developed in 1984 . The players take the role of a paperboy who delivers newspapers along a suburban street on his bicycle. The game was ported to numerous video game consoles and personal computers. Paperboy was innovative for its theme and novel controls.\n\nThe player controls a paperboy on a bicycle delivering newspapers along a suburban street which is displayed in a cabinet perspective (or oblique projection) view. The player attempts to deliver a week of daily newspapers to subscribing customers, attempts to vandalize non-subscribers' homes and must avoid hazards along the street. Subscribers are lost by missing a delivery or damaging a subscriber's house.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5yma.jpg"
+    },
+    {
+      "id": 103288,
+      "name": "Jump Force",
+      "rating": 53.28170738661473,
+      "totalRatingCount": 91,
+      "firstReleaseDate": 1550102400,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        }
+      ],
+      "summary": "For the first time ever, the most famous Manga heroes are thrown into a whole new battleground: our world. Uniting to fight the most dangerous threat, the Jump Force will bear the fate of the entire human kind.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2qgv.jpg"
+    },
+    {
+      "id": 213639,
+      "name": "My Hero Ultra Rumble",
+      "rating": 52.69561814696492,
+      "totalRatingCount": 192,
+      "firstReleaseDate": 1695859200,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        }
+      ],
+      "summary": "Pick your favorite character, team up and fight to be the last ones standing in the new 24-player Battle Royale free to play game \"My Hero Ultra Rumble\"!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co808b.jpg"
+    },
+    {
+      "id": 3234,
+      "name": "Arcania: Gothic 4",
+      "rating": 52.67561529856156,
+      "totalRatingCount": 82,
+      "firstReleaseDate": 1286841600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "Arcania is a Fantasy Action game set in a rich world where an entire kingdom’s future is at stake Build your strength and learn the skills needed to become a hero as you challenge a mighty king and uncover his dark secrets. Travel through a land of different climate zones, abundant flora and fauna, subterranean vaults, and unique towns and castles where clouds darken the skies, weather effects such as wind and heavy rain influence an endlessly fascinating game world, day and night cycles, and a stunning display of light and shadow. As you battle the monsters and villains of the land and meet a host of unique characters, will you be able to right the King’s wrongdoings and, above all, what choices will lead you there?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co20kx.jpg"
+    },
+    {
+      "id": 977,
+      "name": "Resident Evil: Operation Raccoon City",
+      "rating": 51.95849419203401,
+      "totalRatingCount": 97,
+      "firstReleaseDate": 1332201600,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Resident Evil: Operation Raccoon City is a third-person shooter and is a spin-off of the long-running Resident Evil series. Unlike the main games in the series, it is less of a survival horror game and more of an action-packed shooter. The game includes twelve playable characters, however the players can choose only four characters for the online modes. Each team member has their own special role and abilities.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co20d0.jpg"
+    },
+    {
+      "id": 178351,
+      "name": "Crab Game",
+      "rating": 51.46211908372904,
+      "totalRatingCount": 53,
+      "firstReleaseDate": 1635465600,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        },
+        {
+          "id": 10,
+          "name": "Racing"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "Crab Game is a First-Person Multiplayer game where you fight for the ultimate cash price in different minigames based on children's games, until only one player is left to claim it all. Definitely not based on any online streaming pop culture korean tv shows, as that would get me in legal trouble, so we're certainly not doing that.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co46sr.jpg"
+    },
+    {
+      "id": 2117,
+      "name": "DayZ",
+      "rating": 51.42729423431723,
+      "totalRatingCount": 183,
+      "firstReleaseDate": 1544659200,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "DayZ is a hardcore open-world survival game with only one rule: stay alive, no matter what. How long can you survive a post-apocalyptic world? A land overrun with an infected \"zombie\" population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ, this is your story.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaaqs.jpg"
+    },
+    {
+      "id": 2607,
+      "name": "Sonic Lost World",
+      "rating": 51.08385011733014,
+      "totalRatingCount": 64,
+      "firstReleaseDate": 1382054400,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "When the Deadly Six threaten to destroy his world, Sonic’s new moves & power-ups are the only way to defeat them before it’s too late!\n\nThis is the first out of the three titles of Sega and Nintendo's exclusive collaboration, the others being Mario & Sonic at the Sochi 2014 Olympic Winter Games and Sonic Boom: Rise of Lyric/Sonic Boom: Shattered Crystal.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1tzk.jpg"
+    },
+    {
+      "id": 2574,
+      "name": "Dragon Ball Z: Ultimate Tenkaichi",
+      "rating": 50.99133600665213,
+      "totalRatingCount": 50,
+      "firstReleaseDate": 1319500800,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        }
+      ],
+      "summary": "Kamehameha! Prepare to dive into the world of Dragon Ball Z with Earth-shaking combat, a massive character selection, faithful manga-style graphics, and exciting new features in Dragon Ball Z: Ultimate Tenkaichi! Delivering an explosive DBZ fighting experience, this game features upgraded environmental and character graphics, with designs drawn from the original manga series. Destructible battlefields, including massive craters and ki blasts cutting across the sky deliver a more dynamic experience and immediate sense of urgency to the exhilarating fights. An enhanced story mode drops players into the rich Dragon Ball Z universe, filled with beloved characters and powerful enemies. An accessible battle system allows gamers of all ages to hold their own in fast-paced battles, while still retaining tactical depth for hardcore fans.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3jg5.jpg"
+    },
+    {
+      "id": 4105,
+      "name": "Shadow the Hedgehog",
+      "rating": 50.51476374757713,
+      "totalRatingCount": 109,
+      "firstReleaseDate": 1132012800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The world is in peril as forces, both good and evil, make a play for the powerful Chaos Emeralds. In Shadow the Hedgehog, you can control Shadow and choose which side to fight for. This 3D platformer lets you use weapons, vehicles, environmental objects, and time and space manipulation to combat your foes.\n\nAlthough it is a 3D platform game as with the more recent Sonic Adventure games, the game's levels each feature up to three different missions (Hero, Dark, Normal) that the player may choose to complete. The game's plot depends on which mission is completed as well as subsequent playable levels. The game stars Shadow the Hedgehog and his quest to recover his memory, a goal he has been pursuing since his debut in Sonic Adventure 2, while an evil alien race known as the Black Arms is invading the planet.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1up3.jpg"
+    }
+  ]
+}

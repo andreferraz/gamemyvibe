@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { GameResponse } from "../app/api/igdb/types";
+import type { FormattedGameObject } from "@/app/api/json/types";
 import styles from "../app/page.module.css";
 import {
   getCandidateEmbedding,
@@ -27,8 +27,8 @@ export interface UserPreference {
 }
 
 interface SteamderExperienceProps {
-  discoveryGames: GameResponse[];
-  candidateGames: GameResponse[];
+  discoveryGames: FormattedGameObject[];
+  candidateGames: FormattedGameObject[];
 }
 
 const WEIGHTS = {
@@ -173,7 +173,7 @@ export function SteamderExperience({
 
   const rankCandidateGroup = useMemo(
     () =>
-      (games: GameResponse[], limit = 8): RankedGame[] => {
+      (games: FormattedGameObject[], limit = 8): RankedGame[] => {
         if (
           !isCandidatesReady ||
           !profileVector ||
@@ -220,6 +220,13 @@ export function SteamderExperience({
   );
 
   const recommendationGroups = useMemo<RecommendationGroups>(() => {
+    if (!isDiscoveryComplete)
+      return {
+        recommendations: [],
+        likedVotedGames: [],
+        noInterestVotedGames: [],
+      };
+
     const votedGameIds = new Set(
       userPreferences.map((preference) => preference.gameId),
     );
@@ -227,38 +234,26 @@ export function SteamderExperience({
       (candidateGame) => !votedGameIds.has(candidateGame.id),
     );
 
-    const likedGenreCandidates = nonVotedCandidates.filter((candidateGame) =>
-      candidateGame.genres.some((genre) => likedGenreSignals.has(genre)),
-    );
-
-    const unseenGenreCandidates = nonVotedCandidates.filter(
-      (candidateGame) =>
-        candidateGame.genres.length > 0 &&
-        candidateGame.genres.every((genre) => !explicitGenreSignals.has(genre)),
-    );
-
     return {
-      likedGenreRecommendations: rankCandidateGroup(likedGenreCandidates),
-      unseenGenreRecommendations: rankCandidateGroup(unseenGenreCandidates),
+      recommendations: rankCandidateGroup(nonVotedCandidates),
       likedVotedGames: likedVotedGameIds
         .map((gameId) => discoveryGamesById.get(gameId))
-        .filter((game): game is GameResponse => Boolean(game)),
+        .filter((game): game is FormattedGameObject => Boolean(game)),
       noInterestVotedGames: noInterestVotedGameIds
         .map((gameId) => discoveryGamesById.get(gameId))
-        .filter((game): game is GameResponse => Boolean(game)),
+        .filter((game): game is FormattedGameObject => Boolean(game)),
     };
   }, [
     candidateGames,
     discoveryGamesById,
-    explicitGenreSignals,
-    likedGenreSignals,
     likedVotedGameIds,
     noInterestVotedGameIds,
     rankCandidateGroup,
     userPreferences,
+    isDiscoveryComplete,
   ]);
 
-  const getGameEmbedding = useCallback(async (game: GameResponse) => {
+  const getGameEmbedding = useCallback(async (game: FormattedGameObject) => {
     const cachedCandidateEmbedding = getCandidateEmbedding(game.id);
     if (cachedCandidateEmbedding) return cachedCandidateEmbedding;
     const cachedDiscoveryEmbedding = discoveryEmbeddingCache.current.get(

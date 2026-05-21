@@ -1,9 +1,5 @@
-{
-  "source": "http://localhost:3000/api/igdb/genres?limit=500",
-  "generatedAt": "2026-05-20T00:07:33.916Z",
-  "totalGenres": 23,
-  "genres": [
-    {
+[
+  {
       "id": 31,
       "name": "Adventure"
     },
@@ -95,5 +91,4 @@
       "id": 34,
       "name": "Visual Novel"
     }
-  ]
-}
+]

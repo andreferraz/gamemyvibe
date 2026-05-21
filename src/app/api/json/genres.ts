@@ -1,4 +1,4 @@
-const IGDB_GAME_GENRES = [
+const genres = [
   {
     id: 31,
     name: "Adventure",
@@ -93,4 +93,4 @@ const IGDB_GAME_GENRES = [
   },
 ];
 
-export { IGDB_GAME_GENRES };
+export { genres };

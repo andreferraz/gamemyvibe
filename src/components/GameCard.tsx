@@ -1,9 +1,9 @@
 import { Badge, Box, Flex, Heading, Text } from "@radix-ui/themes";
 import Image from "next/image";
-import type { GameResponse } from "../app/api/igdb/types";
+import type { FormattedGameObject } from "@/app/api/json/types";
 
 export interface GameCardProps {
-  game: GameResponse;
+  game: FormattedGameObject;
 }
 
 export function GameCard({ game }: GameCardProps) {

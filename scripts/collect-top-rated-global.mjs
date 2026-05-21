@@ -151,11 +151,16 @@ async function run() {
       break;
     }
 
-    const filteredBatch = batch.filter((game) => Number(game.rating) > RATING_THRESHOLD);
+    const filteredBatch = batch.filter(
+      (game) => Number(game.rating) > RATING_THRESHOLD,
+    );
     totalGames += filteredBatch.length;
 
     // Save each batch as a separate file
-    const batchPath = resolve(OUTPUT_DIR, `top-rated-global-batch-${requestCount}.json`);
+    const batchPath = resolve(
+      OUTPUT_DIR,
+      `top-rated-global-batch-${requestCount}.json`,
+    );
     await writeFile(
       batchPath,
       `${JSON.stringify(
@@ -174,7 +179,9 @@ async function run() {
       )}\n`,
       "utf8",
     );
-    console.log(`Saved batch ${requestCount} (${filteredBatch.length} games) to ${batchPath}`);
+    console.log(
+      `Saved batch ${requestCount} (${filteredBatch.length} games) to ${batchPath}`,
+    );
 
     const lastBatchItem = batch[batch.length - 1];
     const lastBatchRating = Number(lastBatchItem?.rating ?? 0);
@@ -192,7 +199,9 @@ async function run() {
     );
   }
 
-  console.log(`Saved ${totalGames} games in ${requestCount} batch file(s) in ${OUTPUT_DIR}`);
+  console.log(
+    `Saved ${totalGames} games in ${requestCount} batch file(s) in ${OUTPUT_DIR}`,
+  );
 }
 
 run().catch((error) => {

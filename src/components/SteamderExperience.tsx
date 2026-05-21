@@ -222,7 +222,8 @@ export function SteamderExperience({
   const recommendationGroups = useMemo<RecommendationGroups>(() => {
     if (!isDiscoveryComplete)
       return {
-        recommendations: [],
+        likedGenreRecommendations: [],
+        unseenGenreRecommendations: [],
         likedVotedGames: [],
         noInterestVotedGames: [],
       };
@@ -234,8 +235,20 @@ export function SteamderExperience({
       (candidateGame) => !votedGameIds.has(candidateGame.id),
     );
 
+    const likedGenreCandidates = nonVotedCandidates.filter((candidateGame) =>
+      candidateGame.genres.some((genre) => likedGenreSignals.has(genre)),
+    );
+
+    const unseenGenreCandidates = nonVotedCandidates.filter((candidateGame) =>
+      candidateGame.genres.some(
+        (genre) =>
+          explicitGenreSignals.has(genre) && !likedGenreSignals.has(genre),
+      ),
+    );
+
     return {
-      recommendations: rankCandidateGroup(nonVotedCandidates),
+      likedGenreRecommendations: rankCandidateGroup(likedGenreCandidates),
+      unseenGenreRecommendations: rankCandidateGroup(unseenGenreCandidates),
       likedVotedGames: likedVotedGameIds
         .map((gameId) => discoveryGamesById.get(gameId))
         .filter((game): game is FormattedGameObject => Boolean(game)),
@@ -249,6 +262,8 @@ export function SteamderExperience({
     likedVotedGameIds,
     noInterestVotedGameIds,
     rankCandidateGroup,
+    likedGenreSignals,
+    explicitGenreSignals,
     userPreferences,
     isDiscoveryComplete,
   ]);

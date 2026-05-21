@@ -19,7 +19,7 @@ export interface GamesDataset {
   games: RawGameObject[];
 }
 
-const MAX_LIMIT = 1500;
+const MAX_LIMIT = 200;
 
 const SOURCES: GamesDataset[] = [
   topRated1,

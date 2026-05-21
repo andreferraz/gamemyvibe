@@ -73,12 +73,7 @@ async function igdbPost(url, query, clientId, accessToken) {
   return response.json();
 }
 
-async function fetchDiscoverGames(
-  clientId,
-  accessToken,
-  limit,
-  offset,
-) {
+async function fetchDiscoverGames(clientId, accessToken, limit, offset) {
   const query = `
     fields id, name, rating, total_rating_count, first_release_date, genres.id, genres.name, summary, cover.url;
     where rating != null & rating >= ${MIN_RATING_THRESHOLD} & rating <= ${MAX_RATING_THRESHOLD} & summary != null & cover.url != null & total_rating_count >= ${MIN_RATING_COUNT} & total_rating_count <= ${MAX_RATING_COUNT} & game_type = 0 & version_parent = null;
@@ -90,9 +85,7 @@ async function fetchDiscoverGames(
   const games = await igdbPost(IGDB_GAMES_URL, query, clientId, accessToken);
 
   if (!Array.isArray(games)) {
-    throw new Error(
-      "Unexpected games payload while fetching discover games.",
-    );
+    throw new Error("Unexpected games payload while fetching discover games.");
   }
 
   return games.map((game) => ({
@@ -154,14 +147,17 @@ async function run() {
     totalGames += batch.length;
 
     // Save each batch as a separate file
-    const batchPath = resolve(OUTPUT_DIR, `discover-batch-${requestCount}.json`);
+    const batchPath = resolve(
+      OUTPUT_DIR,
+      `discover-batch-${requestCount}.json`,
+    );
     await writeFile(
       batchPath,
       `${JSON.stringify(
         {
           generatedAt: new Date().toISOString(),
           source: "IGDB /v4/games",
-		  minRatingThreshold: MIN_RATING_THRESHOLD,
+          minRatingThreshold: MIN_RATING_THRESHOLD,
           maxRatingThreshold: MAX_RATING_THRESHOLD,
           minRatingCount: MIN_RATING_COUNT,
           maxRatingCount: MAX_RATING_COUNT,
@@ -175,7 +171,9 @@ async function run() {
       )}\n`,
       "utf8",
     );
-    console.log(`Saved batch ${requestCount} (${batch.length} games) to ${batchPath}`);
+    console.log(
+      `Saved batch ${requestCount} (${batch.length} games) to ${batchPath}`,
+    );
 
     const hasFullBatch = batch.length === requestLimit;
 
@@ -186,12 +184,12 @@ async function run() {
     offset += batch.length;
     requestLimit = LIMIT_PER_REQUEST;
 
-    console.log(
-      `Fetching page ${requestCount + 1}...`,
-    );
+    console.log(`Fetching page ${requestCount + 1}...`);
   }
 
-  console.log(`Saved ${totalGames} games in ${requestCount} batch file(s) in ${OUTPUT_DIR}`);
+  console.log(
+    `Saved ${totalGames} games in ${requestCount} batch file(s) in ${OUTPUT_DIR}`,
+  );
 }
 
 run().catch((error) => {

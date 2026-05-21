@@ -35,3 +35,14 @@ export function loadUniversalSentenceEncoder() {
 
   return modelPromise;
 }
+
+export async function embedText(model: UniversalSentenceEncoder, text: string) {
+  const embeddingsTensor = await model.embed(text);
+
+  try {
+    const embeddings = (await embeddingsTensor.array()) as number[][];
+    return embeddings[0] || [];
+  } finally {
+    embeddingsTensor.dispose();
+  }
+}

@@ -1,0 +1,1 @@
+CrossCode is a retro‑inspired 2D action RPG with 16‑bit SNES‑style graphics. It features smooth physics, fast combat, and puzzle mechanics, set in a sci‑fi story.

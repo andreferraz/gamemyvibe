@@ -1,0 +1,1 @@
+Birth by Sleep is an action RPG featuring the Command System, where players build a Command Deck of techniques. Attacking fills a gauge that unlocks Command Styles, replacing the basic attack with “Surge” or “Storm” for stronger combos.

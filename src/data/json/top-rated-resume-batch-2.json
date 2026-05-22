@@ -1,0 +1,2272 @@
+{
+  "generatedAt": "2026-05-22T22:50:15.850Z",
+  "batchNumber": 2,
+  "batchSize": 100,
+  "globalStartIndex": 101,
+  "globalEndIndex": 200,
+  "games": [
+    {
+      "id": 325594,
+      "name": "Split Fiction",
+      "rating": 88.68449677308875,
+      "totalRatingCount": 204,
+      "firstReleaseDate": 1741219200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Split Fiction is a 2025 cooperative multiplayer game. It follows two writers, Mio Hudson and Zoe Foster, as they become trapped in their imaginations.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co95gf.jpg",
+      "resume": "Split Fiction is a 2025 cooperative multiplayer game. Two writers, Mio Hudson and Zoe Foster, are trapped in their imaginations."
+    },
+    {
+      "id": 1077,
+      "name": "Super Mario Galaxy",
+      "rating": 88.67297289322808,
+      "totalRatingCount": 1246,
+      "firstReleaseDate": 1193875200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "A 3D platformer and first Wii entry in the Super Mario franchise, Super Mario Galaxy sees Mario jump across planets and galaxies with varying items, enemies, geographies and gravity mechanics in order to reach his enemy Bowser, who has attacked the Mushroom Kingdom and hijacked Princess Peach's castle with her inside.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co21ro.jpg",
+      "resume": "Super Mario Galaxy is a 3D platformer for the Wii. Mario jumps across planets and galaxies, using items, enemies, and gravity mechanics to reach Bowser, who has taken Princess Peach’s castle."
+    },
+    {
+      "id": 27304,
+      "name": "Ys VIII: Lacrimosa of Dana",
+      "rating": 88.65334946582766,
+      "totalRatingCount": 85,
+      "firstReleaseDate": 1469059200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Ys returns with a brand new adventure for the first time in 8 years! Adol awakens shipwrecked and stranded on a cursed island. There, he and the other shipwrecked passengers he rescues form a village to challenge fearsome beasts and mysterious ruins on the isolated island.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co234k.jpg",
+      "resume": "Adol awakens shipwrecked on a cursed island. He and rescued passengers form a village to confront beasts and ruins. The game is a new Ys adventure after eight years."
+    },
+    {
+      "id": 565,
+      "name": "Uncharted 2: Among Thieves",
+      "rating": 88.62554184332664,
+      "totalRatingCount": 2188,
+      "firstReleaseDate": 1255392000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "In the sequel to Drake's Fortune, Nathan Drake comes across a map that showcases the location of Marco Polo's missing ships. It takes him on a journey to find the infamous Cintamani Stone, and uncover the truth behind it.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1tnb.jpg",
+      "resume": "In Uncharted 2, Nathan Drake follows a map of Marco Polo’s missing ships to locate the Cintamani Stone and uncover its truth."
+    },
+    {
+      "id": 1173,
+      "name": "Golden Sun: The Lost Age",
+      "rating": 88.62484107558296,
+      "totalRatingCount": 92,
+      "firstReleaseDate": 1025222400,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The story of Golden Sun: The Lost Age picks up right near the end of the first game. Golden Sun veterans will be surprised to learn that The Lost Age is played from the point of view of the party being chased as they try to light the remaining two lighthouses, which will unlock the power of alchemy for the world--or will it instead unlock the world's destruction?\n\n* LAN PVP mode via GBA Game Link Cable",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co25rt.jpg",
+      "resume": "The story follows the chased party near the end of the game, as they light the two lighthouses to unlock alchemy or destruction.  \nLAN PVP via GBA Game Link Cable."
+    },
+    {
+      "id": 22,
+      "name": "System Shock 2",
+      "rating": 88.6143614430271,
+      "totalRatingCount": 378,
+      "firstReleaseDate": 934329600,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "A first-person cyberpunk exploratory horror RPG and sequel to System Shock (1994) in which a soldier wakes up in the starship Von Braun in the aftermath of a disaster and finds himself in the midst of a conflict between SHODAN, the artificial intelligence antagonist of System Shock seeking mastery over humanity, and The Many, a flesh-based psychic hive mind led by the ship's corrupted AI.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4bak.jpg",
+      "resume": "A first‑person cyberpunk horror RPG, sequel to System Shock. A soldier awakens on the starship Von Braun after a disaster, caught between SHODAN and The Many."
+    },
+    {
+      "id": 75235,
+      "name": "Ghost of Tsushima",
+      "rating": 88.56542392544155,
+      "totalRatingCount": 1045,
+      "firstReleaseDate": 1594944000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Uncover the hidden wonders of Tsushima in this open-world action adventure. Forge a new path and wage an unconventional war for the freedom of Tsushima. Challenge opponents with your katana, master the bow to eliminate distant threats, develop stealth tactics to ambush enemies in order to win over the mongols.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2crj.jpg",
+      "resume": "Explore Tsushima's hidden wonders in an open‑world action adventure. Forge a new path and wage an unconventional war for freedom. Use katana, bow, and stealth to defeat the Mongols."
+    },
+    {
+      "id": 8288,
+      "name": "The Banner Saga 2",
+      "rating": 88.53788816101849,
+      "totalRatingCount": 125,
+      "firstReleaseDate": 1461024000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "The award winning and BAFTA nominated saga continues in The Banner Saga 2. Continue your journey soon after the climactic events of The Banner Saga. The choices you made in the first game will affect who is alive and who is dead in this exciting sequel.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co27ai.jpg",
+      "resume": "The Banner Saga 2 continues the story after the climactic events of the first game. Your earlier choices determine who lives or dies."
+    },
+    {
+      "id": 388747,
+      "name": "Marble Racing Manager",
+      "rating": 88.53754940711462,
+      "totalRatingCount": 61,
+      "firstReleaseDate": 1761955200,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        }
+      ],
+      "summary": "Marble Racing Manager is an idle racing game where players collect and manage marbles that compete automatically. Players begin with free gems to purchase their first marble and expand their collection over time. Marbles are placed in a racing tray to enter competitions that occur automatically every 60 seconds, generating rewards without active player input. The game features an idle progression system where marbles continue racing and earning resources while the player is away.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobqc9.jpg",
+      "resume": "Marble Racing Manager is an idle racing game where players collect marbles that race automatically every 60 seconds. Marbles earn rewards while the player is away, and gems can be used to buy new ones."
+    },
+    {
+      "id": 125633,
+      "name": "Crimson Desert",
+      "rating": 88.53379068218618,
+      "totalRatingCount": 85,
+      "firstReleaseDate": 1773878400,
+      "genres": [
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Crimson Desert is an open-world action-adventure game set in the beautiful yet brutal continent of Pywel. Embark on a journey as the Greymane Kliff and restore what has been lost. Explore uncharted lands, fight against threats that stand in your way, and discover the wonders the world has in store.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaqai.jpg",
+      "resume": "Crimson Desert is an open‑world action‑adventure set on the continent of Pywel. Play as Greymane Kliff, explore uncharted lands, fight threats, and restore what was lost."
+    },
+    {
+      "id": 26940,
+      "name": "The Banner Saga 3",
+      "rating": 88.47392874682541,
+      "totalRatingCount": 66,
+      "firstReleaseDate": 1532563200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Banner Saga 3 is the final dramatic chapter in the mature, story-driven Viking RPG series which has won over 20 awards and has been nominated for 4 BAFTA awards. As the world continues to crumble around you, who can you trust, how will you protect your allies and what choices will you make as the Darkness draws near?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcv.jpg",
+      "resume": "The Banner Saga 3 concludes the award‑winning Viking RPG series. As the world crumbles, you must decide whom to trust, protect allies, and face the approaching Darkness."
+    },
+    {
+      "id": 3953,
+      "name": "Ikaruga",
+      "rating": 88.46820649003311,
+      "totalRatingCount": 52,
+      "firstReleaseDate": 1008806400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "In this vertical scrolling spaceship shooter, you control a ship that can change its polarity at will. As blue/white, the ship can easily destroy red/black enemies, and vice versa. Bullets of your polarity can be collected to fuel your energy gauge, but those opposite will kill you. Destroying an enemy ship causes them to fire revenge bullets which can be absorbed and fired back by the player. Different difficulties exist to change exactly how you interact with polarized points, or how they appear.\n\nIt is the spiritual successor to Radiant Silvergun, featuring similar level and boss design, as well as it's buddhism inspired themes and aesthetics. Both are directed by Hiroshi Iuchi, who also composed Ikaruga's soundtrack.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1qjb.jpg",
+      "resume": "Ikaruga is a vertical scrolling shooter where the ship changes polarity to match enemy colors. Bullets of the same polarity fuel energy; opposite bullets kill. The game offers multiple difficulty settings."
+    },
+    {
+      "id": 126,
+      "name": "Diablo II",
+      "rating": 88.46293526929797,
+      "totalRatingCount": 1545,
+      "firstReleaseDate": 962236800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        }
+      ],
+      "summary": "Like its predecessor, Diablo II is an action role-playing game with dark fantasy and horror themes. The player controls a new hero attempting to stop the destruction unleashed by Diablo's return. The game's 4 acts feature a variety of locations and settings to explore and battle in, as well as an increased cast of characters to play as and interact with. Diablo II had become one of the most popular online games of all time. Major factors that contributed to Diablo II's success include what fans found to be addictive hack-and-slash gameplay and free access to Battle.net.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3gfq.jpg",
+      "resume": "Diablo II is an action RPG with horror themes. Players stop Diablo across four acts, exploring varied locations and characters, gaining popularity via addictive hack‑and‑slash gameplay and free Battle.net."
+    },
+    {
+      "id": 634,
+      "name": "Sid Meier's Civilization II",
+      "rating": 88.4233170474036,
+      "totalRatingCount": 175,
+      "firstReleaseDate": 825552000,
+      "genres": [
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        }
+      ],
+      "summary": "A turn-based strategy video game set around several different historic civilizations.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6yhe.jpg",
+      "resume": "Sid Meier's Civilization II is a turn‑based strategy game featuring multiple historic civilizations."
+    },
+    {
+      "id": 9600,
+      "name": "Persona 4",
+      "rating": 88.41222319756476,
+      "totalRatingCount": 275,
+      "firstReleaseDate": 1215648000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "An entry in the JRPG/visual novel hybrid Persona series in which the player has to harness the power of Personas and fight entities called Shadows by forging bonds with the locals of Inaba, a rural Japanese town thrown into unrest by inexplicable murders committed under cover of foggy weather and rumours of a television channel said to broadcast mysterious images on rainy nights.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1u07.jpg",
+      "resume": "In Persona 4, players harness Personas to fight Shadows in the rural town of Inaba. They forge bonds with locals while investigating murders linked to a mysterious TV channel."
+    },
+    {
+      "id": 135243,
+      "name": "It Takes Two",
+      "rating": 88.41213934850508,
+      "totalRatingCount": 1059,
+      "firstReleaseDate": 1616630400,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Embark on the craziest journey of your life in It Takes Two, a genre-bending platform adventure created purely for co-op. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Together, trapped in a fantastical world where the unpredictable hides around every corner, they are reluctantly challenged with saving their fractured relationship.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob22v.jpg",
+      "resume": "Play as Cody and May, a couple turned dolls, and work with a friend in co‑op to navigate a fantastical world and repair their fractured relationship."
+    },
+    {
+      "id": 54662,
+      "name": "Football Manager 2018",
+      "rating": 88.40063075886782,
+      "totalRatingCount": 50,
+      "firstReleaseDate": 1510272000,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 14,
+          "name": "Sport"
+        }
+      ],
+      "summary": "They say football is a game of opinions and everyone has theirs, but it’s only yours that counts around here.\n\nYou make the decisions now, from who you sign and who you sell, to how you manage your budget. Will you build tactics around the players at your disposal or train them in your vision of how the game should be played? Who you pick and who you bench will affect squad harmony, and it’s up to you to manage it. Every decision comes back to you.\n\nGet it right and you’ll be the star of the show, grabbing the newspaper headlines and dominating trends on social media. They’ll write your name in footballing folklore…if you succeed, of course.\n\nWith unparalleled choices both on and off the pitch, all within the immersive footballing world, it’s time to decide what kind of manager do you want to be?\n\nTry your hand in 50 of the biggest footballing countries\nWin the title with any one of world’s top 2500 clubs\nPlay the transfer market with over 600,000 real players and staff\nWatch your football vision come to life before your very eyes\n\nAll purchases of Football Manager 2018 also include a free copy of Football Manager Touch 2018 for PC/Mac and Linux.\n\nNew for this season!\n\nDynamics – A harmonious squad produces better results on the pitch. By building partnerships amongst your players – both on and off the pitch – and maintaining a good dressing room atmosphere you’ll get the best performances out of your squad.\n\nMatchday Live – A brand new graphics engine produces the best lighting, stadiums and player models in the series’ history, alongside a sleeker match interface and modernised presentation that bring your fixtures to life.\n\nReal World Scouting System – A true-to-life representation of the techniques used by the world’s biggest clubs including more detailed data analysis that, combined with a wider range of scouting options, give you a better overview of any potential signing.\n\nSports Science – The new Medical Centre gives you a more complete overview of your squad’s injury situation, with your medical team providing advice on feedback on individual players’ injury risks and how to avoid injuries occurring during training.\n\nTactics – A redesigned tactics screen puts analysis at its heart, giving you a clear view of whether your tactic is working. The new pre-match briefing allows you to be better prepared for your upcoming fixtures, while new player roles give you more ways to exploit your players’ abilities.\n\nFantasy Draft – Redesigned with a new interface that is perfect for streaming and with several new setup options that help tailor the Fantasy Draft experience to you, including a bigger squad budget and a Quick Start option.\n\nFootball Intelligence – A realistic transfer market that reflects the inflated transfer fees and contract values, more clauses to help finalise that blockbuster deal and the more intelligent transfer and board AI that take into account more contextual information from the game world.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co24hg.jpg",
+      "resume": "Manage 2500 clubs in 50 countries, sign from 600k players, build tactics, maintain squad harmony, and use new dynamics, Matchday Live, scouting, sports science, and fantasy draft."
+    },
+    {
+      "id": 231,
+      "name": "Half-Life",
+      "rating": 88.39692078483412,
+      "totalRatingCount": 2840,
+      "firstReleaseDate": 911433600,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Half-Life is a 1998 first-person shooter (FPS) game developed by Valve Corporation and published by Sierra Studios for Windows. It was Valve's debut product and the first game in the Half-Life series. The player assumes the role of Gordon Freeman, a theoretical physicist who must escape from the Black Mesa Research Facility after it is overrun by aliens following a disastrous scientific experiment. Its gameplay consists of diverse combat, exploration and puzzles.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coc2ea.jpg",
+      "resume": "Half‑Life (1998) is a shooter by Valve for Windows. Players control Gordon Freeman, a physicist who must escape Black Mesa after an alien outbreak. Gameplay blends combat, exploration, and puzzles."
+    },
+    {
+      "id": 1221,
+      "name": "Kingdom Hearts II",
+      "rating": 88.39234458316513,
+      "totalRatingCount": 830,
+      "firstReleaseDate": 1135209600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Kingdom Hearts II is an action role-playing game, and the primary entry to the series since the 2002 Disney Interactive and Square collaboration. The game's setting is a collection of various levels (referred to in-game as \"worlds\") that the player progresses through. As in the first game, it II allows the player to travel to locales from various Disney works, along with original worlds specifically created for the series.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co30t1.jpg",
+      "resume": "Kingdom Hearts II is an action role‑playing game. Players progress through multiple worlds, including Disney locations and original settings. It is the main entry in the series."
+    },
+    {
+      "id": 125642,
+      "name": "Path of Exile 2",
+      "rating": 88.3916630671426,
+      "totalRatingCount": 188,
+      "firstReleaseDate": 1733443200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Path of Exile 2 is a next generation Action RPG created by Grinding Gear Games. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading. Path of Exile 2 is a free-to-play online multiplayer game with co-op for up to six players.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co8ae0.jpg",
+      "resume": "Path of Exile 2 is an Action RPG by Grinding Gear Games. Set years after the original, players return to Wraeclast to stop corruption. It is free‑to‑play with co‑op."
+    },
+    {
+      "id": 12328,
+      "name": "Fate/Stay Night",
+      "rating": 88.30603742234425,
+      "totalRatingCount": 55,
+      "firstReleaseDate": 1075420800,
+      "genres": [
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 34,
+          "name": "Visual Novel"
+        }
+      ],
+      "summary": "Fate/Stay Night is a Japanese visual novel, which was originally released as an adult game. A version of Fate/Stay Night rated for ages 15 and up titled Fate/Stay Night Réalta Nua was released later. Fate/Stay Night'​s gameplay requires little interaction from the player as most of the game's duration is spent on reading the text that appears, representing either dialogue between the characters or the inner thoughts of the protagonist. Often, players will come to a \"decision point\" where they are given the chance to choose from options displayed on the screen, typically two to three at a time. There are three main plot lines that the player will have the chance to experience, one for each of the heroines in the story. To view all three plot lines, the player will have to replay the game multiple times and make different choices during the decision points to progress the plot in an alternate direction.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2h3l.jpg",
+      "resume": "Fate/Stay Night is a Japanese visual novel originally adult, later released as a 15+ version. Players read dialogue and make occasional choices, branching into three heroine plot lines that require multiple playthroughs."
+    },
+    {
+      "id": 61,
+      "name": "Monkey Island 2: LeChuck's Revenge",
+      "rating": 88.30068011844384,
+      "totalRatingCount": 586,
+      "firstReleaseDate": 691545600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Wannabe pirate Guybrush Threepwood, and the now zombie pirate LeChuck, return in what has long been considered one of the greatest LucasArts adventure games of all time.\n\nHaving seemingly defeated the evil ghost pirate LeChuck in his first adventure, Guybrush Threepwood sets his sights on the legendary treasure of Big Whoop. But wait, LeChuck is now back in zombie form and he's out for revenge. Guybrush will have to use his wits, his humor and his insatiable desire for adventure to defeat his nemesis once and for all and truly prove himself the greatest pirate in the Caribbean. Voodoo dolls, spitting contests and amusement parks are just some of the challenges Guybrush must overcome as he meets old friends, fights new enemies and uses every ounce of his mojo to overcome the wrath of LeChuck's revenge.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co30yr.jpg",
+      "resume": "Guybrush Threepwood seeks Big Whoop treasure while confronting zombie pirate LeChuck. He must outwit, outplay, and out-humor LeChuck through puzzles, contests, and old allies. The game blends adventure and humor."
+    },
+    {
+      "id": 1204,
+      "name": "Tales of Symphonia",
+      "rating": 88.27502653117095,
+      "totalRatingCount": 126,
+      "firstReleaseDate": 1062115200,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "In a dying world, legend has it that a Chosen One will one day rise from amongst the people and the land will be reborn. The line between good and evil blurs in this epic adventure where the fate of two interlocked worlds hangs in the balance.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1peo.jpg",
+      "resume": "In a dying world, a legend speaks of a Chosen One who will bring rebirth. The story blurs good and evil as two interlocked worlds' fate hangs in balance."
+    },
+    {
+      "id": 6614,
+      "name": "Zero Escape: Virtue's Last Reward",
+      "rating": 88.19010190333006,
+      "totalRatingCount": 150,
+      "firstReleaseDate": 1329350400,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 34,
+          "name": "Visual Novel"
+        }
+      ],
+      "summary": "The second game in the Zero Escape series.\nZero Escape: Virtue's Last Reward is a mystery/thriller visual novel. It is story focused with multiple endings that use player choices and puzzle rooms to progress.\n\nAdditions to the game include an 'auto-advance text' mode, so players can listen to the voice acting without clicking through dialog, a memo function that allows players to note anything they feel is useful, and a flow chart that shows how alternate choices unfold. The in-game calculator has been removed.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co260l.jpg",
+      "resume": "Zero Escape: Virtue's Last Reward is a mystery/thriller visual novel with multiple endings driven by player choices and puzzle rooms. It adds auto‑advance text, a memo function, and a flow chart. The in‑game calculator has been removed."
+    },
+    {
+      "id": 132,
+      "name": "Warcraft III: Reign of Chaos",
+      "rating": 88.16608751047227,
+      "totalRatingCount": 1617,
+      "firstReleaseDate": 1025654400,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Warcraft 3: Reign of Chaos is an RTS made by Blizzard Entertainment. Take control of either the Humans, the Orcs, the Night Elves or the Undead, all with different unit types and heroes with unique abilities.Play the story driven single player campaign, go online to play default- or custom maps against people around the world or create your own maps with the map creation tool.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1xuq.jpg",
+      "resume": "Warcraft III: Reign of Chaos is an RTS by Blizzard. Players control Humans, Orcs, Night Elves, or Undead, each with units and heroes, and can play campaign, multiplayer, or create maps."
+    },
+    {
+      "id": 288,
+      "name": "Operation Flashpoint: Cold War Crisis",
+      "rating": 88.12446052886769,
+      "totalRatingCount": 67,
+      "firstReleaseDate": 993168000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        }
+      ],
+      "summary": "Bohemia Interactive's debut game published by Codemasters as Operation Flashpoint in 2001, became genre-defining combat military simulation and the No. 1 bestselling PC game around the world and has won many international awards, including “Game of The Year” and “Best Action Game”. Over 2 million copies have been sold since its release.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2qw5.jpg",
+      "resume": "Operation Flashpoint, released in 2001 by Codemasters, is Bohemia Interactive's simulation that became top‑selling PC game, won Game of the Year and Best Action Game awards, and sold 2 million copies."
+    },
+    {
+      "id": 832,
+      "name": "Planescape: Torment",
+      "rating": 88.0946370780864,
+      "totalRatingCount": 412,
+      "firstReleaseDate": 944956800,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "A CRPG set in the Dungeons & Dragons setting of Planescape in which The Nameless One, an immortal amnesiac, sets off on a quest across the infinite Planes and gathers a party of conflicted companions to find out who he is and reclaim his mortality. Throughout it, he faces the consequences of the horrors he committed in his past lives and tries to find the root of all the torment plaguing his companions and the Planes.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3ggb.jpg",
+      "resume": "Planescape: Torment is a CRPG set in D&D's Planescape. The Nameless One, an immortal amnesiac, travels the Planes with companions to uncover his identity and regain mortality, confronting horrors."
+    },
+    {
+      "id": 230,
+      "name": "StarCraft",
+      "rating": 88.08932344072657,
+      "totalRatingCount": 1222,
+      "firstReleaseDate": 891302400,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "StarCraft is a strategic game set in a Galaxy far away on multiple planets. Its style and balance between the three antagonistic species it features is unique and appealed to millions.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9n6m.jpg",
+      "resume": "StarCraft is a strategic game set in a distant galaxy across multiple planets. It features three antagonistic species with a unique balance of style and gameplay."
+    },
+    {
+      "id": 421,
+      "name": "Final Fantasy IX",
+      "rating": 88.0711930077385,
+      "totalRatingCount": 941,
+      "firstReleaseDate": 962928000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Final Fantasy IX is the ninth main installment in the FF series. The title is a return to the series's roots, with gameplay features and references to the past games featuring throughout, as well as a medieval fantasy setting and cartoonish art style as a break from the sci-fi slant style of Final Fantasy VII and Final Fantasy VIII.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2unc.jpg",
+      "resume": "Final Fantasy IX is the ninth main entry in the series. It returns to the series’s roots with medieval fantasy setting, cartoonish art, and gameplay features referencing earlier games."
+    },
+    {
+      "id": 1134,
+      "name": "Castlevania: Aria of Sorrow",
+      "rating": 88.02840497650494,
+      "totalRatingCount": 230,
+      "firstReleaseDate": 1052179200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The year is 2035 and Soma Cruz is about to witness the first solar eclipse of the 21st century when he suddenly blacks out -- only to awaken inside a mysterious castle. As Soma, you must navigate the castle's labyrinths while confronting perilous monsters at every turn. But beware, you must escape before the evil consumes you!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob947.jpg",
+      "resume": "In 2035, Soma Cruz awakens inside a mysterious castle during a solar eclipse. He navigates labyrinths, fights monsters, and must escape before being consumed."
+    },
+    {
+      "id": 418,
+      "name": "Final Fantasy X",
+      "rating": 87.92433598846598,
+      "totalRatingCount": 1072,
+      "firstReleaseDate": 995500800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Final Fantasy X is the tenth main installment in the FF series and the first title released on sixth-generation consoles. It was also the first game to feature fully three-dimensional areas rather than including pre-rendered backdrops, and the first to include voice acting. Final Fantasy X tells the story of a star blitzball player, Tidus, who journeys with a young and beautiful summoner named Yuna on her quest to save the world of Spira from an endless cycle of destruction wrought by the colossal menace Sin.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1tr1.jpg",
+      "resume": "Final Fantasy X, tenth FF game, debuted on sixth‑gen consoles with 3D areas and voice acting. It follows Tidus and Yuna as try to stop Sin and end Spira's cycle."
+    },
+    {
+      "id": 146851,
+      "name": "Lost Judgment",
+      "rating": 87.89965885159937,
+      "totalRatingCount": 51,
+      "firstReleaseDate": 1632441600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Lost Judgment is an action-adventure game that blends detective work, narrative-driven exploration, and dynamic combat. Players take on the role of a private detective investigating cases across urban environments, gathering evidence, tailing suspects, and uncovering hidden connections while engaging in fast-paced fighting encounters.\n\nThe game expands on its predecessor with new investigative mechanics, varied side activities, and multiple combat styles that emphasize fluid movement and adaptability. Its structure combines story-focused progression with open-ended exploration, offering a mix of mystery-solving and action.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co53ld.jpg",
+      "resume": "Lost Judgment is an action‑adventure where players investigate urban cases, gather evidence, tail suspects, and fight. It adds investigative mechanics, side activities, and varied combat styles, mixing story and exploration."
+    },
+    {
+      "id": 27867,
+      "name": "Unavowed",
+      "rating": 87.8517995824671,
+      "totalRatingCount": 53,
+      "firstReleaseDate": 1533686400,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "A demon possessed you one year ago. Since that day, you unwillingly tore a trail of bloodshed through New York City. Your salvation comes in the form of the Unavowed – an ancient society dedicated to stopping evil.\n\nYou are free, but your world is in tatters. You have no home, no friends, and are wanted by the police. Your old life is gone, but perhaps you can start a new one. Join the ranks of the Unavowed, and fight against the oncoming darkness.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1qv2.jpg",
+      "resume": "A demon possessed you a year ago, causing bloodshed in NYC. You are wanted, homeless, and have no friends. Join the Unavowed to fight darkness."
+    },
+    {
+      "id": 1513,
+      "name": "Pokémon Silver Version",
+      "rating": 87.85076194911126,
+      "totalRatingCount": 418,
+      "firstReleaseDate": 943142400,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Pokémon Silver, along with Pokémon Gold, are the sequels to Pokémon Red and Blue. They offer 100 new Pokémon to capture and train, 8 more Gyms to take on and a new Pokémon League challenge. Featuring an expanded post-game, Pokémon Gold and Silver additionally offer extra content from the previous entries in the series.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5pid.jpg",
+      "resume": "Pokémon Silver, a sequel to Red and Blue, adds 100 new Pokémon, 8 additional Gyms, a new League challenge, and expands the post‑game with extra content."
+    },
+    {
+      "id": 1271,
+      "name": "Ōkami",
+      "rating": 87.79510370917315,
+      "totalRatingCount": 258,
+      "firstReleaseDate": 1145491200,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Set sometime in classical Japanese history, Ōkami combines several Japanese mythology and folklore to tell the story of how the land was saved from darkness by the Shinto sun goddess named Amaterasu, who took the form of a white wolf with celestial markings covering its fur. It features a distinct sumi-e-inspired cel-shaded visual style and the Celestial Brush, a gesture-system used to perform miracles.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3mpk.jpg",
+      "resume": "Ōkami is set in classical Japan and follows the Shinto sun goddess Amaterasu, who becomes a white wolf to save the land from darkness. The game uses a sumi‑e inspired cel‑shaded style and a Celestial Brush gesture system for miracles."
+    },
+    {
+      "id": 5056,
+      "name": "NBA 2K11",
+      "rating": 87.78579580293422,
+      "totalRatingCount": 68,
+      "firstReleaseDate": 1286150400,
+      "genres": [
+        {
+          "id": 14,
+          "name": "Sport"
+        }
+      ],
+      "summary": "NBA 2K11 is a basketball video game developed by Visual Concepts and 2K Sports and published by 2K Sports. It was released on October 5, 2010 on the Xbox 360, PlayStation 2, PlayStation 3, PSP, Windows, while the Wii version came out on October 21, 2010. Michael Jordan is the cover athlete of the game and is featured in the game in different ways.NBA 2K11 is the successor to NBA 2K10.\n\nNBA 2K11 is widely considered one of the best sports video games of all time and the best basketball simulation of the seventh generation of video game consoles.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2gih.jpg",
+      "resume": "NBA 2K11 is a basketball simulation by Visual Concepts and 2K Sports, released on Oct 5 2010 for Xbox 360, PS2, PS3, PSP, Windows, and Oct 21 2010 for Wii. Michael Jordan is the cover athlete. It follows NBA 2K10."
+    },
+    {
+      "id": 67,
+      "name": "Master of Orion",
+      "rating": 87.77872879436552,
+      "totalRatingCount": 51,
+      "firstReleaseDate": 747273600,
+      "genres": [
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        }
+      ],
+      "summary": "Master of Orion is a competitive game of interstellar conquest that combines exploration with conflict. You are cast as the immortal emperor who shapes the future of your race, as contact is made with the neighbouring races. Your objective is simple: control a majority of the known galaxy and eliminate all who stand in the way.\n\nAs ruler you must ultimately decide the destiny of your race as you make decisions on how planetary resources are allocated, where star fleets will be deployed, which races to fight, and which races to ally with. You begin with control of your home planet, from which you can explore and colonize nearby star systems. Your first decisions will centre around the rapid development of colonies into productive worlds, what types of technology to focus on, and which star systems to colonize.\n\nHowever, the true challenge begins when contact is made with other races, and complex strategies must be formulated to manage diplomacy, sabotage, espionage, trade, and interstellar combat.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4ejt.jpg",
+      "resume": "Master of Orion is a competitive interstellar conquest game. You play as an immortal emperor, exploring, colonizing, and managing resources to control the galaxy. Diplomacy, espionage, and combat are key."
+    },
+    {
+      "id": 204623,
+      "name": "Pentiment",
+      "rating": 87.66977224524312,
+      "totalRatingCount": 101,
+      "firstReleaseDate": 1668470400,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "A 16th-century narrative adventure set in Upper Bavaria, following Andreas Maler, a journeyman artist working in the bygone scriptorium of Kiersau Abbey during a time of great social unrest. While finishing his masterpiece, Andreas inadvertently becomes entangled in a series of murders that take place over 25 years. Peasants, thieves, craftsmen, monks, nuns, nobles, and even saints must be investigated and interrogated to expose the truth.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4v1e.jpg",
+      "resume": "In 16th‑century Upper Bavaria, journeyman artist Andreas Maler works at Kiersau Abbey. While finishing his masterpiece, he becomes involved in murders spanning 25 years, investigating diverse suspects."
+    },
+    {
+      "id": 472,
+      "name": "The Elder Scrolls V: Skyrim",
+      "rating": 87.64483200470268,
+      "totalRatingCount": 4223,
+      "firstReleaseDate": 1320883200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose. Play any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobt0i.jpg",
+      "resume": "Skyrim offers a fully open virtual world to explore. You can play any character type and choose your own path, experiencing freedom of choice, storytelling, and adventure."
+    },
+    {
+      "id": 1346,
+      "name": "Xenogears",
+      "rating": 87.64299002487327,
+      "totalRatingCount": 120,
+      "firstReleaseDate": 887155200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "Xenogears Blends Authentic RPG Gameplay with Exquisite Hand-Drawn and Computer-Generated Animation in a Grand Science Fiction Tale. An intricate storyline involving many human and non-human characters will prove to captivate audiences of all ages.\n\nPlayers can rotate the amazingly detailed 3D gameplay maps 360 degrees, and have the ability to navigate around the environment by jumping and climbing. In battle, mega-robots can be controlled, adding great variety to play. A new real-time combat system eliminates restrictive menus, using button commands to provide fast-paced, intuitive action. Players can wield dramatic magical spells or engage in real-time polygonal robot vs. robot battles. Combined with dynamic camera angles and intense lighting effects, Xenogears is an experience that won't be forgotten.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobxj4.jpg",
+      "resume": "Xenogears is an RPG with hand‑drawn and CGI animation, featuring a complex sci‑fi story. Players navigate 360° 3D maps, control mecha in real‑time combat, and use spells."
+    },
+    {
+      "id": 501,
+      "name": "Batman: Arkham City",
+      "rating": 87.63980179663024,
+      "totalRatingCount": 2620,
+      "firstReleaseDate": 1318896000,
+      "genres": [
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Batman: Arkham City builds upon the intense, atmospheric foundation of Batman: Arkham Asylum, sending players soaring into Arkham City, the new maximum security \"home\" for all of Gotham City's thugs, gangsters and insane criminal masterminds.\n\nSet inside the heavily fortified walls of a sprawling district in the heart of Gotham City, this highly anticipated sequel introduces a brand-new story that draws together a new all-star cast of classic characters and murderous villains from the Batman universe, as well as a vast range of new and enhanced gameplay features to deliver the ultimate experience as the Dark Knight.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1voh.jpg",
+      "resume": "Batman: Arkham City expands on Arkham Asylum’s atmosphere, placing players in Arkham City, a maximum‑security district for Gotham’s criminals. It introduces a new story, classic characters, and enhanced gameplay."
+    },
+    {
+      "id": 14741,
+      "name": "Psychonauts 2",
+      "rating": 87.62979393965922,
+      "totalRatingCount": 202,
+      "firstReleaseDate": 1629763200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Psychonauts 2 is a platform-adventure game developed by Double Fine Productions and released in 2021. It continues the story of Razputin “Raz” Aquato, a young psychic who joins the international psychic espionage agency known as the Psychonauts.\nGameplay combines platforming, exploration, and combat with psychic abilities such as telekinesis, pyrokinesis, and mental connection. Players journey through imaginative levels set inside characters’ minds, each reflecting their personalities and struggles.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob7mx.jpg",
+      "resume": "Psychonauts 2, released 2021 by Double Fine, follows Raz Aquato in the Psychonauts, exploration, combat with telekinesis, pyrokinesis, and mental connection as players explore levels reflecting characters’ personalities and struggles."
+    },
+    {
+      "id": 142415,
+      "name": "Indiana Jones and the Great Circle",
+      "rating": 87.62690509194358,
+      "totalRatingCount": 213,
+      "firstReleaseDate": 1733702400,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Uncover one of history’s greatest mysteries in Indiana Jones and the Great Circle, a first-person, single-player adventure set between the events of Raiders of the Lost Ark and The Last Crusade. You’ll become the legendary archaeologist in this cinematic action-adventure game from MachineGames, the award-winning studio behind the recent Wolfenstein series, and executive produced by Hall of Fame game designer Todd Howard.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co7nbc.jpg",
+      "resume": "Explore a historical mystery in Indiana Jones and the Great Circle, a first‑person single‑player adventure between Raiders of the Lost Ark and The Last Crusade. Play as the archaeologist in this cinematic action‑adventure from MachineGames, executive produced by Todd Howard."
+    },
+    {
+      "id": 1111,
+      "name": "Metroid Prime 3: Corruption",
+      "rating": 87.61943142159488,
+      "totalRatingCount": 143,
+      "firstReleaseDate": 1188172800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The trilogy closes as corruption creeps over the universe… and into Samus Aran. Using the Wii Remote and Nunchuk, players control Samus as she partners with other bounty hunters, shoots down enemies, and explores alien worlds in a harrowing mission to stop the mutagenic Phazon from spreading across the galaxy.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobaun.jpg",
+      "resume": "Samus Aran battles the spread of Phazon across alien worlds. Using the Wii Remote and Nunchuk, she partners with bounty hunters, shoots enemies, and explores to stop the corruption."
+    },
+    {
+      "id": 11800,
+      "name": "Divinity: Original Sin II",
+      "rating": 87.60989851170466,
+      "totalRatingCount": 451,
+      "firstReleaseDate": 1505347200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Divinity: Original Sin II is a single- and multiplayer top-down, party-based role-playing game with pen & paper RPG-like levels of freedom. It features turn-based combat, a strong focus on systematic gameplay and a well-grounded narrative.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1y5v.jpg",
+      "resume": "Divinity: Original Sin II is a top‑down, party‑based RPG available in single‑ and multiplayer modes. It offers turn‑based combat, high freedom, and a strong narrative focus."
+    },
+    {
+      "id": 6453,
+      "name": "Katamari Damacy",
+      "rating": 87.58154683358272,
+      "totalRatingCount": 138,
+      "firstReleaseDate": 1079568000,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The King of All Cosmos accidentally destroyed the stars and—having recovered—wants the prince to rebuild them. Unfortunately the prince stands a little less than half a foot tall, so recreating the stars will require some effort. Enter the Katamari, a sphere the prince can push around our world to “roll up” items increasing the Katamari’s size until it’s suitable for the King.\n\nTaking place in stylized versions of Japanese houses, cities, and environs, the prince pushes the Katamari around collecting items which adhere to it. At first, the prince can only pick up smaller items, but as the Katamari grows, the more it can collect. Push pins and paper clips cling to the Katamari increasing its size so it can roll over obstacles and pick up bigger items. Over many levels, the Katamari can eventually pick up people, cars, and other bigger items.\n\nPlayers steer the Katamari from a third-person perspective using the analog sticks on the PS2. A tutorial stage takes the player through the controls and sets up the story as well as introducing a side story about a Japanese girl who can feel the cosmos. Wanting to challenge the prince, the King sets requirements on the Katamari’s size and sets time limits on the level. Bonus missions restore constellations and have their own restrictions.\n\nThe world of Katamari Damacy is brought to life with off-beat animation and a catchy soundtrack. Players can find presents hidden in the levels that contain accessories for the prince. Two players can also battle head-to-head in a Katamari competition.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co67mq.jpg",
+      "resume": "The King of All Cosmos asks prince to rebuild stars by rolling a Katamari that collects items in Japanese settings, picking up larger objects to meet size and time goals."
+    },
+    {
+      "id": 18699,
+      "name": "R4: Ridge Racer Type 4",
+      "rating": 87.53786306899224,
+      "totalRatingCount": 50,
+      "firstReleaseDate": 912643200,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "R4: Ridge Racer Type 4 is the fourth game in the Ridge Racer series. It includes eight tracks (with reverse variants, for a total of 16 layouts) and 321 vehicles, all of which are fictional. This iteration was one of the first PlayStation titles to feature Gouraud shading on polygons, giving the game a visual depth that was previously missing. It was also the first Ridge Racer game on the system to feature two-player split-screen mode and offered two different driving models.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co86ta.jpg",
+      "resume": "R4: Ridge Racer Type 4, the fourth series entry, offers 8 tracks (16 layouts with reverses) and 321 fictional cars. It introduced Gouraud shading, split‑screen multiplayer, and two driving models."
+    },
+    {
+      "id": 1073,
+      "name": "Super Mario World 2: Yoshi's Island",
+      "rating": 87.52822911254557,
+      "totalRatingCount": 706,
+      "firstReleaseDate": 807580800,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Super Mario World 2: Yoshi's Island is a platform video game acting as a prequel to 1990's Super Mario World. The game casts players as Yoshi as he escorts Baby Mario through 48 levels in order to reunite him with his brother Luigi, who had been kidnapped by Baby Bowser's minions. As a Super Mario series platformer, Yoshi runs and jumps to reach the end of the level while solving puzzles and collecting items. In a style new to the series, the game has a hand-drawn aesthetic and is the first to have Yoshi as its main character. The game introduces his signature abilities to flutter jump, produce eggs from swallowed enemies, and transform into vehicles.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2kn9.jpg",
+      "resume": "Yoshi escorts Baby Mario through 48 levels to reunite him with Luigi, kidnapped by Baby Bowser's minions. The hand‑drawn platformer introduces Yoshi's flutter jump, egg‑producing, and vehicle transformations."
+    },
+    {
+      "id": 380,
+      "name": "Metal Gear Solid 4: Guns of the Patriots",
+      "rating": 87.47932793288135,
+      "totalRatingCount": 729,
+      "firstReleaseDate": 1213228800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Metal Gear Solid 4: Guns of the Patriots is the final canonical Metal Gear game to feature Solid Snake as the main character. The gameplay of the previous games have been kept along with some new features, such as the ability to roll on your back and also to hide in bins scattered around the environment. Most of the story and the relationship between the characters are explained through cut-scenes with a considerable length, so knowledge of the prior games is recommended to fully understand the story. The game also features a complex multiplayer mode entitled Metal Gear Online with some original missions based on the stealth aspects of the single-player games.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5eju.jpg",
+      "resume": "Metal Gear Solid 4: Guns of the Patriots is the final canonical game starring Solid Snake. It keeps gameplay, adds rolling and bin hiding, and includes Metal Gear Online multiplayer."
+    },
+    {
+      "id": 11156,
+      "name": "Horizon Zero Dawn",
+      "rating": 87.4695151762163,
+      "totalRatingCount": 2377,
+      "firstReleaseDate": 1488240000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Welcome to a vibrant world rich with the beauty of nature – but inhabited by awe-inspiring, highly advanced machines. As a young machine hunter named Aloy, you must unravel the mysteries of this world and find your own destiny.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2una.jpg",
+      "resume": "Explore a vibrant world of nature and advanced machines. As machine hunter Aloy, uncover mysteries and forge your destiny."
+    },
+    {
+      "id": 2135,
+      "name": "Bayonetta 2",
+      "rating": 87.45371041535789,
+      "totalRatingCount": 257,
+      "firstReleaseDate": 1411171200,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The witching hour strikes again. Brimming with intricate battles that take place in, on and all over epic set pieces, Bayonetta 2 finds our sassy heroine battling angels and demons in unearthly beautiful HD. You’re bound to love how it feels to string together combos with unimaginable weapons and to summon demons using Bayonetta’s Umbran Weave in this frantic stylized action game.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob9e9.jpg",
+      "resume": "Bayonetta 2 features intricate battles across epic set pieces as the witch fights angels and demons. Players string combos with powerful weapons and summon demons using the Umbran Weave in frantic, stylized action."
+    },
+    {
+      "id": 254339,
+      "name": "Super Mario Bros. Wonder",
+      "rating": 87.4275153076778,
+      "totalRatingCount": 212,
+      "firstReleaseDate": 1697760000,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "The next evolution of 2D side-scrolling Super Mario Bros. games is headed to Nintendo Switch!\n\nWhen you touch a Wonder Flower in the game, the wonders of the world unlock – pipes could come alive, hordes of enemies may appear, characters might change their looks, for example – transforming the gameplay in unpredictable ways. Excitement and different surprises await in each course. Super Mario Bros. Wonder features Princess Peach, Princess Daisy and Yoshi as playable characters, in addition to familiar characters like Mario, Luigi and Toad.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6nnl.jpg",
+      "resume": "Super Mario Bros. Wonder is a 2D side‑scroller for Switch. Wonder Flowers change courses with alive pipes, enemy hordes, and character shifts. Playable characters: Mario, Luigi, Toad, Peach, Daisy, Yoshi."
+    },
+    {
+      "id": 3088,
+      "name": "Rocksmith 2014",
+      "rating": 87.4235735666004,
+      "totalRatingCount": 50,
+      "firstReleaseDate": 1382400000,
+      "genres": [
+        {
+          "id": 7,
+          "name": "Music"
+        }
+      ],
+      "summary": "Plug any electric guitar or bass into your PC, Mac, Xbox 360, or PlayStation 3, Playstation 4 or Xbox One and join over 1.5 million people who have learned to play guitar with award-winning Rocksmith method. Learn to play guitar in 60 days. Get started, now!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co48zw.jpg",
+      "resume": "Plug any electric guitar or bass into PC, Mac, Xbox 360, PlayStation 3, PlayStation 4, or Xbox One and learn to play guitar in 60 days with the award‑winning Rocksmith method."
+    },
+    {
+      "id": 6341,
+      "name": "Dwarf Fortress",
+      "rating": 87.40247466110839,
+      "totalRatingCount": 51,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Dwarf Fortress is a single-player fantasy game. You can control a dwarven outpost or an adventurer in a randomly generated, persistent world.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2yqt.jpg",
+      "resume": "Dwarf Fortress is a single-player fantasy game. You control a dwarven outpost or an adventurer in a randomly generated, persistent world."
+    },
+    {
+      "id": 974,
+      "name": "Resident Evil 4",
+      "rating": 87.40079021925781,
+      "totalRatingCount": 1647,
+      "firstReleaseDate": 1105401600,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Resident Evil 4 is the sixth installment in the Resident Evil series and is often noted for its departure from the fixed camera angles of earlier titles. It introduced an over-the-shoulder third-person perspective, faster-paced gunplay, and more dynamic controls. The game features larger, more open environments and a new AI system that enables enemies to coordinate attacks and attempt to corner the player. Enemies exhibit more human-like behavior, such as climbing ladders, opening doors, and using weapons.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2wk8.jpg",
+      "resume": "Resident Evil 4, the sixth series entry, switched to an over‑the‑shoulder third‑person view and faster gunplay. It offers larger, open environments and AI that coordinates enemy attacks."
+    },
+    {
+      "id": 79864,
+      "name": "The Talos Principle II",
+      "rating": 87.38895213105329,
+      "totalRatingCount": 59,
+      "firstReleaseDate": 1698883200,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "The Talos Principle II is a thought-provoking first-person puzzle experience that greatly expands on the first game's philosophical themes and stunning environments with increasingly mind-bending challenges.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6jbl.jpg",
+      "resume": "The Talos Principle II is a first‑person puzzle game. It expands the original’s philosophical themes and environments, offering increasingly mind‑bending challenges."
+    },
+    {
+      "id": 733,
+      "name": "Grand Theft Auto: Vice City",
+      "rating": 87.38336734571568,
+      "totalRatingCount": 3061,
+      "firstReleaseDate": 1035676800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 10,
+          "name": "Racing"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "In the year 1986, Tommy Vercetti is heavily indebted to his mafia superiors after a drug deal gone awry, but his dreams of taking over Vice City (based on Miami) push him down a different path. Featuring a wide variety of vehicles and weapons, radio stations playing hit songs from the era and an intense atmosphere, GTA: Vice City is an open-world sandbox satire of '80's Miami.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbb.jpg",
+      "resume": "Tommy Vercetti, indebted after a failed drug deal, seeks to dominate Vice City. The game offers diverse vehicles, weapons, era‑specific radio, and an open‑world satire of 1980s Miami."
+    },
+    {
+      "id": 185246,
+      "name": "Alan Wake II",
+      "rating": 87.34683236928336,
+      "totalRatingCount": 297,
+      "firstReleaseDate": 1698364800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Alan Wake 2 marks Remedy Entertainment’s first foray into the survival horror genre. Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6jar.jpg",
+      "resume": "Alan Wake II is Remedy's game. A writer trapped in a nightmare and an FBI agent investigate ritualistic murders in a town. The story spans two realities with two heroes."
+    },
+    {
+      "id": 115425,
+      "name": "Darkest Dungeon II",
+      "rating": 87.33242598672251,
+      "totalRatingCount": 63,
+      "firstReleaseDate": 1683504000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG! DDII will test your mettle and drive you to the brink of madness. Armor yourself with purpose and provision your party for the journey ahead. It will be arduous.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6grp.jpg",
+      "resume": "Darkest Dungeon II is a gothic horror RPG sequel that challenges players to prepare and equip their party for a difficult journey, pushing them toward madness."
+    },
+    {
+      "id": 2262,
+      "name": "Gothic II",
+      "rating": 87.29245737908303,
+      "totalRatingCount": 436,
+      "firstReleaseDate": 1038528000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Gothic II is a role-playing video game and the sequel to Gothic, by the German developer Piranha Bytes. It was first released on November 29, 2002 in Germany, with North America following almost one year later on October 28, 2003. The game was published by JoWooD Entertainment and Atari.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co25ag.jpg",
+      "resume": "Gothic II is a role‑playing game by Piranha Bytes, sequel to Gothic. Released November 29, 2002 in Germany, North America on October 28, 2003. Published by JoWooD Entertainment and Atari."
+    },
+    {
+      "id": 303,
+      "name": "Anno 1602: Creation of a New World",
+      "rating": 87.27926066986095,
+      "totalRatingCount": 74,
+      "firstReleaseDate": 906595200,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "It is the year 1602 and you find yourself in command of a sailing vessel, navigating the waters of the uncharted island world of Anker. You have aboard your ship no more than an handful of trusty followers and a limited supply of food and building materials. You are here to begin a new life. As you select which island to settle, your future is already sealed, for each one has its own special characteristics.\nYour goal is to create a whole new world. Explore, construct, settle, trade and defend - that is the challenge that lies before you!\n\nAnno 1602 takes you into the world of construction strategy games. Build a realistic, living world for yourself according to your own ideas; your chosen strategy will decide the development and destiny of your towns and villages. Prove your diplomatic skills in your dealings with natives, your comrades and pirates too. Start by building up farms, plantations and small workshops to produce, then use your business acumen and begin to generate trade with your fellow players.\nBut beware, for with riches and prosperity also comes envy and anger! Train soldiers and build defensive structures to protect your property and wealth, or perhaps it may be wise to put your negotiation skills to use outside of business?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3xv2.jpg",
+      "resume": "In 1602, command a small crew to settle an uncharted island world. Build farms, workshops, trade, and defend against natives, pirates, and rivals. Shape your towns through strategy and diplomacy."
+    },
+    {
+      "id": 1819,
+      "name": "Dragon Quest VIII: Journey of the Cursed King",
+      "rating": 87.24662470766,
+      "totalRatingCount": 126,
+      "firstReleaseDate": 1101513600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Dragon Quest VIII: Journey of the Cursed King is the eighth installment in the Dragon Quest series, developed by Level-5 and published by Square Enix for the PlayStation 2 video game console. It was also later released for the Nintendo 3DS in 2015.\n\nIt is a traditional Japanese-style role-playing game with random enemy encounters, simple turn-based combat mechanics, and management of a party consisting of four characters, each belonging to a clearly defined class. Unlike its predecessors in the series and most Japanese RPGs in general, the game features a continuous world with fairly vast landscapes and integrated towns and dungeons, as opposed to world map traveling and locations represented by icons. The game features full camera rotation and optional first-person view.\n\nLike in the previous Dragon Quest games, many objects can be interacted with; for example, barrels can be physically lifted, carried, and broken, to reveal items hidden within.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co7vf2.jpg",
+      "resume": "Dragon Quest VIII is a Japanese‑style RPG for PS2 (later 3DS) featuring random encounters, turn‑based combat, and a four‑member party. It offers a continuous world with full camera rotation and interactive objects."
+    },
+    {
+      "id": 2909,
+      "name": "The Legend of Zelda: A Link Between Worlds",
+      "rating": 87.2325826766801,
+      "totalRatingCount": 717,
+      "firstReleaseDate": 1385078400,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The Legend of Zelda: A Link Between Worlds is the first Zelda game made exclusively for the Nintendo 3DS. It is an indirect sequel to A Link to the Past with the same version of Hyrule but with new characters and gameplay elements. Unlike the series' tradition, many areas of the world are accessible from the beginning of the game and the dungeons can be visited in any order. Puzzles are encountered not only in dungeons but also in the open world, a part of them revolves around the game's 3D visual effect. The 3DS touch-screen display shows the world, dungeon or map depending on where you are.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3p0j.jpg",
+      "resume": "The Legend of Zelda: A Link Between Worlds is the first Zelda game for the Nintendo 3DS. It is an indirect sequel to A Link to the Past, featuring the same Hyrule but new characters and gameplay. Many areas are accessible from the start, dungeons can be visited in any order, and puzzles appear in both dungeons and the open world, with the 3DS touch screen showing the world, dungeon, or map."
+    },
+    {
+      "id": 11133,
+      "name": "Dark Souls III",
+      "rating": 87.22287198324969,
+      "totalRatingCount": 1899,
+      "firstReleaseDate": 1458777600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Dark Souls III is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. Released in March 2016, it is the fourth entry in the Souls series and the final instalment in the Dark Souls trilogy. Set in the decaying kingdom of Lothric, players take on the role of the \"Ashen One,\" an undead warrior tasked with rekindling the First Flame to prevent the world from falling into darkness.\n\nThe game features challenging combat, intricate level design, and a deep, lore-rich narrative.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob9ed.jpg",
+      "resume": "Dark Souls III is an action RPG by FromSoftware, released March 2016. Players control the Ashen One in Lothric, rekindling the First Flame amid challenging combat and lore‑rich design."
+    },
+    {
+      "id": 134612,
+      "name": "Pragmata",
+      "rating": 87.20313760270773,
+      "totalRatingCount": 68,
+      "firstReleaseDate": 1776384000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Pragmata is a science fiction action-adventure game set in a near-future environment. The story follows Hugh and his android companion Diana as they navigate a lunar research station. Gameplay incorporates action elements alongside mechanics involving interaction with systems within the environment.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobxnx.jpg",
+      "resume": "Pragmata is a sci‑fi action‑adventure set near‑future. Hugh and his android Diana explore a lunar research station, combining combat with environmental system interactions."
+    },
+    {
+      "id": 1033,
+      "name": "The Legend of Zelda: The Wind Waker",
+      "rating": 87.19257835294474,
+      "totalRatingCount": 1028,
+      "firstReleaseDate": 1039737600,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The Legend of Zelda: The Wind Waker is the first Zelda game for the Nintendo GameCube and also the first in the series to employ cel-shading, a lighting and texturing technique that results in the game having a cartoon-like appearance. Like its predecessors, The Wind Waker is an action game with puzzle-solving and light role-playing elements. Basic gameplay mechanics are similar to those found in Ocarina of Time, but it differentiates itself with its massive Great Sea which must be explored using a boat named King of Red Lions.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3ohz.jpg",
+      "resume": "The Legend of Zelda: The Wind Waker is a GameCube action‑adventure with puzzle‑solving and light RPG elements. It uses cel‑shading for a cartoon look and features exploration of the Great Sea aboard the King of Red Lions."
+    },
+    {
+      "id": 127816,
+      "name": "Paradise Killer",
+      "rating": 87.17168781290967,
+      "totalRatingCount": 57,
+      "firstReleaseDate": 1599177600,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Paradise Island, a world outside reality. There’s been a murder that only \"investigation freak\" Lady Love Dies can solve. Gather evidence and interrogate suspects in this open world adventure. You can accuse anyone, but you’ll have to prove your case in trial to convict. It’s up to you to decide who’s guilty.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9910.jpg",
+      "resume": "Paradise Island hides a murder only Lady Love Dies can solve. Gather evidence, interrogate suspects, and prove guilt in trial to convict. Decide who is truly guilty."
+    },
+    {
+      "id": 19565,
+      "name": "Marvel's Spider-Man",
+      "rating": 87.14972067682532,
+      "totalRatingCount": 2074,
+      "firstReleaseDate": 1536278400,
+      "genres": [
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Starring the world’s most iconic Super Hero, Spider-Man features the acrobatic abilities, improvisation and web-slinging that the wall-crawler is famous for, while also introducing elements never-before-seen in a Spider-Man game. From traversing with parkour and utilizing the environment, to new combat and blockbuster set pieces, it’s Spider-Man unlike any you’ve played before.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1r77.jpg",
+      "resume": "Spider‑Man uses acrobatic parkour, web‑slinging, and improvisation. New combat and set pieces add elements never before seen in a Spider‑Man game. The game offers a fresh take on the iconic hero."
+    },
+    {
+      "id": 37001,
+      "name": "Ori and the Will of the Wisps",
+      "rating": 87.13846010251063,
+      "totalRatingCount": 571,
+      "firstReleaseDate": 1583798400,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Ori and the Will of the Wisps is a platform-adventure game that combines exploration, traversal, and combat within an interconnected world. Designed in a Metroidvania style, it focuses on navigating varied environments, uncovering hidden areas, and acquiring abilities that expand movement and progression options.\nThe game features a system of upgrades and spirit-based skills that support different playstyles, along with environmental challenges and encounters that require timing and precision. Its presentation emphasizes detailed animation and a cohesive audiovisual design that supports both exploration and gameplay.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2e1l.jpg",
+      "resume": "Ori and the Will of the Wisps is a Metroidvania blending exploration, traversal, and combat. Players uncover areas, acquire movement‑expanding abilities, use upgrades and spirit skills, and face challenges with design."
+    },
+    {
+      "id": 3340,
+      "name": "Paper Mario",
+      "rating": 87.12289668104462,
+      "totalRatingCount": 271,
+      "firstReleaseDate": 965952000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Paper Mario, a turn-based JRPG entry in the Mario franchise with a paper-based aesthetic and platforming elements, sees the titular character working his way through the Mushroom Kingdom's diverse locales and biomes, meeting its inhabitants, fighthing unruly enemies and recruiting an array of companions in order to once again save Princess Peach from the clutches of the evil Koopa King Bowser.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1qda.jpg",
+      "resume": "Paper Mario is a turn‑based JRPG with a paper aesthetic and platforming. Mario travels through Mushroom Kingdom locales, fights enemies, recruits companions, and rescues Princess Peach from Bowser."
+    },
+    {
+      "id": 16,
+      "name": "Fallout: New Vegas",
+      "rating": 87.06073563763148,
+      "totalRatingCount": 2362,
+      "firstReleaseDate": 1287446400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "In this first-person Western RPG, the player takes on the role of Courier 6, barely surviving after being robbed of their cargo, shot and put into a shallow grave by a New Vegas mob boss. The Courier sets out to track down their robbers and retrieve their cargo, and winds up getting tangled in the complex ideological and socioeconomic web of the many factions and settlements of post-nuclear Nevada.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1u60.jpg",
+      "resume": "Courier 6 survives a robbery and grave, then hunts the robbers to recover cargo. The journey pulls them into the factions and settlements of post‑nuclear Nevada."
+    },
+    {
+      "id": 239,
+      "name": "StarCraft II: Wings of Liberty",
+      "rating": 87.02350589924997,
+      "totalRatingCount": 1101,
+      "firstReleaseDate": 1280188800,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "In the distant future, in the darkest reaches of space, the ghosts of the past whisper your name. You are Jim Raynor, a marshal-turned-rebel on a vigilante crusade to bring down the Dominion and its nefarious leader, Arcturus Mengsk. Haunted by betrayal and remorse, some believe you may have given up the fight. But you have promises to keep… and a need for vengeance that’s long overdue.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1tnn.jpg",
+      "resume": "You play Jim Raynor, a marshal-turned-rebel fighting the Dominion and its leader Arcturus Mengsk. Haunted by betrayal, you seek vengeance and keep promises."
+    },
+    {
+      "id": 5418,
+      "name": "Super Mario RPG: Legend of the Seven Stars",
+      "rating": 86.99652019385013,
+      "totalRatingCount": 232,
+      "firstReleaseDate": 826329600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "A JRPG entry in the Super Mario franchise in which Mario meets many unlikely allies in order to jump and fight his way through the Mushroom Kingdom and collect stars to repair the Star Road, the pathway that grants people's wishes, which was destroyed by Smithy, the otherworldly entity that hijacked Bowser's castle and threw the Kingdom into disarray.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5r6p.jpg",
+      "resume": "Mario joins unlikely allies to fight through the Mushroom Kingdom, collecting stars to repair the Star Road destroyed by Smithy, who hijacked Bowser’s castle and caused chaos."
+    },
+    {
+      "id": 166722,
+      "name": "The Case of the Golden Idol",
+      "rating": 86.98714544789327,
+      "totalRatingCount": 81,
+      "firstReleaseDate": 1665619200,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "A new kind of detective game that allows you to think and investigate freely. Discover clues surrounding 12 strange and gruesome deaths and build your own theory. Pick your suspect, deduce the motive, unmask the awful truth.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9tog.jpg",
+      "resume": "Investigate 12 bizarre deaths, gather clues, and build your own theory. Choose a suspect, deduce motive, and uncover the truth."
+    },
+    {
+      "id": 1439,
+      "name": "Fire Emblem",
+      "rating": 86.96946869968053,
+      "totalRatingCount": 141,
+      "firstReleaseDate": 1051228800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        }
+      ],
+      "summary": "It is the seventh game of the Fire Emblem series, the second game in the series to be released for the Game Boy Advance, and the first to be released in both North America and Europe. It features a prologue storyline designed to introduce newcomers to Fire Emblem gameplay and tactical basics. The overall narrative is a prequel to the events of the previous game, Fire Emblem: The Binding Blade, which is set twenty years later.\n\nThe game was first released under the localized title \"Fire Emblem\" in the West, but it was later rebranded as \"Fire Emblem: The Blazing Blade\" when Fire Emblem Heroes was released.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobbmr.jpg",
+      "resume": "Fire Emblem is the seventh series entry and second GBA title, released in North America and Europe. It introduces newcomers with a prologue and serves as a prequel to The Binding Blade. It was later renamed Fire Emblem: The Blazing Blade."
+    },
+    {
+      "id": 149657,
+      "name": "Blue Prince",
+      "rating": 86.87275453468344,
+      "totalRatingCount": 114,
+      "firstReleaseDate": 1744243200,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Welcome to Mt. Holly, where every dawn unveils a new mystery. Navigate through shifting corridors and ever-changing chambers in this genre-defying strategy puzzle adventure. But will the unpredictable path you create lead you to the rumored Room 46?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9mzd.jpg",
+      "resume": "In Mt. Holly, each dawn reveals a new mystery. Navigate shifting corridors and changing chambers in a strategy puzzle adventure, aiming to find the rumored Room 46."
+    },
+    {
+      "id": 5039,
+      "name": "King's Bounty: The Legend",
+      "rating": 86.87167574476001,
+      "totalRatingCount": 87,
+      "firstReleaseDate": 1222128000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        }
+      ],
+      "summary": "King's Bounty: The Legend is a Real-time / Turn-based Strategy with RPG elements. In a fairy tale fantasy world of fearless knights, evil mages, wise kings and beautiful princesses the player controls a hero. Leading their character through the game world, exploring it, commanding armies in battle and accomplishing various quests can mean great reward or huge defeats.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co24py.jpg",
+      "resume": "King's Bounty: The Legend is a real‑time/turn‑based strategy with RPG elements. Players control a hero in a fairy‑tale fantasy world, exploring, commanding armies, and completing quests."
+    },
+    {
+      "id": 11227,
+      "name": "Trials of Mana",
+      "rating": 86.86237315165913,
+      "totalRatingCount": 50,
+      "firstReleaseDate": 812419200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Trials of Mana is the third installment of the Mana series, developed by Square under the direction of series creator Koichi Ishii. The game takes place in a new world where, once again, the Mana Tree is under threat from an ancient evil thought sealed away. Players choose three from among six heroes as the chosen wielder of the Mana Sword and their two companions on the journey to claim the holy blade and preserve what remains of the Mana power.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co71wc.jpg",
+      "resume": "Trials of Mana, the third Mana series, follows three heroes chosen to wield the Mana Sword and protect Mana Tree from an ancient evil. Developed by Square under Koichi Ishii."
+    },
+    {
+      "id": 26602,
+      "name": "Metaphor: ReFantazio",
+      "rating": 86.77408185093367,
+      "totalRatingCount": 98,
+      "firstReleaseDate": 1728604800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "From the creative minds of the Persona series – Metaphor: ReFantazio marks ATLUS’ first ever, full-scale fantasy RPG, brought to you by director Katsura Hashino, character designer Shigenori Soejima, and composer Shoji Meguro.\n\nWrite your destiny and rise above fear as you step into a fantasy world unlike anything you’ve seen before. Fraught with unsettling mystery, the kingdom stands on a precipice. Now, you must embark on a journey, overcoming obstacles and forging bonds with friends.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co8d9t.jpg",
+      "resume": "Metaphor: ReFantazio is ATLUS’ first full‑scale fantasy RPG, directed by Katsura Hashino, with art by Shigenori Soejima and music by Shoji Meguro.  \nPlayers write their destiny, rise above fear, and explore a mysterious kingdom on the brink.  \nThey face obstacles and forge bonds with friends along the way."
+    },
+    {
+      "id": 26226,
+      "name": "Celeste",
+      "rating": 86.74782098930132,
+      "totalRatingCount": 1421,
+      "firstReleaseDate": 1516838400,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob9dh.jpg",
+      "resume": "Help Madeline overcome inner demons while climbing Celeste Mountain in a tight platformer. Face hundreds of hand‑crafted challenges, uncover secrets, and solve the mountain’s mystery."
+    },
+    {
+      "id": 36749,
+      "name": "Monument Valley II",
+      "rating": 86.74152638816176,
+      "totalRatingCount": 94,
+      "firstReleaseDate": 1496102400,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Guide a mother and her child as they embark on a journey through magical architecture, discovering illusionary pathways and delightful puzzles as you learn the secrets of the Sacred Geometry.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaev4.jpg",
+      "resume": "Guide a mother and child through magical architecture, exploring illusionary pathways and solving puzzles to uncover the secrets of Sacred Geometry."
+    },
+    {
+      "id": 1904,
+      "name": "Europa Universalis IV",
+      "rating": 86.7287138732455,
+      "totalRatingCount": 250,
+      "firstReleaseDate": 1376352000,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Rule your land and dominate the world with unparalleled freedom, depth and historical accuracy. Write a new history of the world and build an empire for the ages.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaarv.jpg",
+      "resume": "Rule your land and dominate the world with deep historical accuracy. Write a new history and build an empire for the ages."
+    },
+    {
+      "id": 1558,
+      "name": "Pokémon Gold Version",
+      "rating": 86.68615877274019,
+      "totalRatingCount": 395,
+      "firstReleaseDate": 943142400,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Pokémon Gold, along with Pokémon Silver, are the sequels to Pokémon Red and Blue. They offer 100 new Pokémon to capture and train, 8 more Gyms to take on and a new Pokémon League challenge. Featuring an expanded post-game, Pokémon Gold and Silver additionally offer extra content from the previous entries in the series.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5pia.jpg",
+      "resume": "Pokémon Gold and Silver are sequels to Red and Blue, adding 100 new Pokémon, 8 extra Gyms, a new League challenge, and expanded post‑game content."
+    },
+    {
+      "id": 118,
+      "name": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+      "rating": 86.67598008971127,
+      "totalRatingCount": 810,
+      "firstReleaseDate": 1102291200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Star Wars Knights of the Old Republic II: The Sith Lords is a sequel to the blockbuster RPG Star Wars Knights of the Old Republic. Players continue to enjoy the title's emotionally compelling and story-driven theme, additions to features such as new characters, classes, locations and force powers as well as a deeper look into the founding lore.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1qrj.jpg",
+      "resume": "Star Wars: Knights of the Old Republic II is a sequel RPG that expands the story with new characters, classes, locations, force powers, and deeper lore."
+    },
+    {
+      "id": 55036,
+      "name": "Anno 1800",
+      "rating": 86.67263677504322,
+      "totalRatingCount": 139,
+      "firstReleaseDate": 1555372800,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Anno 1800: Lead the Industrial Revolution! Welcome to the dawn of the Industrial Age. The path you choose will define your world. Are you an innovator or an exploiter? A conqueror or a liberator? How the world remembers your name is up to you.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1r67.jpg",
+      "resume": "Anno 1800: Lead the Industrial Revolution.  \nWelcome to the dawn of the Industrial Age.  \nThe path you choose will define your world."
+    },
+    {
+      "id": 103221,
+      "name": "Tetris Effect",
+      "rating": 86.66522198671873,
+      "totalRatingCount": 97,
+      "firstReleaseDate": 1541721600,
+      "genres": [
+        {
+          "id": 7,
+          "name": "Music"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        }
+      ],
+      "summary": "Named after a real-world phenomenon where players' brains are so engrossed that images of the iconic falling Tetrimino blocks linger in their vision, thoughts, and even dreams, Tetris Effect amplifies this magical feeling of total immersion by surrounding you with fantastic, fully three-dimensional worlds that react and evolve based on how you play. Music, backgrounds, sounds, special effects - everything, down to the Tetris pieces themselves, pulse, dance, shimmer, and explode in perfect sync with how you're playing.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2kfy.jpg",
+      "resume": "Tetris Effect immerses players in 3D worlds that react to gameplay. Music, visuals, and Tetris pieces sync and evolve with the player’s actions."
+    },
+    {
+      "id": 245,
+      "name": "Command & Conquer: Red Alert 2",
+      "rating": 86.66138146839167,
+      "totalRatingCount": 424,
+      "firstReleaseDate": 972432000,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "The Soviets are back and this time they’re on American soil. Fight for the red, white, and blue – or just the red. But be careful – the mystical madman Yuri, with his mysterious mind-control technology, is readying his army for a shot at world domination.Fight on the side of freedom or battle behind the Iron Curtain. Prism tanks, Tesla Troopers, Terror Drones, Desolators, Psychic Mind Control Giant Squid, and Sonic Dolphins are just a small part of your arsenal. Play either side in the full solo-play campaign or as one of the nine nations in eight modes of multiplayer.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coar4c.jpg",
+      "resume": "Soviets invade America; choose Iron Curtain. Units include Prism tanks, Tesla Troopers, Terror Drones, Desolators, Psychic Mind Control Giant Squid, Sonic Dolphins. Play solo or multiplayer with nine nations."
+    },
+    {
+      "id": 60,
+      "name": "The Secret of Monkey Island",
+      "rating": 86.65435863863428,
+      "totalRatingCount": 491,
+      "firstReleaseDate": 654739200,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "I cursed my luck again as I slid down the monkey's throat. Have my dreams of guzzling grog and plundering galleons been reduced to this? \"Three small trials and you're a pirate like us,\" they said. Fair enough. If only I could stomach the foul brew these scurvy seadogs swilled, the rest would be easy. How could I have known I'd meet a powerful and beautiful woman with a jealous suitor too stupid to realize he'd been dead for years? And how can I crawl through this great stone monkey to find a man who walks three inches above the ground and sets fire to his beard every morning?\n\nDo business with quaint and humble shopkeepers. Participate in complex and meaningful dialogues. Visit interesting places and steal stuff. Experience the never-ending nightlife of Melee Island.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co28bp.jpg",
+      "resume": "The Secret of Monkey Island follows a protagonist who must pass trials to become a pirate, meeting a woman, a suitor, and a stone monkey. Players explore locations and steal items."
+    },
+    {
+      "id": 2240,
+      "name": "Pikmin 2",
+      "rating": 86.65390381054571,
+      "totalRatingCount": 113,
+      "firstReleaseDate": 1083196800,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "In Pikmin 2, Captain Olimar returns to the planet he was originally stranded on, to collect trinkets for his failing company to sell back at home. The game features a 2-character mechanic, which allows players to switch between two spacemen while collecting items. Two-player co-op challenge missions and a competitive mode are also available.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5y6q.jpg",
+      "resume": "Captain Olimar returns to his original planet to gather trinkets for his company. Players switch between two spacemen, and can play co‑op or competitive missions."
+    },
+    {
+      "id": 127,
+      "name": "Assassin's Creed II",
+      "rating": 86.65126696270428,
+      "totalRatingCount": 3136,
+      "firstReleaseDate": 1258416000,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Discover an intriguing and epic story of power, revenge and conspiracy set during a pivotal moment in history: the Italian Renaissance.\nExperience the freedom and immersion of an all new open world and mission structure with settings such as the rooftops and canals of beautiful Venice. Your options in combat, assassination and escape are vast, with many new weapons, settings and gameplay elements.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg",
+      "resume": "Assassin's Creed II follows power, revenge, and conspiracy during the Italian Renaissance, exploring open world with Venice rooftops and canals. Combat escape options are expanded with new weapons and settings."
+    },
+    {
+      "id": 20,
+      "name": "BioShock",
+      "rating": 86.61689300740882,
+      "totalRatingCount": 3140,
+      "firstReleaseDate": 1187654400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia. The player is urged to turn everything into a weapon: biologically modifying their own body with Plasmids, hacking devices and systems, upgrading their weapons, crafting new ammo variants, and experimenting with different battle techniques are all possible. The game is described by the developers as a spiritual successor to their previous PC title System Shock 2. BioShock received high praise in critical reviews for its atmospheric audio and visual quality, absorbing and original plot and its unique gaming experience.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2mli.jpg",
+      "resume": "BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia. Players can modify themselves with Plasmids, hack systems, upgrade weapons, craft ammo, and experiment with tactics."
+    },
+    {
+      "id": 6701,
+      "name": "Edna & Harvey: Harvey's New Eyes",
+      "rating": 86.61077857477412,
+      "totalRatingCount": 55,
+      "firstReleaseDate": 1350345600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "In Edna & Harvey: Harvey’s New Eyes, players return to the world of adventure game hit Edna & Harvey: The Breakout. Be prepared to meet many old friends and discover many new hand-made cartoon locations, realized in full HD glory!\n\nLilli, a young girl at a convent school, is the main character of Edna & Harvey: Harvey’s New Eyes. Seemingly the best-behaved little girl in the world, she executes all her chores in a diligent manner, no matter how unfair they may be. Her innocent, imperturbable way of carrying out the orders of others has something both tragic and eerie about it. Any angry thoughts, any childlike disobedience is buried deep beneath a seemingly impenetrable surface of sweetness. But how long will these feelings stay hidden? And where do the friendly little gnomes come from that paint over everything unpleasant in Lilli’s vicinity with a pleasant pink color? Are they real or just a product of her subconscious?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cg5jele28ikhzg3xbvix.jpg",
+      "resume": "Lilli, a diligent girl at a convent school, returns in Edna & Harvey: Harvey’s New Eyes to explore hand‑made cartoon locations and meet familiar and new characters. The game continues the adventure from The Breakout."
+    },
+    {
+      "id": 2155,
+      "name": "Dark Souls",
+      "rating": 86.60666477273848,
+      "totalRatingCount": 1660,
+      "firstReleaseDate": 1316649600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Dark Souls is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. Released in September 2011 as a spiritual sequel to Demon's Souls, it is set in a dark, medieval fantasy world. It is renowned for its challenging gameplay, intricate level design, and deep lore. Players control a customizable character known as the Chosen Undead, embarking on a perilous journey to uncover the secrets of the cursed land of Lordran.\n\nDark Souls is known for its punishing difficulty, requiring players to carefully manage combat, stamina, and resources while navigating hostile environments filled with dangerous enemies and formidable bosses. The game features a unique multiplayer component, allowing players to leave messages for others, summon allies for cooperative play, or invade other players' worlds for PvP combat.\n\nThe original release of Dark Souls received critical acclaim for its atmospheric world, innovative mechanics, and rewarding gameplay, solidifying its place as a seminal title in the action RPG genre.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1x78.jpg",
+      "resume": "Dark Souls, released September 2011, is an action RPG by FromSoftware. Players control the Chosen Undead in Lordran, facing challenging combat, intricate design, and multiplayer options."
+    },
+    {
+      "id": 1692,
+      "name": "Advance Wars 2: Black Hole Rising",
+      "rating": 86.60518728828778,
+      "totalRatingCount": 59,
+      "firstReleaseDate": 1056412800,
+      "genres": [
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        }
+      ],
+      "summary": "In Advance Wars 2: Black Hole Rising brings your GBA all-new strategic action and all-new fighting action! Thrilling turn-based strategy gameplay that will put your brain & your reflexes to the test, in this sequel to the original hit!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob9nm.jpg",
+      "resume": "Advance Wars 2: Black Hole Rising is a GBA sequel featuring turn‑based strategy and new combat. It tests both brain and reflexes."
+    },
+    {
+      "id": 7344,
+      "name": "Ori and the Blind Forest",
+      "rating": 86.58699473771945,
+      "totalRatingCount": 1491,
+      "firstReleaseDate": 1426032000,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The forest of Nibel is dying. After a powerful storm sets a series of devastating events in motion, an unlikely hero must journey to find his courage and confront a dark nemesis to save his home. Ori and the Blind Forest tells the tale of a young orphan destined for heroics, through a visually stunning action-platformer crafted by Moon Studios for Xbox One and PC. Featuring hand-painted artwork, meticulously animated character performance, and a fully orchestrated score, Ori and the Blind Forest explores a deeply emotional story about love and sacrifice, and the hope that exists in us all.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1y41.jpg",
+      "resume": "Ori and the Blind Forest follows orphan hero in the dying forest of Nibel who must confront a dark nemesis to save his home, featuring artwork, animation, and orchestral score."
+    },
+    {
+      "id": 2350,
+      "name": "Mario Kart 8",
+      "rating": 86.56551689521804,
+      "totalRatingCount": 684,
+      "firstReleaseDate": 1401321600,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "Turn your racing experience upside down! Nintendo’s Mario Kart franchise comes to the Wii U console in full HD, introducing new racing circuit designs and anti-gravity karts that will have players driving upside down. And for the first time, all of Bowser’s seven Koopalings are playable characters-- get a taste of being bad on the race track by playing as Iggy, Larry, Lemmy, Ludwig, Morton, Roy and Wendy. Players will also enjoy a variety of series-favorite features, including the return of 12-player online competitive play, hang-gliders, underwater racing and motorbikes.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co213q.jpg",
+      "resume": "Mario Kart 8 on Wii U offers full HD racing with new circuits and anti‑gravity karts. All seven Koopalings are playable. Features include 12‑player online, hang‑gliders, underwater racing, and motorbikes."
+    },
+    {
+      "id": 90101,
+      "name": "Super Smash Bros. Ultimate",
+      "rating": 86.54487170617587,
+      "totalRatingCount": 939,
+      "firstReleaseDate": 1544140800,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Legendary game worlds and fighters collide in the ultimate showdown—a new entry in the Super Smash Bros. series for the Nintendo Switch system! New fighters, like Inkling from the Splatoon series and Ridley from the Metroid series, make their Super Smash Bros. series debut alongside every Super Smash Bros. fighter in the series…EVER! Faster combat, new items, new attacks, new defensive options, and more will keep the battle raging whether you’re at home or on the go.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2255.jpg",
+      "resume": "Super Smash Bros. Ultimate brings all previous fighters plus new ones like Inkling and Ridley to the Nintendo Switch. It features faster combat, new items, attacks, and defensive options."
+    },
+    {
+      "id": 20192,
+      "name": "Contra: Hard Corps",
+      "rating": 86.53091429270063,
+      "totalRatingCount": 80,
+      "firstReleaseDate": 776304000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Kickin' cyborg butt... That's what it's all about, dude. Jack into this game of genetic engineering gone bad. Real bad. It's five years after the mother of all wars ended - and things still aren't right. Your job is to fix it. The ever-popular Contra series makes its Sega Genesis debut with a pulse-pounding new storyline. At 16 megs, HARD CORPS pushes the technology to bring you over ten gut-wrenching levels with huge boss characters, great graphics and dynamic sound. Find high powered weapons such as the homing gun, crush gun, needle laser or mine setter. Do you think you can handle it? Trust me, you can't. You still here? Okay, then get ready for the fight of your life. Pick one of the four heroes and begin your search across many dark levels of doom. The ending changes, depending on the paths you choose - but every pass crosses boss characters that will blow you away. Literally!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2n11.jpg",
+      "resume": "Contra: Hard Corps is a 16‑MB Sega Genesis shooter with over ten levels, four selectable heroes, and multiple paths that change the ending. It features large boss battles and weapons like homing gun, crush gun, needle laser, and mine setter."
+    },
+    {
+      "id": 1030,
+      "name": "The Legend of Zelda: Majora's Mask",
+      "rating": 86.50680897584573,
+      "totalRatingCount": 859,
+      "firstReleaseDate": 956793600,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The Legend of Zelda: Majora's Mask is a direct sequel to Ocarina of Time, it utilizes the same engine and visual style as its predecessor. The game retains the traditional elements of Zelda games as well as those introduced in Ocarina of Time, such as active blocking with a shield, various throwing items, and the usage of melodies played on the ocarina to solve puzzles. Compared to the previous Zelda games, this installment is more oriented towards interaction with NPCs and has a larger variety of items, optional quests, and mini-games. It also includes a time system that spans three days, and this cycle must be reset periodically to progress through the game.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3pah.jpg",
+      "resume": "The Legend of Zelda: Majora’s Mask is a direct sequel to Ocarina of Time, using the same engine and visual style. It adds a three‑day time cycle, more NPC interaction, optional quests, and mini‑games."
+    },
+    {
+      "id": 4438,
+      "name": "Sonic the Hedgehog 2",
+      "rating": 86.49102837155118,
+      "totalRatingCount": 607,
+      "firstReleaseDate": 720576000,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Dr. Eggman (aka Dr. Robotnik) has returned, turning helpless animals into robots and forcing them to build his ultimate weapon, the Death Egg! But this time, Sonic has a friend that can help him: Tails! Find the 7 Chaos Emeralds and stop Dr. Robotnik’s evil scheme!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5kkj.jpg",
+      "resume": "Dr. Eggman returns, turning animals into robots to build the Death Egg. Sonic teams with Tails to locate seven Chaos Emeralds and stop his plan."
+    }
+  ]
+}

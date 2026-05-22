@@ -1,0 +1,1 @@
+Command an army on a grid map to reclaim a fractured world. Units use weapons, moving with specific ranges and attack distances. Features 115+ maps, editor, link play, and a beginner tutorial.

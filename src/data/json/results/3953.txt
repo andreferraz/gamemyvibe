@@ -1,0 +1,1 @@
+Ikaruga is a vertical scrolling shooter where the ship changes polarity to match enemy colors. Bullets of the same polarity fuel energy; opposite bullets kill. The game offers multiple difficulty settings.

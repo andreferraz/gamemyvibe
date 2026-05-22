@@ -1,0 +1,1 @@
+Balatro is a deck‑building roguelite where players build poker hands to earn chips and beat enemy blinds. Decks can be enhanced, Jokers bought to modify hand effects, and synergies discovered to progress.

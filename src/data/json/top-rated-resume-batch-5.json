@@ -1,0 +1,2177 @@
+{
+  "generatedAt": "2026-05-22T22:50:15.915Z",
+  "batchNumber": 5,
+  "batchSize": 100,
+  "globalStartIndex": 401,
+  "globalEndIndex": 500,
+  "games": [
+    {
+      "id": 152,
+      "name": "Star Wars: Jedi Knight II - Jedi Outcast",
+      "rating": 84.14996952109647,
+      "totalRatingCount": 320,
+      "firstReleaseDate": 1017100800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "In the tradition of the highly acclaimed Star Wars: Jedi Knight series, Star Wars: Jedi Knight 2, Jedi Outcast features rebel agent Kyle Katarn in exhilarating first-person action. Several years have passed since Kyle avenged his father's death and saved the Valley of the Jedi from Jerec and his band of Dark Jedi. Allowing his Force powers to languish for fear of falling to the dark side, Kyle entrusted his lightsaber to Luke Skywalker, vowing never to use it again. But when a new and menacing threat to the galaxy emerges, Kyle knows he must reclaim his past in order to save his future.\n\nExplore breathtaking Star Wars locales such as Cloud City, the Jedi Academy on Yavin 4, Nar Shaddaa, and the smugglers' moon. Multiplayer options include deathmatch, saber-only deathmatch, and team capture the flag.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1y67.jpg",
+      "resume": "Kyle Katarn, who abandoned his Force powers and lightsaber after saving the Jedi Valley, must return to fight threat. Explore Cloud City, Yavin 4, play deathmatch and capture the flag."
+    },
+    {
+      "id": 104967,
+      "name": "Valheim",
+      "rating": 84.14950326503329,
+      "totalRatingCount": 285,
+      "firstReleaseDate": 1612224000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Valheim is a brutal exploration and survival game for 1-10 players set in a procedurally-generated world inspired by Norse mythology. Craft powerful weapons, construct longhouses, and slay mighty foes to prove yourself to Odin!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob24q.jpg",
+      "resume": "Valheim is an exploration and survival game for 1-10 players in a procedurally-generated world inspired by Norse mythology. Craft weapons, build longhouses, and fight enemies to prove themselves to Odin."
+    },
+    {
+      "id": 272,
+      "name": "Unreal Tournament",
+      "rating": 84.12863505852194,
+      "totalRatingCount": 280,
+      "firstReleaseDate": 943228800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "Unreal Tournament is a first-person arena shooter video game developed by Epic Games and Digital Extremes. It was the second installment in the Unreal series.\n\nIt is an arena first-person shooter, with head-to-head multiplayer deathmatches being the primary focus of the game. Other game modes include TDM. CTF, Assault, Domination, Last man Standing etc.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2k3b.jpg",
+      "resume": "Unreal Tournament is a first‑person arena shooter by Epic Games and Digital Extremes.  \nIt is the second Unreal installment, featuring multiplayer deathmatches, TDM, CTF, Assault, Domination, and Last Man Standing."
+    },
+    {
+      "id": 1691,
+      "name": "Advance Wars",
+      "rating": 84.12377344752052,
+      "totalRatingCount": 139,
+      "firstReleaseDate": 1000080000,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        }
+      ],
+      "summary": "Just because this battle fits in the palm of your hand doesn't mean the stakes are small. On the contrary, this all-or-nothing fight will have you accessing guns, grenades, launchers, and weaponry of all sorts. Players assume command of an army that's out to reclaim a world that's been broken up by warring factions. The battle map is essentially a grid, and moving units is like moving chess pieces on a board -- each of the units can move a specific amount of spaces within this grid, and can only attack at a certain distance from specific enemies. Advance Wars features more than 115 maps, a map editor, head-to-head play via link cable, and an easy-to-understand tutorial mode for beginners.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob9nu.jpg",
+      "resume": "Command an army on a grid map to reclaim a fractured world. Units use weapons, moving with specific ranges and attack distances. Features 115+ maps, editor, link play, and a beginner tutorial."
+    },
+    {
+      "id": 23248,
+      "name": "Frostpunk",
+      "rating": 84.12304152592576,
+      "totalRatingCount": 420,
+      "firstReleaseDate": 1524528000,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Frostpunk, the newest title from the creators of This War of Mine, is a society survival game where heat means life and every decision comes at a price. In an entirely frozen world, people develop steam-powered technology to oppose the overwhelming cold. You face the task of building the last city on Earth and securing the means necessary for your community to survive.\n\nOptimization and resource management often clash with empathy and thoughtful decision-making. While city and society management will consume most of the ruler’s time, at some point exploration of the outside world is necessary to understand its history and present state.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coar27.jpg",
+      "resume": "Frostpunk is a steam‑powered survival game set in a frozen world where heat is life. Build the last city, manage resources, and make costly decisions while exploring to learn history."
+    },
+    {
+      "id": 16587,
+      "name": "Final Fantasy IV",
+      "rating": 84.12172220002945,
+      "totalRatingCount": 198,
+      "firstReleaseDate": 679881600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "FINAL FANTASY IV is the fourth main installment in the FINAL FANTASY series, developed and published by Squaresoft. It was released in July 1991 for the Super Nintendo Entertainment System in Japan, and released as FINAL FANTASY II in North America in October 1991 with alterations made due to Nintendo of America's guidelines at the time.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co31c0.jpg",
+      "resume": "Final Fantasy IV, fourth entry, was released by Squaresoft on the SNES in Japan in July 1991 and as Final Fantasy II in North America in October 1991 with changes."
+    },
+    {
+      "id": 185258,
+      "name": "ARC Raiders",
+      "rating": 84.11743018603792,
+      "totalRatingCount": 253,
+      "firstReleaseDate": 1761782400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC. Enlist as a Raider and scavenge the surface to thrive in a desolate world. But beware of the machines. Beware of Raiders preying on others.\n\nARC Raiders blends the tension from extraction shooters with atmospheric settings from the adventure genre. Lurking threats—from deadly machines to other Raiders—create a constant ebb and flow of intensity, where every moment is charged with the thrill of high stakes. Extract valuable loot and explore the unfolding mysteries of a vibrant, lethal world.\n\nARC Raiders supports seamless social play across PlayStation, Xbox, and PC. Play with your squad and thrive as a team, or rise in the ranks as a lone ranger.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9rk1.jpg",
+      "resume": "ARC Raiders is a multiplayer extraction adventure on Earth threatened by ARC. Players scavenge loot while avoiding machines and raiders, playing with a squad on PS, Xbox, or PC."
+    },
+    {
+      "id": 19562,
+      "name": "Resident Evil 7: Biohazard",
+      "rating": 84.10745709004202,
+      "totalRatingCount": 1058,
+      "firstReleaseDate": 1485216000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Resident Evil 7: Biohazard is the first game of the Resident Evil series to switch from 3rd-person to fully 1st-person perspective. A complete refresh of gameplay systems simultaneously propels the survival horror experience to another level. It is as much horror as it is survival, boosting up scare elements and minimizing downright shooting action. The game allows use of Sony's PSVR Headset to play in VR mode.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobtwh.jpg",
+      "resume": "Resident Evil 7: Biohazard switches from third‑person to first‑person perspective. It refreshes gameplay systems, focuses on horror and survival, reduces shooting, and supports Sony PSVR."
+    },
+    {
+      "id": 2918,
+      "name": "Crusader Kings II",
+      "rating": 84.10572566213233,
+      "totalRatingCount": 249,
+      "firstReleaseDate": 1328227200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "The Dark Ages might be drawing to a close, but Europe is still in turmoil. Petty lords vie against beleaguered kings who struggle to assert control over their fragmented realms. The Pope calls for a Crusade to protect the Christians in the Holy Land even as he refuses to relinquish control over the investiture of bishops - and their riches. Now is the time for greatness. Expand your demesne and secure the future of your dynasty. Fill your coffers, appoint vassals, root out traitors and heretics, introduce laws and interact with hundreds of nobles, each with their own agenda.\nA good lord will always need friends to support him. But beware, as loyal vassals can quickly turn to bitter rivals, and some might not be as reliable as they seem... Stand ready, and increase your prestige until the world whispers your name in awe. Do you have what it takes to become a Crusader King?\nCrusader Kings II explores one of the defining periods in world history in an experience crafted by the masters of Grand Strategy. Medieval Europe is brought to life in this epic game of knights, schemes, and thrones...",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1mwa.jpg",
+      "resume": "Crusader Kings II lets players expand their demesne, secure their dynasty, and manage vassals while navigating traitors, heretics, and laws. The Pope calls for a Crusade and controls bishop investiture."
+    },
+    {
+      "id": 1742,
+      "name": "Mega Man X2",
+      "rating": 84.10511278134766,
+      "totalRatingCount": 153,
+      "firstReleaseDate": 787536000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Just when Mega Man X thought he had brought down all the X-Hunters, several months later an uprising moves from within an abandoned factory. While 8 all-new X-Hunters occupy Mega Man X, a triple threat plots to resurrect a secret weapon that is all too familiar!\n\nThe good Dr. Light supplies Mega man X with incredible new abilities hidden in capsules buried deep below the surface. And with new vehicles like the mobile attack cycle plus powers he gains from the X-Hunters, Mega Man X will be ready to face his destiny as a Maverick Hunter. Now it's all or Zero for Mega Man X!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co63oi.jpg",
+      "resume": "After defeating all X‑Hunters, Mega Man X faces an uprising in a factory. Eight X‑Hunters take control, while a trio seeks to revive weapon. Dr. Light provides abilities and vehicles."
+    },
+    {
+      "id": 1564,
+      "name": "SoulCalibur",
+      "rating": 84.0484046806106,
+      "totalRatingCount": 130,
+      "firstReleaseDate": 901756800,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "SoulCalibur is a weapon-based 3D fighting game developed by Project Soul and produced by Namco. It is the second game in the Soul series, preceded by Soul Edge (1996). Originally released in arcades in 1998, it ran on the Namco System 12 hardware. In 1999 it was ported to the Dreamcast with improved graphics and new features. The North American version was released in September 1999 as a launch title for the Dreamcast and was part of the successful launch of the new console. It became available as a downloadable title on Xbox 360's Xbox Live Marketplace in 2008.\nThe title brought many innovations to the fighting game genre that include a heavy emphasis on weapons and a unique eight-way movement system. Soulcalibur is widely regarded as one of the best Dreamcast titles and is one of the most critically acclaimed fighting games of all time.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1x6g.jpg",
+      "resume": "SoulCalibur, 3D fighting game with weapon focus and eight‑way movement, was by Project Soul and Namco. It debuted in arcades 1998, ported to Dreamcast 1999, and to Xbox 360 in 2008."
+    },
+    {
+      "id": 482,
+      "name": "Silent Hill 3",
+      "rating": 84.04715846665466,
+      "totalRatingCount": 415,
+      "firstReleaseDate": 1053648000,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Silent Hill 3 is the third installment in the Silent Hill series. Like the previous entries, Silent Hill 3 is a survival horror combining action-based combat and puzzle-solving, but is somewhat more combat-oriented than the preceding installments. The main character is able to side-step and block some attacks, but in general shares with the other protagonists of the series their relative ineptitude in combat.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3kol.jpg",
+      "resume": "Silent Hill 3 is the third game in the series. It mixes action combat and puzzles, leaning more on combat. The protagonist can side‑step and block, but remains combat‑inept."
+    },
+    {
+      "id": 1399,
+      "name": "Professor Layton and the Unwound Future",
+      "rating": 84.03817525668973,
+      "totalRatingCount": 100,
+      "firstReleaseDate": 1227744000,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 34,
+          "name": "Visual Novel"
+        }
+      ],
+      "summary": "As with previous Professor Layton games, Unwound Future is an adventure game where the player solves puzzles offered by local citizens to progress the story forward, through dialogue and around 32 minutes of full motion video. The player moves about the game through still images of locations. The player can use the DS touchscreen to tap on non-player characters to start a dialog or to obtain a puzzle, and also can search anywhere on the background for hint coins, with some areas needing to be tapped several times to reveal a secret hint coin or puzzle. Puzzles are brainteasers of many varieties, including visual, math, and logic. There is no time limit to solve puzzles, and the player can get up to 3 hints at a cost of one hint coin each; a new feature in Unwound Future is a \"super hint\", costing 2 coins, that can only be bought after the other 3 hints have been revealed, but that nearly reveals the puzzle's solution. If the player is correct in solving the puzzle, they gain a number of \"Picarats\", a form of currency within the game. Guessing the incorrect answer will reduce the number of picarats the player can get on subsequent attempts. Players can visit certain areas in order to play undiscovered or unsolved puzzles that are left behind as the story progresses.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobav0.jpg",
+      "resume": "Professor Layton and the Unwound Future is where players solve puzzles to advance. Puzzles have no time limit, offer up to three hints plus hint, and correct answers earn Picarats."
+    },
+    {
+      "id": 1777,
+      "name": "Mega Man Zero 3",
+      "rating": 84.01345682176068,
+      "totalRatingCount": 55,
+      "firstReleaseDate": 1082678400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        }
+      ],
+      "summary": "It's the third chapter in the Mega Man Zero action adventure series for the Game Boy Advance. Featuring a new customization system, you can now equip Zero, with a combination of chips that will affect both his attributes and abilities, allowing you to adapt him to different challenges. Among his other new skills, Zero will now have weapon called the recoil rod. Now he jumps at double his normal height. These new skills will allow our hero to march into Arcadia to defeat the evil Omega single-handedly... Or will they?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co204h.jpg",
+      "resume": "Mega Man Zero 3, the third Game Boy Advance entry, adds a chip-based customization system, a recoil rod weapon, double-height jumps, and tasks Zero with confronting Omega in Arcadia."
+    },
+    {
+      "id": 171233,
+      "name": "Deltarune",
+      "rating": 83.98957050138264,
+      "totalRatingCount": 76,
+      "firstReleaseDate": 1748995200,
+      "genres": [
+        {
+          "id": 7,
+          "name": "Music"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9m71.jpg",
+      "resume": "Explore a parallel story to UNDERTALE. Fight or spare enemies in action battles while traveling through a mysterious world with new and familiar characters."
+    },
+    {
+      "id": 123395,
+      "name": "Arknights",
+      "rating": 83.98830404504287,
+      "totalRatingCount": 56,
+      "firstReleaseDate": 1556668800,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 24,
+          "name": "Tactical"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Take on the role of a key member of Rhodes Island, a pharmaceutical company that fights both a deadly infection and the unrest it leaves in its wake. Together with your leader Amiya, you’ll recruit Operators, train them, then assign them to various operations to protect the innocent and resist those who would thrust the world into turmoil.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4uni.jpg",
+      "resume": "Play as a member of Rhodes Island, pharmaceutical company fighting a deadly infection and its aftermath. Recruit, train, and deploy Operators with leader Amiya to protect civilians and counter threats."
+    },
+    {
+      "id": 36550,
+      "name": "Yakuza: Like a Dragon",
+      "rating": 83.98346335242847,
+      "totalRatingCount": 186,
+      "firstReleaseDate": 1579132800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Yakuza: Like a Dragon is a role-playing game developed and published by Sega. Released in 2020, it is the eighth main entry in the Yakuza series. The game introduces a new protagonist, Ichiban Kasuga, and departs from the traditional action combat system, instead featuring turn-based combat with a party of characters. Set in the fictional city of Yokohama, the game follows Kasuga's quest for revenge and his journey through Japan's criminal underworld.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2em9.jpg",
+      "resume": "Yakuza: Like a Dragon, released 2020, is the eighth main entry and an RPG by Sega.  \nIt follows Ichiban Kasuga in Yokohama, using turn‑based combat with a party."
+    },
+    {
+      "id": 134597,
+      "name": "Astro's Playroom",
+      "rating": 83.97854894165322,
+      "totalRatingCount": 303,
+      "firstReleaseDate": 1605139200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Astro and his crew lead you on a magical introduction through PS5 in this fun platformer that comes pre-loaded on PS5. Explore four worlds, each based on PS5’s console components. Each area showcases innovative gameplay that taps into the new features of the PS5's DualSense wireless controller.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9hb4.jpg",
+      "resume": "Astro and his crew guide you through a PS5 introduction in a platformer pre‑loaded on the console. Explore four worlds based on PS5 components, each using DualSense features."
+    },
+    {
+      "id": 1653,
+      "name": "Streets of Rage 2",
+      "rating": 83.97700200004647,
+      "totalRatingCount": 199,
+      "firstReleaseDate": 723168000,
+      "genres": [
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "Mr. X and the Syndicate are back, this time taking Adam hostage! Take on the role of Axel, Blaze, Skate, or Max to rescue Adam, and destroy Mr. X once and for all.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co49sn.jpg",
+      "resume": "Mr. X and the Syndicate return, holding Adam hostage. Play as Axel, Blaze, Skate, or Max to rescue Adam and defeat Mr. X."
+    },
+    {
+      "id": 28028,
+      "name": "Total War: Warhammer II",
+      "rating": 83.96494410303072,
+      "totalRatingCount": 109,
+      "firstReleaseDate": 1506556800,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Total War: Warhammer II is a strategy game of titanic proportions. Choose from four unique, varied factions and wage war your way; mounting a campaign of conquest to save or destroy a vast and vivid fantasy world. This is a game of two halves: one a turn-based open-world campaign, and the other intense, tactical real-time battles across the fantastical landscapes of the New World.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9rsu.jpg",
+      "resume": "Total War: Warhammer II is a strategy game with four factions. It features a turn‑based open‑world campaign and real‑time tactical battles across a fantasy world."
+    },
+    {
+      "id": 15830,
+      "name": "Saya no Uta",
+      "rating": 83.96479312302165,
+      "totalRatingCount": 98,
+      "firstReleaseDate": 1565654400,
+      "genres": [
+        {
+          "id": 34,
+          "name": "Visual Novel"
+        }
+      ],
+      "summary": "A horror visual novel about Fuminori Sakisaka, a medicine student who suffers an accident that leaves his perception of the world distorted: everything and everyone is perceived as a twisted mass of intestines, flesh and blood.\n\nEverything, except Saya.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co25zj.jpg",
+      "resume": "Saya no Uta is a horror visual novel about medicine student Fuminori Sakisaka, who after an accident sees the world as twisted intestines and flesh, except for Saya."
+    },
+    {
+      "id": 6325,
+      "name": "Gemini Rue",
+      "rating": 83.95135253847354,
+      "totalRatingCount": 83,
+      "firstReleaseDate": 1298505600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Gemini Rue is a neo-noir classic adventure game from the creator of acclaimed Blackwell Series, Wadjet Eye Games. The game features:\n\n- Over 60 hand-drawn backgrounds\n- A moody, film noir atmosphere\n- Control both Azriel and Delta-Six\n- An innovative investigation system\n- A gripping sci-fi mystery",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2h9o.jpg",
+      "resume": "Gemini Rue is an adventure game by Wadjet Eye Games with over 60 backgrounds and a film noir atmosphere. Players control Azriel and Delta‑Six in an investigative sci‑fi mystery."
+    },
+    {
+      "id": 2671,
+      "name": "Guitar Hero III: Legends of Rock",
+      "rating": 83.94735442021272,
+      "totalRatingCount": 382,
+      "firstReleaseDate": 1193529600,
+      "genres": [
+        {
+          "id": 7,
+          "name": "Music"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        }
+      ],
+      "summary": "Rock out to the third entry in in Red Octane's music series for guitar gods! Songs for Guitar Hero III include Barracuda by Heart, Sabotage by Beastie Boys, Rock And Roll All Nite by Kiss, and much more! In addition, players can experience an incredible number of added features and explosive content including a new multiplayer action-inspired battle mode, grueling boss battles, a bevy of exclusive unlockable content and authentic rock venues.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1wqm.jpg",
+      "resume": "Guitar Hero III, the third series entry, includes tracks like Barracuda, Sabotage, and Rock And Roll All Nite. It adds multiplayer battle mode, boss battles, unlockable content, and real venues."
+    },
+    {
+      "id": 8456,
+      "name": "Legend of Grimrock 2",
+      "rating": 83.94053722549829,
+      "totalRatingCount": 53,
+      "firstReleaseDate": 1413331200,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Legend of Grimrock 2 is a dungeon crawling role playing game with a modern execution but an oldschool heart.\n\nPowers of perception and logic are more important than sheer force is, since Legend of Grimrock 2 puts a heavy emphasis on exploration, survival and challenging puzzles. Discover powerful ancient artifacts from hidden secret chambers and buried treasures. Arm your champions, cast spells and craft enchanted potions and bombs to aid you in fighting the dreadful monsters in highly tactical real-time combat.\n\nDesign, share and play custom scenarios with the included Dungeon Editor! Create your own adventures and fill them with puzzles, traps, or even totally new items, monsters and environments with custom graphics and audio!\n\nGet ready to venture forth and uncover the secrets of Nex!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co49em.jpg",
+      "resume": "Legend of Grimrock 2 is a dungeon‑crawling RPG that emphasizes perception, logic, exploration, survival, and puzzles. Find artifacts, craft potions, fight monsters, create scenarios with Dungeon Editor uncover secrets of Nex."
+    },
+    {
+      "id": 480,
+      "name": "Silent Hill",
+      "rating": 83.93857644237036,
+      "totalRatingCount": 571,
+      "firstReleaseDate": 919814400,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Silent Hill is the first installment in the Silent Hill series of psychological survival horror video games. Unlike earlier survival horror games that focused on protagonists with combat training, the main character Harry Mason is an average man. The gameplay consists of combat, exploration, and puzzle-solving. The controller vibration is used to indicate Harry's heartbeat and will vibrate on low health. The player must regularly enter an inventory screen to check Harry's health, use items, and equip different weapons.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2vye.jpg",
+      "resume": "Silent Hill is the first psychological survival horror game, starring average man Harry Mason. Gameplay involves combat, exploration, puzzles, heartbeat vibration, and an inventory screen for health, items, and weapons."
+    },
+    {
+      "id": 1192,
+      "name": "Crash Team Racing",
+      "rating": 83.91764617299154,
+      "totalRatingCount": 438,
+      "firstReleaseDate": 940291200,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "Crash Team Racing is a kart racing game featuring popular characters from the Crash Bandicoot series. The gameplay is very similar to other kart racing video games like Mario Kart: players have to choose a character and compete against the other racers on various racetracks. The story mode allows you to choose any one of the characters to complete all the main races and beat the ultimate boss Nitrous Oxide. Each of the main races are against 7 other AI competitors with 5 boss races. There are also a few arcade modes up to 4 players.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co7r52.jpg",
+      "resume": "Crash Team Racing is a kart racing game with Crash Bandicoot characters. Players race 7 AI opponents and 5 boss races, including Nitrous Oxide, and four players play arcade modes."
+    },
+    {
+      "id": 136,
+      "name": "Devil May Cry 3: Dante's Awakening",
+      "rating": 83.91075664870783,
+      "totalRatingCount": 377,
+      "firstReleaseDate": 1108598400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Devil May Cry 3: Dante's Awakening is a prequel to the first Devil May Cry. The game plays very differently from its predecessors, as it puts much more emphasis on style rather than simple demon slaying. As such, combat is much more intense and faster than before. An all-new Style system that allows you to select your fighting style has also been incorporated.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1u6u.jpg",
+      "resume": "Devil May Cry 3: Dante's Awakening is a prequel to the first game. It focuses on style, offering a new system to choose fighting styles, and features more intense combat."
+    },
+    {
+      "id": 36926,
+      "name": "Monster Hunter: World",
+      "rating": 83.90234574453281,
+      "totalRatingCount": 581,
+      "firstReleaseDate": 1516924800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Welcome to a new world! Take on the role of a hunter and slay ferocious monsters in a living, breathing ecosystem where you can use the landscape and its diverse inhabitants to get the upper hand. Hunt alone or in co-op with up to three other players, and use materials collected from fallen foes to craft new gear and take on even bigger, badder beasts!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1rst.jpg",
+      "resume": "In Monster Hunter: World, you hunt ferocious monsters in a living ecosystem. Play solo or with up to three others, using fallen foes' materials to craft gear for larger beasts."
+    },
+    {
+      "id": 125,
+      "name": "Diablo",
+      "rating": 83.89841841783971,
+      "totalRatingCount": 590,
+      "firstReleaseDate": 851990400,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Diablo is an isometric strategy RPG and one of the most well-known examples of the action-RPG subgenre. Although some of the game mechanics resemble a typical RPG, all actions are done in real-time just like in an action game. The player have to kill hordes of monsters through randomized dungeon levels in order to gain experience points, gold and a variety of equipment to bolster the hero's monster-killing potency.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3ggo.jpg",
+      "resume": "Diablo is an isometric action RPG where players fight monsters in randomized dungeons. Combat is real‑time. Defeating enemies yields experience, gold, and equipment."
+    },
+    {
+      "id": 8072,
+      "name": "Sanitarium",
+      "rating": 83.88554219855095,
+      "totalRatingCount": 94,
+      "firstReleaseDate": 893721600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "A psychological horror point-and-click adventure game in which a man wakes up in a near-deserted sanitarium after a car crash without any recollection of who he is or how he got there.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2890.jpg",
+      "resume": "A psychological horror point-and-click adventure where a man wakes in a near-deserted sanitarium after a car crash, with no memory of his identity or arrival."
+    },
+    {
+      "id": 6782,
+      "name": "Ninja Gaiden II",
+      "rating": 83.87091877517872,
+      "totalRatingCount": 53,
+      "firstReleaseDate": 1212451200,
+      "genres": [
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Ninja Gaiden II is an action-adventure video game developed by Team Ninja and published by Microsoft Corporation. It is the sequel to the 2004 title Ninja Gaiden and was released worldwide for the Xbox 360 in June 2008.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2stg.jpg",
+      "resume": "Ninja Gaiden II is an action‑adventure game by Team Ninja, published by Microsoft. It follows the 2004 Ninja Gaiden and launched worldwide on Xbox 360 in June 2008."
+    },
+    {
+      "id": 123,
+      "name": "World of Warcraft",
+      "rating": 83.86367278800437,
+      "totalRatingCount": 882,
+      "firstReleaseDate": 1101168000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "World of Warcraft is a massively multiplayer online roleplaying game (MMORPG) set in the Warcraft universe. Players assume the roles of Warcraft heroes as they explore, adventure, and quest across a vast world. Being \"Massively Multiplayer,\" World of Warcraft allows thousands of players to interact within the same world. Whether adventuring together or fighting against each other in epic battles, players will form friendships, forge alliances, and compete with enemies for power and glory.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2l7z.jpg",
+      "resume": "World of Warcraft is an MMORPG set in the Warcraft universe. Players assume hero roles, explore a vast world, and interact with thousands, teaming up or battling to form alliances."
+    },
+    {
+      "id": 3075,
+      "name": "FTL: Faster Than Light",
+      "rating": 83.86095200857427,
+      "totalRatingCount": 420,
+      "firstReleaseDate": 1347580800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "In FTL you experience the atmosphere of running a spaceship trying to save the galaxy. It's a dangerous mission, with every encounter presenting a unique challenge with multiple solutions. What will you do if a heavy missile barrage shuts down your shields? Reroute all power to the engines in an attempt to escape, power up additional weapons to blow your enemy out of the sky, or take the fight to them with a boarding party? This \"spaceship simulation roguelike-like\" allows you to take your ship and crew on an adventure through a randomly generated galaxy filled with glory and bitter defeat.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9chw.jpg",
+      "resume": "FTL is a spaceship simulation roguelike where you manage a crew to survive a randomly generated galaxy. Each encounter offers unique challenges with multiple solutions."
+    },
+    {
+      "id": 1447,
+      "name": "Suikoden",
+      "rating": 83.85446119685614,
+      "totalRatingCount": 84,
+      "firstReleaseDate": 818985600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Suikoden is a Japanese-style role-playing game with several unusual additions. There are three kinds of combat in the game, the most common one being the traditional turn-based party combat (players can have up to six people in their active party). Magic runes can be equipped on the player's characters which allow limited usage of offensive and healing spells. There are also a few army battles, where the player must control whole units of fighters, archers, magicians, etc., and one-on-one fights (duels).",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coakh1.jpg",
+      "resume": "Suikoden is a Japanese-style RPG with three combat types: turn-based party battles (up to six active), army battles controlling units, and one-on-one duels. Characters equip magic runes for limited spells."
+    },
+    {
+      "id": 986,
+      "name": "Halo 2",
+      "rating": 83.85232870533956,
+      "totalRatingCount": 677,
+      "firstReleaseDate": 1099958400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "Halo 2 is the sequel to the highly successful and critically acclaimed Halo: Combat Evolved. In Halo 2, the saga continues as Master Chief—a genetically enhanced super-soldier—is the only thing standing between the relentless Covenant and the destruction of all humankind.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1x77.jpg",
+      "resume": "Halo 2 follows Halo: Combat Evolved. Master Chief, a genetically enhanced super‑soldier, opposes the Covenant to prevent humanity's destruction."
+    },
+    {
+      "id": 104971,
+      "name": "AI: The Somnium Files",
+      "rating": 83.83258748737666,
+      "totalRatingCount": 119,
+      "firstReleaseDate": 1568678400,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 34,
+          "name": "Visual Novel"
+        }
+      ],
+      "summary": "Play as detective Kaname Date on the case of an elusive serial killer in this thrilling, sci-fi murder mystery.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobbvz.jpg",
+      "resume": "Detective Kaname Date investigates an elusive serial killer in a sci‑fi murder mystery."
+    },
+    {
+      "id": 153,
+      "name": "Star Wars: Jedi Knight - Jedi Academy",
+      "rating": 83.82948638779618,
+      "totalRatingCount": 418,
+      "firstReleaseDate": 1063670400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Star Wars: Jedi Knight: Jedi Academy, of the highly acclaimed Jedi Knight series, allows players to take on the role of a new student eager to learn the ways of the Force from Jedi Master Luke Skywalker. Interact with famous Star Wars characters in many classic Star Wars locations as you face the ultimate choice: fight for good and freedom on the light side, or follow the path of power and evil to the dark side.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5c44.jpg",
+      "resume": "Play as a new Jedi student learning from Luke Skywalker. Meet iconic Star Wars characters in familiar locations. Choose between the light side and the dark side."
+    },
+    {
+      "id": 1262,
+      "name": "South Park: The Stick of Truth",
+      "rating": 83.8185010729296,
+      "totalRatingCount": 1207,
+      "firstReleaseDate": 1393804800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "From the perilous battlefields of the fourth-grade playground, a young hero will rise, destined to be South Park’s savior. From the creators of South Park, Trey Parker and Matt Stone, comes an epic quest to become… cool. Introducing South Park: The Stick of Truth.You begin as the new kid in town facing a harrowing challenge: making friends.\n\nAs you start your quest the children of South Park are embroiled in a city-wide, live-action-role-playing game, casting imaginary spells and swinging fake swords. Over time the simple children’s game escalates into a battle of good and evil that threatens to consume the world.Arm yourself with weapons of legend to defeat crab people, underpants gnomes, hippies and other forces of evil.\n\nDiscover the lost Stick of Truth and earn your place at the side of Stan, Kyle, Cartman and Kenny as their new friend. Succeed, and you shall be South Park’s savior, cementing your social status in South Park Elementary. Fail, and you will forever be known… as a loser.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1v8x.jpg",
+      "resume": "Play as South Park’s kid, join a LARP, find the Stick of Truth, and ally with Stan, Kyle, Cartman, and Kenny. Success makes you savior; failure makes you a loser."
+    },
+    {
+      "id": 55163,
+      "name": "Resident Evil Village",
+      "rating": 83.80826198689408,
+      "totalRatingCount": 562,
+      "firstReleaseDate": 1620259200,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Resident Evil Village is a first-person survival horror game and the sequel to Resident Evil 7: Biohazard. The game maintains elements from previous Resident Evil games, with players having to scavenge environments for items and manage their resources. However, it adds more action-oriented gameplay, with higher enemy counts and a greater emphasis on combat.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coab9q.jpg",
+      "resume": "Resident Evil Village is a first‑person survival horror sequel to Resident Evil 7. Players scavenge items and manage resources while facing more enemies and combat‑focused gameplay."
+    },
+    {
+      "id": 3721,
+      "name": "Kirby & the Amazing Mirror",
+      "rating": 83.78639382402207,
+      "totalRatingCount": 106,
+      "firstReleaseDate": 1081987200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Once again, Kirby must save the kingdom from evil. But this time he'll need some backup. As Kirby, you can call up one of four alter egos for help during your quest. Each character features new copy abilities that range from arrow-shooting to melee moves. Practice your skills in new side games, such as Crackity Hack and Speed Eaters. In addition to new abilities and subgames, Kirby & the Amazing Mirror also introduces new multiplayer modes.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1w9u.jpg",
+      "resume": "Kirby saves the kingdom with help from four alter egos, each with unique copy abilities like arrow shooting and melee. New side games and multiplayer modes are added."
+    },
+    {
+      "id": 28512,
+      "name": "Risk of Rain 2",
+      "rating": 83.77146508450588,
+      "totalRatingCount": 257,
+      "firstReleaseDate": 1597104000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "The classic multiplayer roguelike, Risk of Rain, returns with an extra dimension and more challenging action. No run will ever be the same with randomized stages, enemies, bosses, and items. Play solo, or team up with up to four friends to fight your way through hordes of monsters, unlock new loot, and find a way to escape the planet.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaavb.jpg",
+      "resume": "Risk of Rain 2 is a roguelike with stages, enemies, bosses, items, extra dimension. Players can solo team up to four to fight monsters, gather loot, and escape the planet."
+    },
+    {
+      "id": 880,
+      "name": "Resident Evil 2",
+      "rating": 83.73674172800433,
+      "totalRatingCount": 581,
+      "firstReleaseDate": 885340800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Resident Evil 2 is a sequel to the first Resident Evil title. Like the previous game in the series, Resident Evil 2 is a 3D action-adventure using three-dimensional polygon characters over two-dimensional pre-rendered backgrounds, with the action viewed through a variety of cinematic fixed camera angles in each room. Players can choose to play as one of two possible characters; each goes through the same initial scenario but with differences in the type of weaponry they find and the people they meet along the way.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2vz0.jpg",
+      "resume": "Resident Evil 2, a sequel to the first game, is a 3D adventure with characters on backgrounds; players choose two characters, each following the scenario with different weapons encounters."
+    },
+    {
+      "id": 19539,
+      "name": "Forza Horizon 3",
+      "rating": 83.733881457069,
+      "totalRatingCount": 214,
+      "firstReleaseDate": 1474934400,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "You’re in charge of the Horizon Festival. Customize everything, hire and fire your friends, and explore Australia in over 350 of the world’s greatest cars. Make your Horizon the ultimate celebration of cars, music, and freedom of the open road. How you get there is up to you.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2e25.jpg",
+      "resume": "You run the Horizon Festival, customizing all aspects, hiring and firing friends, and exploring Australia in over 350 cars. The path to success is yours to choose."
+    },
+    {
+      "id": 2765,
+      "name": "SpongeBob SquarePants: Battle for Bikini Bottom",
+      "rating": 83.73222366456999,
+      "totalRatingCount": 126,
+      "firstReleaseDate": 1067558400,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The evil Plankton has set in motion his most diabolical plot ever! The fate of Bikini Bottom has been put into the unsuspecting hands of SpongeBob. Explore a huge world filled with unexpected surprises, challenges, and familiar friends. Join SpongeBob and his friends in his fearless crusade to end Plankton's evil scheme...",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3iyp.jpg",
+      "resume": "SpongeBob must stop Plankton's plan that threatens Bikini Bottom. He explores a large world with friends, facing challenges and surprises."
+    },
+    {
+      "id": 358,
+      "name": "Super Mario Bros.",
+      "rating": 83.68825699885646,
+      "totalRatingCount": 1296,
+      "firstReleaseDate": 495417600,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "A side scrolling 2D platformer and first entry in the Super Mario franchise, Super Mario Bros. follows Italian plumber Mario as he treks across many levels of platforming challenges featuring hostile enemies to rescue Princess Peach from the evil king Bowser.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6pib.jpg",
+      "resume": "Super Mario Bros. is a 2D platformer and the first entry in the Super Mario franchise. Mario travels through many levels with hostile enemies to rescue Princess Peach from Bowser."
+    },
+    {
+      "id": 964,
+      "name": "Stronghold Crusader",
+      "rating": 83.68672135677392,
+      "totalRatingCount": 178,
+      "firstReleaseDate": 1028073600,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Stronghold: Crusader is the successor to Firefly Studios's 2001 game Stronghold.\n\nCrusader has much in common with the original Stronghold, but differs from its predecessor in the fact that the game is no longer set in a pseudo-Europe, instead being set in the Middle East during the Crusades. The game features a multitude of new Arabian units that can be purchased in a new building, the mercenary post. Though the Arabian troops do not require any weapons to produce, they are rather expensive. The game was also released as Stronghold Warchest. This version was a compendium of Stronghold and an enhanced version of Stronghold: Crusader, containing additional characters and an additional Crusader Trail.\n\nStronghold Warchest was only released in limited number of countries (i. e. USA or Poland), meaning players in the rest of the world have never encountered the second Crusader Trail, or second set of characters. This changed when an updated version of Stronghold Crusader, Stronghold: Crusader Extreme was released in early 2008.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co7nlx.jpg",
+      "resume": "Stronghold Crusader follows 2001 Stronghold, set in the Middle East with new Arabian units. Warchest edition added characters and a second Crusader Trail, later expanded in Crusader Extreme (2008)."
+    },
+    {
+      "id": 152242,
+      "name": "A Plague Tale: Requiem",
+      "rating": 83.67408471985657,
+      "totalRatingCount": 271,
+      "firstReleaseDate": 1666051200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "A Plague Tale: Requiem is an action-adventure game similar to its predecessor. The player assumes control of Amicia and must face against both soldiers from the French Inquisition and hordes of rats that are spreading the black plague. The gameplay is largely similar to the first game, though the combat system is significantly expanded. The game features a progression system in which the player will be awarded additional skills and abilities. Stealth players will unlock skills that allow them to sneak around more efficiently, while those who prefer a more lethal approach will unlock additional combat skills. Locations are also larger, giving players additional options to progress.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5pwb.jpg",
+      "resume": "Amicia battles French Inquisition soldiers and plague‑ridden rats. Expanded combat and a skill progression system unlock stealth and lethal abilities, while larger locations offer more options."
+    },
+    {
+      "id": 897,
+      "name": "The Operative: No One Lives Forever",
+      "rating": 83.66564274617662,
+      "totalRatingCount": 134,
+      "firstReleaseDate": 973728000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "No One Lives Forever is to be a fast-paced, story-driven first-person shooter that delivers over-the-top action, outrageous villains, and wry humor in the tradition of the great 1960's Bond films. You play Cate Archer an undercover operative for MI-Zero. Your mission is to arrange for the defection of a prominent East German biophysicist that goes by the name of Otto Dentz. However things go wrong when a terrorist group known as the HARM abducts Dentz during a flight to England.\n\nAssume the role of Cate Archer, an operative working for UNITY, a secret organization fighting to free the world from the clutches of H.A.R.M.. From tense subterfuge to in-your-face combat, No One Lives Forever ups the ante with 1960's-influenced spy action, vivid international locates, and deadly arch villains.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co8yzl.jpg",
+      "resume": "Cate Archer, an operative for UNITY, must secure the defection of East German biophysicist Otto Dentz. When HARM abducts him, she faces international spy action and dangerous villains."
+    },
+    {
+      "id": 1000,
+      "name": "Oddworld: Abe's Exoddus",
+      "rating": 83.66155631390164,
+      "totalRatingCount": 124,
+      "firstReleaseDate": 911952000,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Abe’s peaceful retirement was shattered when visited by a vision from the Three Weirdos. Abe learned the Magog Cartel was mining Necrum, the sacred Mudokon city of the dead, to collect bones to make super-addictive SoulStorm Brew.\n\nAfter freeing the Mudokon spirits imprisoned in the Mudanchee and Mudomo Vaults, Abe gained scary powers from the Weirdos, including the ability to heal his Mudokon friends of SoulStorm addiction, and the power to turn invisible. Infiltrating the transportation hub of FeeCo Depot, and using explosive farts to survive adventures at the Slig Barracks and Bonewerks, Abe broke into SoulStorm Brewery.\n\nThere Abe learned the truth behind the secret ingredient of SoulStorm Brew... just before blasting the place to atoms with the combined power of the sobered-up Mudokon he’d rescued. Then Abe joined his brew-addled pals at Alf’s Rehab & Tea to take the cure – the journey of a lifetime starts with one step.\n\nOr is it twelve?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3pvr.jpg",
+      "resume": "Abe discovers the Magog Cartel mines Necrum for SoulStorm Brew. He frees Mudokon spirits, gains powers, infiltrates FeeCo Depot, and destroys the brewery. He then joins his friends at rehab."
+    },
+    {
+      "id": 302704,
+      "name": "Doom: The Dark Ages",
+      "rating": 83.65154111467322,
+      "totalRatingCount": 140,
+      "firstReleaseDate": 1747267200,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "DOOM: The Dark Ages is the prequel to the critically acclaimed DOOM (2016) and DOOM Eternal that tells the epic cinematic origin story of the DOOM Slayer’s rage. Players will step into the blood-stained boots of the DOOM Slayer, in this never-before-seen dark and sinister medieval war against Hell.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9b3o.jpg",
+      "resume": "DOOM: The Dark Ages is a prequel to DOOM and DOOM Eternal, following the origin of the DOOM Slayer’s rage as players step into boots in medieval war against Hell."
+    },
+    {
+      "id": 252476,
+      "name": "Prince of Persia: The Lost Crown",
+      "rating": 83.64188876590327,
+      "totalRatingCount": 126,
+      "firstReleaseDate": 1705536000,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Dash into a stylish and thrilling action-adventure platformer set in a mythological Persian world where the boundaries of time and space are yours to manipulate. Play as Sargon and evolve from sword-wielding prodigy to extraordinary legend as you master acrobatic combat and unlock new Time Powers and unique super abilities.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6lli.jpg",
+      "resume": "Prince of Persia: The Lost Crown is a platformer set in a Persian world. Play Sargon, evolving from prodigy to legend by mastering combat and unlocking Time Powers and abilities."
+    },
+    {
+      "id": 2062,
+      "name": "Yakuza 4",
+      "rating": 83.62667634827741,
+      "totalRatingCount": 69,
+      "firstReleaseDate": 1268006400,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 14,
+          "name": "Sport"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Yakuza 4 is the fourth game in Sega's crime drama series, known as 'Ryu ga Gotoku' in Japan. As a first for the series, the story is split between the viewpoints of four different protagonists.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1w7p.jpg",
+      "resume": "Yakuza 4 is the fourth game in Sega's crime drama series, called Ryu ga Gotoku in Japan. It is the first to feature four different protagonists."
+    },
+    {
+      "id": 1011,
+      "name": "Borderlands 2",
+      "rating": 83.62452446807805,
+      "totalRatingCount": 1852,
+      "firstReleaseDate": 1347926400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "A new era of shoot and loot is about to begin. Play as one of four new vault hunters facing off against a massive new world of creatures, psychos and the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in 4 player co-op on a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co9ba3.jpg",
+      "resume": "Play as one of four vault hunters and fight the mastermind Handsome Jack. Team up in 4‑player co‑op on a living planet while seeking revenge and redemption."
+    },
+    {
+      "id": 549,
+      "name": "God of War",
+      "rating": 83.62143230705598,
+      "totalRatingCount": 1045,
+      "firstReleaseDate": 1111449600,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "God of War is an action-adventure hack-and-slash video game developed by Santa Monica Studio and published by Sony Computer Entertainment (SCE). Initially launched for the PlayStation 2, the game stands as the first instalment in the God of War series and the third in chronological order. Loosely inspired by Greek mythology, it unfolds in ancient Greece with vengeance as its central theme. The player takes on the role of Kratos, the protagonist, a Spartan warrior devoted to the Olympian gods. Tasked by the goddess Athena, Kratos is assigned to eliminate Ares, the God of War and Kratos' former mentor. Ares had deceitfully manipulated Kratos into killing his wife and daughter. As Ares attacks Athens fueled by hatred for Athena, Kratos embarks on a quest to locate Pandora's Box, the sole object capable of permanently stopping the vengeful god.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3ddc.jpg",
+      "resume": "God of War, released for PS2, follows Spartan warrior Kratos, tasked by Athena to kill Ares, who betrayed him. Kratos seeks Pandora's Box to end Ares' wrath."
+    },
+    {
+      "id": 12527,
+      "name": "Yakuza 6: The Song of Life",
+      "rating": 83.60191264652136,
+      "totalRatingCount": 104,
+      "firstReleaseDate": 1481155200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 25,
+          "name": "Hack and slash/Beat 'em up"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Step into Japan's criminal underworld in this explosive action brawler starring legendary yakuza, Kazuma Kiryu, who is hellbent on unraveling the truth around his daughter's tragic accident.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co492w.jpg",
+      "resume": "Kazuma Kiryu, a legendary yakuza, investigates the truth behind his daughter's tragic accident in Japan's criminal underworld."
+    },
+    {
+      "id": 4519,
+      "name": "Jurassic Park",
+      "rating": 83.59560737449166,
+      "totalRatingCount": 54,
+      "firstReleaseDate": 746323200,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Jurassic Park is a SEGA Genesis/Mega Drive game based on the first movie.\nThe game was playable as either Dr. Alan Grant or a Velociraptor (presumably the The Big One). Grant is the default character but can be changed using the 'Player' option on the game's main menu to swich to the raptor.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2zdt.jpg",
+      "resume": "Jurassic Park is a SEGA Genesis/Mega Drive game based on the first movie. Players can play as Dr. Alan Grant or a Velociraptor, switching via the main menu."
+    },
+    {
+      "id": 109274,
+      "name": "Judgment",
+      "rating": 83.59039625848693,
+      "totalRatingCount": 102,
+      "firstReleaseDate": 1544659200,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Judgment is an action-adventure game played from a third-person perspective. The game is a legal thriller set in the Yakuza world of Kamurocho and follows private detective Takayuki Yagami as he investigates a serial murder case. It stars Japanese actor Takuya Kimura and employs a fighting system similar to that of Yakuza 0 where players can change into different styles, namely crane-style which is more focused on fighting groups and tiger-style which is more focused on fighting individuals. Additionally, the game features an investigation mode where the player must find traces of the criminal.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqt.jpg",
+      "resume": "Judgment is an action‑adventure set in Kamurocho’s Yakuza world. Detective Takayuki Yagami, played by Takuya Kimura, investigates a murder while switching between crane‑style combat, tiger‑style solo combat, and investigation mode."
+    },
+    {
+      "id": 895,
+      "name": "The Longest Journey",
+      "rating": 83.57765807660557,
+      "totalRatingCount": 198,
+      "firstReleaseDate": 942969600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The Longest Journey is an amazing graphical adventure, where the player controls the protagonist, April Ryan, on her journey between parallel universes. Embark on an exciting and original journey of discovery, where you will explore, solve puzzles, meet new people, face terrifying monsters, learn, grow, and live the adventure of a lifetime!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co5vwq.jpg",
+      "resume": "The Longest Journey is a graphical adventure where you play April Ryan traveling between parallel universes. You explore, solve puzzles, meet people, and confront monsters."
+    },
+    {
+      "id": 1187,
+      "name": "Crash Bandicoot: Warped",
+      "rating": 83.57103252962332,
+      "totalRatingCount": 559,
+      "firstReleaseDate": 910051200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Crash Bandicoot: Warped is the third game in the Crash Bandicoot series and the first to feature Coco as a playable character. The player takes control of Crash and Coco Bandicoot, who must travel back and forward in time and gather 25 crystals before Uka Uka and Doctor Neo Cortex can do so. Much of the game takes place in the Time Twister which acts as the hub area of the game. The Time-Twister is split up into five chambers, each chamber has five buttons that open portals to different levels. The goal in each level is to find and obtain the crystal hidden in the level. Crash Bandicoot: Warped was lauded by critics in many areas, and the game has been considered one of the best video games of all time.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co873w.jpg",
+      "resume": "Crash Bandicoot: Warped is the third series entry.  \nPlayers control Crash and Coco, traveling through time to collect 25 crystals.  \nUka Uka Doctor Cortex chase; Twister has five portal chambers."
+    },
+    {
+      "id": 36911,
+      "name": "Dragon Ball FighterZ",
+      "rating": 83.56389663189611,
+      "totalRatingCount": 241,
+      "firstReleaseDate": 1516924800,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        }
+      ],
+      "summary": "Dragon Ball FighterZ is born from what makes the Dragon Ball series so loved and famous: endless spectacular fights with its all-powerful fighters.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1nih.jpg",
+      "resume": "Dragon Ball FighterZ offers endless fights featuring powerful fighters."
+    },
+    {
+      "id": 9604,
+      "name": "TagPro",
+      "rating": 83.56113336491799,
+      "totalRatingCount": 180,
+      "firstReleaseDate": 1359676800,
+      "genres": [
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "TagPro is a free-to-play online multiplayer capture the flag video game originally designed and programmed by Nick Riggs. The first version was released in February 2013, after Riggs began experimenting with software platform Node.js. The game is named after one of its three obtainable power-ups. It follows the basic rules of capture the flag, along with some modifications, including power-ups, spikes, and other map elements.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3wf7.jpg",
+      "resume": "TagPro is a free-to-play capture the flag game by Nick Riggs, released Feb 2013.  \nIt is named after one of its three power-ups and includes spikes and other map elements."
+    },
+    {
+      "id": 6294,
+      "name": "Worms World Party",
+      "rating": 83.54213713529774,
+      "totalRatingCount": 151,
+      "firstReleaseDate": 986515200,
+      "genres": [
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Worms World Party is an artillery game, which is a type of Turn-based strategy game. Like its predecessors, Worms World Party involves controlling a team of worms and using a collection of weaponry to eliminate the opposing team(s). The worms can walk and jump around and use tools such as the ninja rope and parachute to move to otherwise unreachable locations. The worms have an arsenal of dozens of weapons, ranging from longbows to bazookas and from fireballs to Holy Hand Grenades.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1xjg.jpg",
+      "resume": "Worms World Party is a turn‑based artillery game. Players control worms, moving them with ninja rope or parachute, and use many weapons to eliminate opponents."
+    },
+    {
+      "id": 3140,
+      "name": "The Legend of Dragoon",
+      "rating": 83.54119985028574,
+      "totalRatingCount": 92,
+      "firstReleaseDate": 944092800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "The Legend of Dragoon is a Japanese-style RPG, visually reminiscent of Final Fantasy VII (pre-rendered backgrounds, 3D characters and battle scenes, CG animations to advance the story). Battle mechanics follow the traditional turn-based prototype, with a few additions such as critical attacks dependent on precise timing, and \"dragoon\" transformations, which allow access to powerful techniques. Game progression is largely linear, with the \"world map\" replaced by locations represented as connected dots.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4pan.jpg",
+      "resume": "Japanese-style RPG with pre‑rendered backgrounds, 3D characters, and CG animations. Turn‑based battles include timing‑based critical attacks and dragoon transformations. Progression is linear, using connected‑dot locations instead of a world map."
+    },
+    {
+      "id": 27367,
+      "name": "Yoku's Island Express",
+      "rating": 83.52686488140333,
+      "totalRatingCount": 115,
+      "firstReleaseDate": 1527552000,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 30,
+          "name": "Pinball"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        },
+        {
+          "id": 33,
+          "name": "Arcade"
+        }
+      ],
+      "summary": "Yoku’s Island Express is an open world/metroidvania-style pinball adventure, Seamlessly blending platform navigation with pinball mechanics across a large open world. Yoku the dung beetle sets foot on the beach of Mokumana Island, ready to take on the duties as the new postman. But the ancient island God is trapped in a restless sleep and the islanders are plagued by quakes and storms brought forth by its nightmares. Yoku's Island Express is a unique and quirky adventure with handcrafted visuals, where you'll soar through the air, vacuum explosive snails, fight a Screetch, feed starving lemurs, discover the mystery of the Fruit Altar, wake an old god, and hopefully help tiny Yoku rebuild the island post-office.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob89x.jpg",
+      "resume": "Yoku’s Island Express is open world pinball adventure where beetle postman navigates Mokumana Island, battling quakes, discovering Fruit Altar, vacuuming explosive snails, and waking trapped god to restore office."
+    },
+    {
+      "id": 363,
+      "name": "Heroes of Might and Magic II: The Succession Wars",
+      "rating": 83.5177119232202,
+      "totalRatingCount": 143,
+      "firstReleaseDate": 844128000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        }
+      ],
+      "summary": "Heroes of Might and Magic II: The Succession Wars is a turn-based strategy video game developed by Jon Van Caneghem through New World Computing and published in 1996 by the 3DO Company. The game is the second installment of the Heroes of Might and Magic series and is typically credited as the breakout game for the series. Heroes II was voted the sixth-best PC game of all time by PC Gamer in May 1997.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co3w52.jpg",
+      "resume": "Heroes of Might and Magic II, a 1996 turn‑based game by New World Computing, 3DO published it, is the second entry and was PC Gamer’s sixth‑best PC game in 1997."
+    },
+    {
+      "id": 11233,
+      "name": "What Remains of Edith Finch",
+      "rating": 83.51560047000171,
+      "totalRatingCount": 986,
+      "firstReleaseDate": 1492992000,
+      "genres": [
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "What Remains of Edith Finch is a collection of short stories about a cursed family in Washington State.\n\nEach story offers a chance to experience the life of a different family member with stories ranging from the early 1900s to the present day. The gameplay and tone of the stories are as varied as the family members themselves. The only constants are that each is played from a first-person perspective and that each story ends with that family member's death. It's a game about what it feels like to be humbled and astonished by the vast and unknowable world around us.\n\nYou'll follow Edith Finch as she explores the history of her family and tries to figure out why she's the last Finch left alive.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbj.jpg",
+      "resume": "Explore the Finch family history in Washington first‑person stories that end with each member’s death, spanning from 1900s to today as Edith discovers why she is the last Finch alive."
+    },
+    {
+      "id": 2585,
+      "name": "Skate",
+      "rating": 83.4900019987488,
+      "totalRatingCount": 75,
+      "firstReleaseDate": 1189728000,
+      "genres": [
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 14,
+          "name": "Sport"
+        }
+      ],
+      "summary": "SKATE delivers the feel of skating through innovative controls, authentic cameras and a fully reactive skateboarding city. The game features professional skaters such as Danny Way and PJ Ladd, as well as a reactive city and relevant in-game cameras. SKATE's unique control scheme captures the true feel of skating versus the typical button mashing gameplay of past skating games. Featuring physics-driven animations, gamers will have a unique gaming experience every time they pick up the controller since no two tricks will ever be the same.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6hns.jpg",
+      "resume": "SKATE offers realistic skating with innovative controls and cameras in a reactive city. It features pro skaters Danny Way and PJ Ladd, and physics-driven animations that make each trick unique."
+    },
+    {
+      "id": 3047,
+      "name": "Forza Horizon",
+      "rating": 83.48135168997283,
+      "totalRatingCount": 154,
+      "firstReleaseDate": 1350950400,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "Forza Horizon is an action racing game set on the epic open roads of Colorado with a thrilling music festival backdrop. Combining stunning graphics and cutting-edge music with legendary Forza authenticity and a superb collection of cars to drive, Forza Horizon is an open-world automotive playground that puts a spotlight on speed, style, and the freedom of the open road. This is where cars belong!",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co228y.jpg",
+      "resume": "Forza Horizon is an action racing game set on Colorado's open roads, featuring a music festival backdrop. It offers an open‑world environment with a large car collection and high‑quality graphics."
+    },
+    {
+      "id": 1339,
+      "name": "Psychonauts",
+      "rating": 83.47419307876532,
+      "totalRatingCount": 412,
+      "firstReleaseDate": 1113868800,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Psychonauts is a platform-adventure game developed by Double Fine Productions and released in 2005. It follows Razputin “Raz” Aquato, a young psychic who runs away from the circus to attend a summer camp for aspiring psychonauts. Players explore imaginative levels set inside the minds of different characters, each reflecting their mental states. Gameplay combines platforming, combat, and the use of psychic abilities such as telekinesis and levitation. The game was praised for its creativity, humor, and distinctive art style.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob7ms.jpg",
+      "resume": "Psychonauts, 2005 platform‑adventure from Double Fine, follows psychic Raz at summer camp where players explore characters' minds. It blends platforming, combat, and powers, praised for creativity, humor, and art style."
+    },
+    {
+      "id": 143114,
+      "name": "Total War: Warhammer III",
+      "rating": 83.47157986876013,
+      "totalRatingCount": 52,
+      "firstReleaseDate": 1645056000,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "The cataclysmic conclusion to the Total War: Warhammer trilogy is coming. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons or command them?",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaecf.jpg",
+      "resume": "Total War: Warhammer III concludes the trilogy. Players rally forces in the Realm of Chaos, a horror dimension that decides the world's fate. Choose to conquer or command Daemons."
+    },
+    {
+      "id": 238,
+      "name": "Riven: The Sequel to Myst",
+      "rating": 83.47027009364001,
+      "totalRatingCount": 89,
+      "firstReleaseDate": 878256000,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Riven: The Sequel to Myst is a graphic adventure puzzle game developed by Cyan and released in 1997. It continues the story of Myst, following the player’s journey to rescue Atrus’s wife, Catherine, from a decaying world. The game features pre-rendered environments with complex, interconnected puzzles and minimal direct guidance.\nIts visuals, sound design, and world-building were praised for their depth and realism.\nRiven expanded on Myst’s narrative and gameplay scale, becoming one of the most acclaimed adventure games of its time.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2jlf.jpg",
+      "resume": "Riven, a 1997 Cyan graphic adventure puzzle game, follows Myst.  \nIt follows the player rescuing Atrus’s wife Catherine in a decaying world with puzzles praised for visuals, sound, and world‑building."
+    },
+    {
+      "id": 2993,
+      "name": "The Wolf Among Us",
+      "rating": 83.45817096080246,
+      "totalRatingCount": 1187,
+      "firstReleaseDate": 1381449600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "The Wolf Among Us is a five-episode series from the creators of the 2012 Game of the Year: The Walking Dead. Based on Fables (DC Comics/Vertigo), an award-winning comic book series, it is an often violent, mature and hard-boiled thriller where the characters and creatures of myth, lore and legend are real and exist in our world. As Bigby Wolf - The Big Bad Wolf in human form - you will discover that the brutal, bloody murder of a Fable is just a taste of things to come, in a game series where your every decision can have enormous consequences.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcy.jpg",
+      "resume": "The Wolf Among Us is a five‑episode series by Walking Dead creators, based on the Fables comics. Play as Bigby Wolf in a thriller where characters exist and choices matter."
+    },
+    {
+      "id": 1280,
+      "name": "Breath of Fire IV",
+      "rating": 83.4566772916414,
+      "totalRatingCount": 81,
+      "firstReleaseDate": 956793600,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 16,
+          "name": "Turn-based strategy (TBS)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Breath of Fire IV is a single-player game that continues the story with these \"dragon people,\" who gave their lives to eradicate the evil goddess and restore peace in their world. This time around, battle has broken out between two powerful continents, and the fair Princess Elena has disappeared during a tour of the war-torn region. The princess's sister, Nina, who reigns o'er the Windia Kingdom, vows to retrieve her missing sibling. She meets Ryu along the way, who joins the epic quest",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co6opw.jpg",
+      "resume": "Breath of Fire IV follows dragon people who died to defeat a goddess. In a war between continents, Princess Elena disappears; her sister Nina seeks her with ally Ryu."
+    },
+    {
+      "id": 731,
+      "name": "Grand Theft Auto IV",
+      "rating": 83.45032750690842,
+      "totalRatingCount": 1848,
+      "firstReleaseDate": 1209427200,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 10,
+          "name": "Racing"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Grand Theft Auto IV is an action-adventure video game developed by Rockstar North and published by Rockstar Games. It is the eleventh title in the Grand Theft Auto series, and the first main entry since 2004's Grand Theft Auto: San Andreas.\n\nThe game is played from a third-person perspective and its world is navigated on-foot or by vehicle. Throughout the single-player mode, players play as Niko Bellic. An online multiplayer mode is included with the game, allowing up to 32 players to engage in both co-operative and competitive gameplay in a recreation of the single-player setting.\n\nTwo expansion packs were later released for the game, The Lost and Damned and The Ballad of Gay Tony, which both feature new plots that are interconnected with the main Grand Theft Auto IV storyline, and follow new protagonists.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbv.jpg",
+      "resume": "Grand Theft Auto IV is a third‑person action‑adventure by Rockstar North, following Niko Bellic on foot or in vehicles. It offers single‑player, 32‑player online, and two expansions."
+    },
+    {
+      "id": 9602,
+      "name": "Super Smash Bros. for Wii U",
+      "rating": 83.43909792537644,
+      "totalRatingCount": 339,
+      "firstReleaseDate": 1416528000,
+      "genres": [
+        {
+          "id": 4,
+          "name": "Fighting"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        }
+      ],
+      "summary": "Super Smash Bros. for Wii U is the fourth console-based entry in the popular Super Smash Bros. series of fighting games. With an even larger roster of fighters than its predecessors and the introduction eight player battles, Smash for Wii U continues to add to the formula that gamers have loved since 1999.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co213x.jpg",
+      "resume": "Super Smash Bros. for Wii U is the fourth console entry in the series. It features a larger roster and eight-player battles."
+    },
+    {
+      "id": 109455,
+      "name": "Luigi's Mansion 3",
+      "rating": 83.4354436980509,
+      "totalRatingCount": 222,
+      "firstReleaseDate": 1572480000,
+      "genres": [
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Luigi embarks on a dream vacation with Mario and friends upon receiving an invitation to a luxurious hotel. However, his dream quickly becomes a nightmare when King Boo reveals everything had been a ploy to capture Mario and friends. With the assistance of Professor E. Gadd once again, the reluctant and cowardly hero Luigi traverses up and down treacherous floors of the now-ominous hotel on a quest to save them.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co22a9.jpg",
+      "resume": "Luigi goes to a hotel with Mario and friends, but King Boo traps them. With Professor Gadd, Luigi explores the hotel to rescue everyone. He must navigate dangerous floors."
+    },
+    {
+      "id": 25260,
+      "name": "Dusk",
+      "rating": 83.4332662039212,
+      "totalRatingCount": 107,
+      "firstReleaseDate": 1544400000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Battle through an onslaught of mystical backwater cultists, possessed militants and even darker forces as you attempt to discover just what lurks beneath the earth in this retro FPS inspired by all your 90's favorites. Featuring a full single player campaign, endless survival mode and classic arena multiplayer.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4b39.jpg",
+      "resume": "Fight mystical cultists, possessed militants, and darker forces in a retro FPS. Explore underground secrets. Includes single-player campaign, endless survival, and arena multiplayer."
+    },
+    {
+      "id": 548,
+      "name": "Gears of War 2",
+      "rating": 83.4331458965992,
+      "totalRatingCount": 443,
+      "firstReleaseDate": 1226016000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "In Gears of War 2, The COG continues its fight against the Locust horde, who are attempting to sink all of the cities on the planet Sera by using a big riftworm to eat the ground beneath them. Sergeant Marcus Fenix leads Delta Squad into the depths of the planet to try to stop the worm from eating but instead they discover the true intent of the Locust actions.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co28gg.jpg",
+      "resume": "The COG fights the Locust, who use a riftworm to sink Sera's cities. Sergeant Marcus Fenix leads Delta Squad into planet to stop the worm and uncover Locust's motives."
+    },
+    {
+      "id": 5062,
+      "name": "Chaos on Deponia",
+      "rating": 83.42480561499775,
+      "totalRatingCount": 110,
+      "firstReleaseDate": 1352160000,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "With this long-expected sequel to the critically highly acclaimed and lavishly praised Deponia, the player enters round two. Chaos on Deponia turns out to be even wackier than its predecessor and instantly puts the player under its spell.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1qqo.jpg",
+      "resume": "Chaos on Deponia is a sequel to Deponia. It continues the story with new challenges. The game is more chaotic than the original."
+    },
+    {
+      "id": 9694,
+      "name": "Danganronpa 2: Goodbye Despair",
+      "rating": 83.42160071288676,
+      "totalRatingCount": 264,
+      "firstReleaseDate": 1343260800,
+      "genres": [
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 34,
+          "name": "Visual Novel"
+        }
+      ],
+      "summary": "The follow up to Danganronpa: Trigger Happy Havoc. The main character, Hajime Hinata, a new 'Ultimate' student at Hope's Peak Academy. On their first day, Hajime and all of his classmates are taken on a field trip to the mysterious Jabberwock island by their anthropomorphic rabbit teacher, Usami. Usami explains that on this island the students are to have fun together and become friends to gather Hope Fragments. Usami's field trip does not go as planned when Monokuma appears and begins a new Killing Game. Anyone that wants to leave the island must commit a murder and get away with it. If the murderer is successful, he/she is allowed to leave the island, while everyone else is killed. When a murder occurs, the player investigates. After the investigations, a trial commences to determine who the culprit is.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2h6j.jpg",
+      "resume": "Hajime Hinata, an Ultimate student, goes on a field trip to Jabberwock Island. Monokuma forces a Killing Game where murderers can escape. Players investigate, hold trials to find the culprit."
+    },
+    {
+      "id": 1570,
+      "name": "Jet Set Radio Future",
+      "rating": 83.40615335130686,
+      "totalRatingCount": 65,
+      "firstReleaseDate": 1014336000,
+      "genres": [
+        {
+          "id": 7,
+          "name": "Music"
+        },
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 10,
+          "name": "Racing"
+        },
+        {
+          "id": 14,
+          "name": "Sport"
+        }
+      ],
+      "summary": "Jet Set Radio Future is a video game developed by Smilebit and is the sequel to Jet Set Radio. Similar to the original, it depicts a future Tokyo where freedom of expression is outlawed. The user plays a character in the GG's, a gang of in-line skating graffiti artists who skate around Tokyo covering up rival gangs' graffiti, knocking over Rokkaku police, and dancing to the electric soundtrack. The game uses a cel-shaded style of animation, and has been widely acclaimed for its unique music style, detailed art, and gameplay. Though the game is set in the future, its style and content incorporates many aspects of 1980's old school hip hop culture, as well as 1990's J-pop culture.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co87hw.jpg",
+      "resume": "Jet Set Radio Future, a Smilebit sequel, follows GG graffiti artists Tokyo where expression is banned; cel‑shaded skate, cover rival tags, topple police, enjoy gameplay 80s hip hop 90s J‑pop."
+    },
+    {
+      "id": 529,
+      "name": "Far Cry 3",
+      "rating": 83.38808740597919,
+      "totalRatingCount": 2185,
+      "firstReleaseDate": 1354060800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Explore an island playground as stunningly beautiful as it is diverse – from mountain ranges to swampy grasslands and white sandy beaches. Fight your way through the island’s towns, temples, river ports and more.\n\nEncounter a diverse and realistic cast of characters, including one of Far Cry’s most notorious villains: Vaas Montenegro. Dive into this deep and enriching story where morals are questionable and hope is all but abandoned.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1vpd.jpg",
+      "resume": "Explore a diverse island with mountains, swamps, beaches, towns, temples, and river ports. Face Vaas Montenegro and other characters in a story with questionable morals and bleak hope."
+    },
+    {
+      "id": 30225,
+      "name": "Kenshi",
+      "rating": 83.3841479596247,
+      "totalRatingCount": 74,
+      "firstReleaseDate": 1544054400,
+      "genres": [
+        {
+          "id": 11,
+          "name": "Real Time Strategy (RTS)"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "A free-roaming squad based RPG. Focusing on open-ended sandbox gameplay features rather than a linear story. Be a trader, a thief, a rebel, a warlord, an adventurer, a farmer, a slave, or just food for the cannibals. Research new equipment and craft new gear. Purchase and upgrade your own buildings to use as safe fortified havens when things go bad, or use them to start up a business. Aid or oppose the various factions in the world while striving for the strength and wealth necessary to simply survive in the harsh desert. Train your men up from puny victims to master warriors. Carry your wounded squad mates to safety and get them all home alive.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/coaauw.jpg",
+      "resume": "Kenshi is a free‑roaming squad RPG set in an open‑ended sandbox desert world. Players can research gear, build safe havens, ally or oppose factions, and train and protect their squad."
+    },
+    {
+      "id": 5761,
+      "name": "Burnout 3: Takedown",
+      "rating": 83.37823932970323,
+      "totalRatingCount": 220,
+      "firstReleaseDate": 1094169600,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "Take anarchic driving destruction on a world tour and experience the pure arcade adrenaline-rush of Burnout 3: Takedown. Combine aggressive high-speed racing with the ultimate in slamming crash action to boost your way to the top. Takedown the competition across the USA, Europe and the Far East in over 60 Race events, or crush all comers with Burnout 3: Takedown's junction-jamming Crash event pileups. Push it to the next level with five competitive multiplayer models, then move the mayhem online to compete against up to seven players. Reap the rewards of dangerous driving, earning Crash $ and Burnout Points to unlock over 60 hot vehicles, coveted skill trophies, front-page headlines and much more.\n(Source PS2 Game Manual)",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1y53.jpg",
+      "resume": "Burnout 3: Takedown is a racing game with high‑speed races and crash events across the USA, Europe, and Far East. Earn Crash $ Burnout Points to unlock vehicles, trophies, headlines."
+    },
+    {
+      "id": 289,
+      "name": "Age of Empires",
+      "rating": 83.37230693655866,
+      "totalRatingCount": 676,
+      "firstReleaseDate": 876873600,
+      "genres": [
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Age of Empires (AoE) is a history-based real-time strategy video game developed by Ensemble Studios and published by Microsoft. The game uses the Genie, a 2D sprite-based game engine. The game allows the user to act as the leader of an ancient civilization by advancing it through four ages (the Stone, Tool, Bronze, and Iron Ages), gaining access to new and improved units with each advance.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1zsh.jpg",
+      "resume": "Age of Empires, game by Ensemble Studios and Microsoft, uses the Genie 2D engine and lets players advance civilization through Stone, Tool, Bronze, and Iron Ages, unlocking units each age."
+    },
+    {
+      "id": 740,
+      "name": "Halo: Combat Evolved",
+      "rating": 83.37080605919456,
+      "totalRatingCount": 907,
+      "firstReleaseDate": 1005782400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of Halo.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2r2r.jpg",
+      "resume": "The Covenant is wiping out Earth's empire. You play Master Chief, a soldier, marooned on the ring world Halo. He fights the Covenant to protect humanity and uncover Halo's mysteries."
+    },
+    {
+      "id": 21062,
+      "name": "Sonic Mania",
+      "rating": 83.36806685591006,
+      "totalRatingCount": 332,
+      "firstReleaseDate": 1502755200,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Experience the ultimate celebration of past and future in Sonic Mania! Re-live the Sonic of the past with an exciting new twist on classic zones while fighting against new bosses and Dr. Eggman’s evil robot army. Go head to-head with players in Competition Mode or play in Co-Op Mode with a friend.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cob1t0.jpg",
+      "resume": "Sonic Mania revisits classic zones with new twists, featuring new bosses and Dr. Eggman's robot army. Players can compete in Competition Mode or team up in Co‑Op Mode."
+    },
+    {
+      "id": 1150,
+      "name": "Broken Sword: The Smoking Mirror",
+      "rating": 83.35740591714926,
+      "totalRatingCount": 163,
+      "firstReleaseDate": 877046400,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Broken Sword: The Smoking Mirror is a 2D adventure game played from a third-person perspective. Via a point-and-click interface, the player guides protagonist George Stobbart through the game's world and interacts with the environment by selecting from multiple commands, while Nicole Collard is also a playable character in selected portions of the game.\n\nThe player controls George's movements and can engage in dialogue with other characters through conversation trees to gain hints of what needs to be done to solve the puzzles or to progress the plot. He also have to collect objects that can be used with either other collectible objects, parts of the scenery or with other people in order to solve puzzles and progress in the game. By right-clicking on an object, the player gets a description and clues. The player character's death is possible if he makes a wrong decision.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4wsk.jpg",
+      "resume": "Broken Sword: The Smoking Mirror is point-and-click adventure where control George Stobbart, trees for hints, combine items to solve puzzles, and play Nicole Collard parts. Wrong choices can kill George."
+    },
+    {
+      "id": 15,
+      "name": "Fallout 3",
+      "rating": 83.34991805757852,
+      "totalRatingCount": 1751,
+      "firstReleaseDate": 1225152000,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        }
+      ],
+      "summary": "Fallout 3 from the creators of the award-winning Oblivion, featuring one of the most realized game worlds ever created. Create any kind of character you want and explore the open wastes of post-apocalyptic Washington D.C. Every minute is a fight for survival as you encounter Super Mutants, Ghouls, Raiders and other dangers of the Wasteland. Prepare for the future.\n\nThe third game in the Fallout series, Fallout 3 is a singleplayer action role-playing game (RPG) set in a post-apocalyptic Washington DC. Combining the horrific insanity of the Cold War era theory of mutually assured destruction gone terribly wrong, with the kitschy naivety of American 1950s nuclear propaganda, Fallout 3 will satisfy both players familiar with the popular first two games in its series as well as those coming to the franchise for the first time.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycw.jpg",
+      "resume": "Fallout 3 is a single-player action RPG set in post-apocalyptic Washington DC. Players create any character and explore open wastes, fighting Super Mutants, Ghouls, and Raiders."
+    },
+    {
+      "id": 1285,
+      "name": "Guitar Hero",
+      "rating": 83.33639896906874,
+      "totalRatingCount": 119,
+      "firstReleaseDate": 1131408000,
+      "genres": [
+        {
+          "id": 7,
+          "name": "Music"
+        }
+      ],
+      "summary": "Guitar Hero is a 2005 music rhythm video game developed by Harmonix and published by RedOctane for the PlayStation 2. It is the first entry in the Guitar Hero series. Guitar Hero was released in November 2005 in North America, April 2006 in Europe and June 2006 in Australia. The game's development was a result of collaboration between RedOctane and Harmonix to bring a Guitar Freaks-like game to United States.\n\nThe game features a guitar-shaped controller (resembling a miniature Gibson SG) that the player uses to simulate playing rock music. The gameplay is similar to GuitarFreaks, in that the player presses buttons on the guitar controller in time with musical notes that scroll on the game screen. The game features covers of 30 popular rock songs spanning five decades of rock, from the 1960s up through 2005, in addition to bonus tracks. Guitar Hero became a surprise hit, earning critical acclaim and winning many awards from major video game publications, and was considered one of the most influential games of the first decade of the 21st century. The game's success launched the Guitar Hero franchise, which has earned more than $2 billion in sales, spawning several sequels, expansions, and other game-related products.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co1wa0.jpg",
+      "resume": "Guitar Hero (2005) is a rhythm game for PS2 that uses a guitar-shaped controller to play 30 rock covers from 1960s‑2005. It received critical acclaim and launched a $2B franchise."
+    },
+    {
+      "id": 1186,
+      "name": "Crash Bandicoot 2: Cortex Strikes Back",
+      "rating": 83.30567077390411,
+      "totalRatingCount": 529,
+      "firstReleaseDate": 878774400,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Crash Bandicoot 2: Cortex Strikes Back is the second game in the Crash Bandicoot series, and the sequel to the original game. The gameplay is largely similar to that of the original, as players make their way through a limited environment whilst breaking crates that contains bonuses. The goal of the game is to gather 25 crystals for Crash's nemesis, Doctor Neo Cortex. The crystals are scattered between 25 different levels accessible via Warp Rooms, which are hub areas of the game. A level is cleared by collecting its respective crystal and reaching the end of its path, which returns Crash to the Warp Room.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co82vt.jpg",
+      "resume": "Crash Bandicoot 2: Cortex Strikes Back, second game, has players break crates, collect 25 crystals across 25 levels via Warp Rooms, and finish each level by reaching end to return."
+    },
+    {
+      "id": 18221,
+      "name": "Kirby: Planet Robobot",
+      "rating": 83.29232752075653,
+      "totalRatingCount": 65,
+      "firstReleaseDate": 1461801600,
+      "genres": [
+        {
+          "id": 8,
+          "name": "Platform"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "\"Harness the power of a mysterious mech to stop ruthless invaders from mechanizing Kirby's home world. Smash through tough obstacles, lift heavy objects with ease, and scan enemies to shape-shift into new Modes with powerful abilities in this supercharged action-platformer!\n\nThat's right—Kirby's Robobot Armor can shape-shift into different modes by scanning enemies to copy their moves—like the new Jet Mode. Not to mention, Kirby can copy abilities the old-fashioned way too—by inhaling them! After saving the world, team up with three friends to defeat foes in Team Kirby Clash, an RPG-styled 4-player brawl where you choose from varied roles and level them up.\"",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/cobcm6.jpg",
+      "resume": "Kirby uses a mech to stop invaders, navigate obstacles, and scan enemies to change modes or copy abilities by inhaling. Afterward, players can team up in a 4‑player RPG brawl."
+    },
+    {
+      "id": 207,
+      "name": "The Dig",
+      "rating": 83.28372650111503,
+      "totalRatingCount": 118,
+      "firstReleaseDate": 817689600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "In the dead of space, something is alive.\n\nA deep space adventure by Sean Clark in collaboration with filmmaker Steven Spielberg.\n\nYou've saved the Earth from Total Destruction. Now, Can you save yourself?\n\nAn asteroid the size of a small moon is on a crash course toward Earth, and only NASA veteran Boston Low has the expertise to stop it. Along for the ride are award-winning journalist Maggie Robbins and internationally renowned geologist Ludger Brink.\n\nOnce the wayward asteroid is nuked into a safe orbit, the trio conducts a routine examination of the rocky surface.\n\nWhat they uncover is anything but routine.\n\nLow, Brink and Robbins unwittingly trigger a mechanism that transforms the asteroid into a crystal-like spacecraft. The team is hurled across the galaxy to a planet so desolate, Brink is moved to name it Cocytus, after the 9th circle of Hell in Dante's Inferno. The bleak landscape was obviously once home to a highly enveloped civilization, with remnants of sophisticated architecture, advanced technology and an intricate network of underground tunnels.\n\nBut no Cocytans.\n\nWho were the original inhabitants of this once rich empire-turned-wasteland? What are those apparitions that mysteriously appear from time to time? Why have Low, Robbins and Brink been brought to this place? And how can Low keep his team from unraveling in the face of such uncertainly? To return to Earth, the must dig for answer, both on the planet's surface and deep within themselves.\n\nFrom the combined talents of LucasArts and legendary filmmaker Steven Spielberg comes an epic adventure that plunges headlong into the very core of the unknown. And takes you with it.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co20jq.jpg",
+      "resume": "Boston Low, journalist Maggie Robbins, geologist Ludger Brink nuke an asteroid into orbit, trigger its transformation, and are sent to planet Cocytus, where they must find answers to return home."
+    },
+    {
+      "id": 180,
+      "name": "Full Throttle",
+      "rating": 83.27519848862501,
+      "totalRatingCount": 183,
+      "firstReleaseDate": 800841600,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Full Throttle is a computer adventure game developed and published by LucasArts. It was designed by Tim Schafer, who would later go on to design Grim Fandango, Psychonauts and Brütal Legend. The game features voice actors Roy Conrad and Mark Hamill. It was released on April 30, 1995. It is the tenth game to use the SCUMM adventure game engine.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co30yp.jpg",
+      "resume": "Full Throttle is a LucasArts adventure game designed by Tim Schafer, released April 30, 1995. It features voice actors Roy Conrad and Mark Hamill and is the tenth SCUMM title."
+    },
+    {
+      "id": 131890,
+      "name": "Sea of Stars",
+      "rating": 83.26488915687636,
+      "totalRatingCount": 134,
+      "firstReleaseDate": 1693180800,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        },
+        {
+          "id": 32,
+          "name": "Indie"
+        }
+      ],
+      "summary": "Sea of Stars is a turn-based RPG inspired by the classics. Promising the Sabotage touch in every system, Sea of Stars aims to modernize the classic RPG in terms of turn-based combat, storytelling, exploration and interactions with the environment, while still offering a hearty slice of nostalgia and good old, simple fun.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co215b.jpg",
+      "resume": "Sea of Stars is a turn‑based RPG inspired by classics. It modernizes combat, storytelling, exploration, and environmental interactions while offering nostalgia and simple fun."
+    },
+    {
+      "id": 8291,
+      "name": "Discworld",
+      "rating": 83.25285770337807,
+      "totalRatingCount": 55,
+      "firstReleaseDate": 795398400,
+      "genres": [
+        {
+          "id": 2,
+          "name": "Point-and-click"
+        },
+        {
+          "id": 9,
+          "name": "Puzzle"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Discworld is a game released for PC (subsequently Mac, and Playstation) by Teeny Weeny / Perfect 10 studios in 1995. The game was released both on floppy disk and CD-Rom. The latter featured a commentary team created of many veterans of famous Brit-Coms. This included Monty Python's Eric Idle, Radio 4's (later to be more famous) Rob Brydon, ex- Doctor Who John Pertwee, 70s pop singer Kate Robbins, and Blackadder star Tony Robinson. The game is a riff on the Discworld title 'Guards, Guards', however many elements of the text have been shifted, not least the inclusion of Rincewind as protagonist.\n\nThe game featured puzzles which were considered far too difficult and obtuse for gamers of the time, but the game itself has had a lasting legacy, now being accepted into such emulators as SCUMMVM.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co4z82.jpg",
+      "resume": "Discworld (1995) for PC, Mac, PlayStation Teeny Weeny/Perfect 10 Rincewind puzzles. CD version includes commentary Eric Idle, Rob Brydon, John Pertwee, Kate Robbins, Tony Robinson. Runs on SCUMMVM."
+    },
+    {
+      "id": 97,
+      "name": "Need for Speed: Underground 2",
+      "rating": 83.23648918544309,
+      "totalRatingCount": 849,
+      "firstReleaseDate": 1099958400,
+      "genres": [
+        {
+          "id": 10,
+          "name": "Racing"
+        }
+      ],
+      "summary": "Need For Speed Underground 2 takes place in Bayview after the events of Need for Speed: Underground. The prologue begins with the player driving in a Nissan 350Z in Olympic City (though the racing scenes are actually in Bayview), the setting of NFS:UG. He then receives a race challenge from a rather ominous personality who offers him a spot on his crew, but \"won't take 'no' for an answer.\" The player races off — despite Samantha's warnings — only to be ambushed by a mysterious driver in a rage that totals his Skyline. The driver, who has a unique scythe tattoo, makes a call confirming the accident, and the flashback fades out.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co209h.jpg",
+      "resume": "In Bayview, a Nissan 350Z receives a crew offer from an ominous figure, races off against warnings, and is ambushed by a driver with a scythe tattoo who totals Skyline."
+    },
+    {
+      "id": 17447,
+      "name": "Titanfall 2",
+      "rating": 83.23554825877814,
+      "totalRatingCount": 851,
+      "firstReleaseDate": 1477612800,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        },
+        {
+          "id": 31,
+          "name": "Adventure"
+        }
+      ],
+      "summary": "Titanfall 2 will deliver a crafted experience that explores the unique bond between man and machine. Playable offline, the single player campaign in Titanfall 2 will let fans step out onto the Frontier as a Militia rifleman with aspirations of becoming an elite Pilot. Stranded behind enemy lines and facing overwhelming odds, players must team up with a veteran Titan to uphold a mission they were never meant to carry out.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/fhbeilnghyhhmjqhinqa.jpg",
+      "resume": "Titanfall 2 offers an offline single‑player campaign where you play a Militia rifleman who teams up with a veteran Titan to complete a mission behind enemy lines."
+    },
+    {
+      "id": 124954,
+      "name": "Crusader Kings III",
+      "rating": 83.23524694276688,
+      "totalRatingCount": 192,
+      "firstReleaseDate": 1598918400,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Role-playing (RPG)"
+        },
+        {
+          "id": 13,
+          "name": "Simulator"
+        },
+        {
+          "id": 15,
+          "name": "Strategy"
+        }
+      ],
+      "summary": "Crusader Kings III is the newest generation in the medieval role-playing grand strategy game series Crusader Kings. Expand and improve your realm, whether a mighty kingdom or modest county. Use marriage, diplomacy and war to increase your power and prestige in a meticulously detailed map that stretches from Spain to India, Scandinavia to Central Africa.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co90uu.jpg",
+      "resume": "Crusader Kings III is a strategy game where you grow realm from county to kingdom using marriage, diplomacy, and war across map from Spain to India Scandinavia to Central Africa."
+    },
+    {
+      "id": 926,
+      "name": "Unreal Tournament 2003",
+      "rating": 83.23352678942287,
+      "totalRatingCount": 130,
+      "firstReleaseDate": 1033430400,
+      "genres": [
+        {
+          "id": 5,
+          "name": "Shooter"
+        }
+      ],
+      "summary": "In 2291, consensual murder is legalized, opening the way for a previously underground event. Smaller mining companies have been running smaller matches to channel aggression, but now the Liandri Mining Corporation established a professional league, which quickly proves to be an extremely lucrative way of public entertainment. Liandri entered into the Tournament, as it is officially called, sponsoring their own team, the Corrupt. The Corrupt's leader, Xan Kriegor, quickly achieved champion status and held it for two years. In 2293, a human named Malcolm dethroned him and became champion himself. A huge media figure, Malcolm is hailed as the biggest star in human history and is worshipped as a god. His success nets great rewards for his sponsoring corporation, attracting the attention of jealous rivals both in the arenas of the Tournament and in the corridors of power a galaxy away. Liandri attempted to win back the champion title with Xan MK2 but failed (unknown to the other contestants, each member of the Corrupt is purely robotic, including Xan).\nNow it is 2302. The Tournament is undergoing a massive overhaul. The aging Sniper Rifle (a relic of centuries past) is removed from the Tournament as is \"Assault\" - a team-based event that forms a part of the competition. Many fans of the Tournament complain at these changes, with some combatants refusing to participate in the new format. Malcolm, shortly after his victory, hired two of his former opponents (Brock and Lauren, members of the former Iron Guard team) as teammates in his reformed Thunder Crash team. But the Axon Research Corporation, another of the four great corporations, entered the Tournament as well, sponsoring the geneboosted Juggernaut team, led by the brutal and savage Gorge.",
+      "coverUrl": "//images.igdb.com/igdb/image/upload/t_thumb/co2acz.jpg",
+      "resume": "Liandri Mining Corp created 2291 Tournament with Corrupt team led by Xan Kriegor; in 2293 Malcolm won, and by 2302 Tournament overhauled, Malcolm formed Thunder Crash, Axon entered with Juggernaut."
+    }
+  ]
+}

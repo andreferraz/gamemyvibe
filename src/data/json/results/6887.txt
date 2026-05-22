@@ -1,0 +1,1 @@
+Persona Q is a crawler with Persona 3 and Persona 4 characters, Etrian Odyssey’s perspective and systems. Players choose a protagonist; each side has differences, and choices affect the game.

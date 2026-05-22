@@ -1,0 +1,1 @@
+Japanese-style RPG with pre‑rendered backgrounds, 3D characters, and CG animations. Turn‑based battles include timing‑based critical attacks and dragoon transformations. Progression is linear, using connected‑dot locations instead of a world map.

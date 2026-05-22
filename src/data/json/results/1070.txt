@@ -1,0 +1,1 @@
+Super Mario World is a 2D platformer where Mario defeats Bowser's minions to rescue Princess Peach. It adds a save system, a world map, expanded moves, and new items.

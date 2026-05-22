@@ -1,0 +1,1 @@
+Diablo is an isometric action RPG where players fight monsters in randomized dungeons. Combat is real‑time. Defeating enemies yields experience, gold, and equipment.

@@ -1,0 +1,1 @@
+Worms World Party is a turn‑based artillery game. Players control worms, moving them with ninja rope or parachute, and use many weapons to eliminate opponents.

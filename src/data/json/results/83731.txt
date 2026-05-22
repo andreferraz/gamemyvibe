@@ -1,0 +1,1 @@
+Beat Saber is a rhythm game where you slash incoming beats with sabers. Each beat shows which saber to use and the direction to match. The game features handcrafted levels.

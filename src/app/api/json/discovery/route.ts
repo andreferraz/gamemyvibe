@@ -1,28 +1,10 @@
 import { NextResponse } from "next/server";
-import discoveryGames1 from "@/data/json/discovery-batch-1.json";
-import discoveryGames2 from "@/data/json/discovery-batch-2.json";
-import discoveryGames3 from "@/data/json/discovery-batch-3.json";
-import discoveryGames4 from "@/data/json/discovery-batch-4.json";
-import discoveryGames5 from "@/data/json/discovery-batch-5.json";
-import discoveryGames6 from "@/data/json/discovery-batch-6.json";
-import discoveryGames7 from "@/data/json/discovery-batch-7.json";
 import type { APIResponse } from "../../igdb/types";
-import type { CompactGame, RawGameObject } from "../types";
+import { loadDatasetsByPattern } from "../datasetLoader";
+import type { CompactGame } from "../types";
 import { toCompactGame } from "../utils";
 
-export interface GamesDataset {
-  games: RawGameObject[];
-}
-
-const SOURCES: GamesDataset[] = [
-  discoveryGames1,
-  discoveryGames2,
-  discoveryGames3,
-  discoveryGames4,
-  discoveryGames5,
-  discoveryGames6,
-  discoveryGames7,
-];
+const DISCOVERY_FILE_PATTERN = /^discovery-batch-(\d+)\.json$/;
 
 const MAX_RANDOM_GAMES = 10;
 
@@ -70,9 +52,11 @@ function pickRandomUniqueGenreSetGames(
 
 export async function GET(): Promise<NextResponse<APIResponse<CompactGame[]>>> {
   try {
-    const compactGames = SOURCES.flatMap((dataset) => dataset.games).map(
-      toCompactGame,
-    ) as CompactGame[];
+    const sources = await loadDatasetsByPattern(DISCOVERY_FILE_PATTERN);
+
+    const compactGames = sources
+      .flatMap((dataset) => dataset.games)
+      .map(toCompactGame) as CompactGame[];
 
     const randomUniqueGames = pickRandomUniqueGenreSetGames(
       compactGames,

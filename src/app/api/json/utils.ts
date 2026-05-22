@@ -6,7 +6,7 @@ export function toCompactGame(game: RawGameObject): CompactGame {
   return {
     i: game.id,
     n: game.name,
-    s: game.summary ?? "",
+    s: game.resume ?? game.summary ?? "",
     c: game.coverUrl,
     g: game.genres?.map((genre) => genre.id) ?? [],
     p: game.totalRatingCount,

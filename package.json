@@ -10,6 +10,8 @@
     "collect:top-rated-by-genre": "node scripts/collect-top-rated-by-genre.mjs",
     "collect:top-rated-global": "node scripts/collect-top-rated-global.mjs",
     "collect:discover-games": "node scripts/collect-discover-games.mjs",
+    "build:top-rated-resume-batches": "node scripts/build-top-rated-resume-batches.mjs",
+    "summarize:top-rated": "node scripts/summarize-top-rated-openrouter.mjs",
     "lint": "biome check",
     "format": "biome format --write"
   },

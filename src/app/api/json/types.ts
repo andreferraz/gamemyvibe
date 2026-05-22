@@ -11,6 +11,7 @@ export interface GameGenre {
 export interface RawGameObject {
   id: number;
   name: string;
+  resume?: string;
   summary?: string;
   coverUrl?: string;
   genres?: GameGenre[];

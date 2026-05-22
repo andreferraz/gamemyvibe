@@ -1,5 +1,7 @@
 # MVP Roadmap (Steamder)
 
+> ⚠️ This roadmap no longer represents the current app, but I've kept it for reference of the original vision and scope of the project.
+
 This app is an experimental, zero-infrastructure game recommendation platform that utilizes a real-time "Tinder-style" interface to dynamically map user preferences through local machine learning.
 
 By presenting users with a sequential deck of popular games to rate—using simple interactions like "Amo," "Gosto," or "Não tenho interesse"—the frontend leverages TensorFlow.js and the Universal Sentence Encoder to instantly transform game descriptions into 512-dimensional semantic embeddings.

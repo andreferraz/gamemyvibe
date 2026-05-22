@@ -28,8 +28,6 @@ export function DiscoveryPanel({
   onLike,
   onLove,
 }: DiscoveryPanelProps) {
-  console.log(game);
-
   if (!game) {
     return (
       <Box className={styles.panelCard}>

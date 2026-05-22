@@ -4,7 +4,7 @@ import { loadDatasetsByPattern } from "../datasetLoader";
 import type { CompactGame } from "../types";
 import { toCompactGame } from "../utils";
 
-const MAX_LIMIT = 250;
+const MAX_LIMIT = 500;
 const TOP_RATED_FILE_PATTERN = /^top-rated-resume-batch-(\d+)\.json$/;
 
 export async function GET(): Promise<NextResponse<APIResponse<CompactGame[]>>> {

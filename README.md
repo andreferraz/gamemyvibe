@@ -2,6 +2,8 @@
 
 This is a [Next.js](https://nextjs.org) experimental project with focus on exploring real-time game recommendation algorithms using client-side machine learning and other AI technologies during development.
 
+Live (demo): [https://gamemyvibe.vercel.app/](https://gamemyvibe.vercel.app/)
+
 ![Game My Vibe app screenshot](./screenshot.png)
 
 ## How it works

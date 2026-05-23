@@ -37,7 +37,7 @@ export default async function DescribePage() {
     <main className={styles.page}>
       <Container size="4" py="6" className={styles.container}>
         <Flex direction="column" justify="center" gap="5">
-          <Box>
+          <Box mt="8">
             <Heading align="center" as="h1" className={styles.kicker}>
               Projeto experimental
             </Heading>

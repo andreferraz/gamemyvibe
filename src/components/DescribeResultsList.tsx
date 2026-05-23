@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@radix-ui/themes";
+import { Badge, Box, Flex, Text } from "@radix-ui/themes";
 import Image from "next/image";
 import styles from "../app/page.module.css";
 import type { RankedGame } from "./recommendationTypes";
@@ -17,18 +17,14 @@ export function DescribeResultsList({
       <Flex direction="column" align="center" gap="3" py="6">
         <div className={styles.resultsSpinner} aria-hidden="true" />
         <Text color="gray">
-          Buscando jogos que melhor combinam com a descricao...
+          Buscando jogos que melhor combinam com a descrição...
         </Text>
       </Flex>
     );
   }
 
   if (games.length === 0) {
-    return (
-      <Text color="gray">
-        Digite uma descricao para encontrar jogos parecidos.
-      </Text>
-    );
+    return null;
   }
 
   return (
@@ -58,12 +54,29 @@ export function DescribeResultsList({
               <Text size="3" weight="medium">
                 {game.name}
               </Text>
-              <Text size="1" color="gray">
-                {game.genres.slice(0, 2).join(" • ") || "Sem genero"}
-              </Text>
+              <Flex gap="1" wrap="wrap" mt="1">
+                {game.genres.length > 0 ? (
+                  game.genres.map((genre, genreIndex) => (
+                    <Badge
+                      key={`${game.id}-${genre}-${genreIndex}`}
+                      size="1"
+                      variant="soft"
+                      color="gray"
+                    >
+                      {genre}
+                    </Badge>
+                  ))
+                ) : (
+                  <Badge size="1" variant="soft" color="gray">
+                    Sem gênero
+                  </Badge>
+                )}
+              </Flex>
             </div>
           </Flex>
-          <Text className={styles.similarity}>{game.similarity}%</Text>
+          <Text color="gray" size="2" weight="bold" style={{ opacity: 0.65 }}>
+            {game.similarity}%
+          </Text>
         </Flex>
       ))}
     </Flex>

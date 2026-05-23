@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Flex, Heading, Text, TextField } from "@radix-ui/themes";
+import { Box, Button, Flex, Heading, Text, TextField } from "@radix-ui/themes";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { FormattedGameObject } from "@/app/api/json/types";
 import type { RankedGame } from "@/components/recommendationTypes";
@@ -22,6 +22,8 @@ export function DescribeExperience({
   const [results, setResults] = useState<RankedGame[]>([]);
   const [isReady, setIsReady] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
+  const [hasReceivedProgress, setHasReceivedProgress] = useState(false);
+  const [hasSearchedOnce, setHasSearchedOnce] = useState(false);
   const [initProgress, setInitProgress] = useState({
     processed: 0,
     total: 0,
@@ -34,6 +36,8 @@ export function DescribeExperience({
     setIsReady(false);
     setIsSearching(false);
     setResults([]);
+    setHasReceivedProgress(false);
+    setHasSearchedOnce(false);
     setInitProgress({ processed: 0, total: 0, percent: 0 });
 
     const worker = new Worker(
@@ -58,6 +62,7 @@ export function DescribeExperience({
         }
 
         if (message.type === "init-progress") {
+          setHasReceivedProgress(true);
           setInitProgress({
             processed: message.processed,
             total: message.total,
@@ -116,10 +121,26 @@ export function DescribeExperience({
   const placeholder = useMemo(
     () =>
       isReady
-        ? "Ex: metroidvania com tematica medieval e pixel art"
+        ? "Ex: A racing game with some stunning cars"
         : "Carregando modelo...",
     [isReady],
   );
+
+  const statusText = useMemo(() => {
+    if (!isReady && !hasReceivedProgress) {
+      return "Ligando os motores…";
+    }
+
+    if (!isReady && hasReceivedProgress) {
+      return "Preparando a mágica";
+    }
+
+    if (!hasSearchedOnce) {
+      return "Tudo pronto! Vamos lá.";
+    }
+
+    return "";
+  }, [hasReceivedProgress, hasSearchedOnce, isReady]);
 
   async function handleSearch(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -132,6 +153,7 @@ export function DescribeExperience({
     const nextRequestId = latestSearchRequestIdRef.current + 1;
     latestSearchRequestIdRef.current = nextRequestId;
     setIsSearching(true);
+    setHasSearchedOnce(true);
 
     const searchRequest: DescribeExperienceWorkerRequest = {
       type: "search",
@@ -144,48 +166,38 @@ export function DescribeExperience({
   }
 
   return (
-    <Flex direction="column" gap="4" className={styles.panelCard}>
-      <div>
-        <Text className={styles.panelEyebrow}>Busca por descricao</Text>
-        <Heading size="4" mt="1">
-          Descreva o jogo ideal
-        </Heading>
-      </div>
-
+    <Flex direction="column" gap="4" mt="4">
       <form onSubmit={handleSearch}>
-        <Flex direction="column" gap="3">
-          <TextField.Root
-            size="3"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder={placeholder}
-            disabled={!isReady || isSearching}
-          />
-          <Flex justify="between" align="center" gap="3" wrap="wrap">
-            <Text size="2" color="gray">
-              {isReady
-                ? "Use uma frase livre para guiar a busca."
-                : "Gerando embeddings do catalogo de candidatos..."}
-            </Text>
+        <Flex direction="row" align="center" wrap="nowrap">
+          <Box flexGrow="1">
+            <TextField.Root
+              size="3"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={placeholder}
+              disabled={!isReady || isSearching}
+            />
+          </Box>
+          <Flex justify="between" align="center" wrap="wrap">
             <Button
               type="submit"
+              size="3"
               disabled={!isReady || isSearching || !query.trim()}
             >
               Buscar jogos
             </Button>
           </Flex>
+        </Flex>
+      </form>
 
-          {!isReady ? (
+      {statusText && (
+        <Flex direction="column" align="center" gap="3" py="6">
+          <Text as="p" align="center" size="4" weight="bold" color="gray">
+            {statusText}
+          </Text>
+
+          {!isReady && hasReceivedProgress ? (
             <div className={styles.embeddingProgressWrap}>
-              <Flex justify="between" align="center" mb="2">
-                <Text size="1" color="gray">
-                  Processando embeddings
-                </Text>
-                <Text size="1" color="gray">
-                  {initProgress.processed}/{initProgress.total || "?"} (
-                  {initProgress.percent}%)
-                </Text>
-              </Flex>
               <div
                 className={styles.embeddingProgressTrack}
                 role="progressbar"
@@ -202,7 +214,7 @@ export function DescribeExperience({
             </div>
           ) : null}
         </Flex>
-      </form>
+      )}
 
       <DescribeResultsList games={results} isLoading={isSearching} />
     </Flex>

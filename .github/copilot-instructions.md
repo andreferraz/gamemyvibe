@@ -14,37 +14,6 @@
 - Whenever running `pnpm lint`, always run `pnpm format` before to ensure code style consistency. For example: `pnpm format && pnpm lint`.
 - Don't bother running `pnpm build` and `pnpm start` during development.
 
-## Product Context (MVP)
-
-Steamder is a zero-infrastructure game recommendation app with:
-
-- A Tinder-style discovery flow for games.
-- Local ML inference in the browser using TensorFlow.js + Universal Sentence Encoder.
-- Real-time recommendation updates via vector math and cosine similarity.
-- Privacy-first behavior with client-side preference processing.
-
-## Roadmap Priorities
-
-1. Backend API routes:
-
-- `/api/igdb/discovery`: 20-30 recognizable games for interaction.
-- `/api/igdb/candidates`: fixed pool of 100 popular games for recommendations.
-
-2. Frontend layout and state:
-
-- Split-screen UI: discovery card on left, recommendation list on right.
-- Local `userPreferences` state storing game id, embedding, and weight.
-
-3. Embedded ML engine:
-
-- Load Universal Sentence Encoder on page mount.
-- Pre-vectorize and cache candidate embeddings on load.
-
-4. Real-time adaptation:
-
-- Apply weights for actions: like `+1.0`, love `+2.0`, uninterested negative weight.
-- Recompute profile vector and refresh ranked recommendations instantly.
-
 ## Implementation Style
 
 - Prefer clear TypeScript types for IGDB payloads and recommendation data.

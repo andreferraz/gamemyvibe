@@ -1,6 +1,18 @@
 # 🎮 Game My Vibe 💬
 
-This is a [Next.js](https://nextjs.org) project with focus on exploring real-time game recommendation algorithms using client-side machine learning.
+This is a [Next.js](https://nextjs.org) experimental project with focus on exploring real-time game recommendation algorithms using client-side machine learning and other AI technologies during development.
+
+![Game My Vibe app screenshot](./screenshot.png)
+
+## How it works
+
+In the app, the user can type a brief description of the game they have in mind, and the app will show a list of games that best match that description given a set of available games.
+
+The results are ranked by similarity percentage, which is calculated using vector math and cosine similarity between the user's description and the game descriptions.
+
+The app uses TensorFlow.js to perform all the machine learning inference directly in the browser, using the Universal Sentence Encoder model to convert text into vectors.
+
+> At the moment, the UI is only available in Portuguese, but the search only works with English phrases. This may change in a future update.
 
 ## Technologies Used
 

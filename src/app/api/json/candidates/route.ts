@@ -1,20 +1,10 @@
 import { NextResponse } from "next/server";
-import type { APIResponse } from "../../igdb/types";
-import { loadDatasetsByPattern } from "../datasetLoader";
-import type { CompactGame } from "../types";
-import { toCompactGame } from "../utils";
-
-const MAX_LIMIT = 500;
-const TOP_RATED_FILE_PATTERN = /^top-rated-resume-batch-(\d+)\.json$/;
+import type { APIResponse, CompactGame } from "../types";
+import { getCandidateGames } from "./getCandidateGames";
 
 export async function GET(): Promise<NextResponse<APIResponse<CompactGame[]>>> {
   try {
-    const sources = await loadDatasetsByPattern(TOP_RATED_FILE_PATTERN);
-
-    const compactGames = sources
-      .flatMap((dataset) => dataset.games)
-      .slice(0, MAX_LIMIT)
-      .map(toCompactGame) as CompactGame[];
+    const compactGames = await getCandidateGames();
 
     return NextResponse.json(
       {

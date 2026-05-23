@@ -1,27 +1,14 @@
 import { Box, Container, Flex, Heading, Text } from "@radix-ui/themes";
 import { DescribeExperience } from "../components/DescribeExperience";
-import type {
-  APIResponse,
-  CompactGame,
-  FormattedGameObject,
-} from "./api/json/types";
+import { getCandidateGames } from "./api/json/candidates/getCandidateGames";
+import type { FormattedGameObject } from "./api/json/types";
 import { toFormattedGame } from "./api/json/utils";
 import styles from "./page.module.css";
 
 async function fetchCandidateGames(): Promise<FormattedGameObject[]> {
   try {
-    const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
-    const response = await fetch(`${baseUrl}/api/json/candidates`, {
-      cache: "no-store",
-    });
-
-    if (!response.ok) {
-      const errorData = (await response.json()) as APIResponse<null>;
-      throw new Error(errorData.error || "Failed to fetch candidate games");
-    }
-
-    const data = (await response.json()) as APIResponse<CompactGame[]>;
-    return (data.data || []).map(toFormattedGame);
+    const candidateGames = await getCandidateGames();
+    return candidateGames.map(toFormattedGame);
   } catch (error) {
     const errorMessage =
       error instanceof Error ? error.message : "Unknown error";

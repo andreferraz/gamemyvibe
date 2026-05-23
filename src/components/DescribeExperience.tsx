@@ -1,20 +1,15 @@
 "use client";
 
 import { Button, Flex, Heading, Text, TextField } from "@radix-ui/themes";
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { FormattedGameObject } from "@/app/api/json/types";
-import {
-  getCandidateEmbedding,
-  preVectorizeCandidateGames,
-} from "@/utils/candidateEmbeddings";
-import { rankByCosineSimilarity } from "@/utils/profileInference";
-import {
-  embedText,
-  loadUniversalSentenceEncoder,
-} from "@/utils/universalSentenceEncoder";
+import type { RankedGame } from "@/components/recommendationTypes";
+import type {
+  DescribeExperienceWorkerRequest,
+  DescribeExperienceWorkerResponse,
+} from "@/workers/describeExperienceWorker.types";
 import styles from "../app/page.module.css";
 import { DescribeResultsList } from "./DescribeResultsList";
-import type { RankedGame } from "./RecommendationPanel";
 
 interface DescribeExperienceProps {
   candidateGames: FormattedGameObject[];
@@ -25,37 +20,79 @@ export function DescribeExperience({
 }: DescribeExperienceProps) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<RankedGame[]>([]);
-  const [isModelReady, setIsModelReady] = useState(false);
-  const [isCandidatesReady, setIsCandidatesReady] = useState(false);
-  const [isSearching, startTransition] = useTransition();
+  const [isReady, setIsReady] = useState(false);
+  const [isSearching, setIsSearching] = useState(false);
+  const workerRef = useRef<Worker | null>(null);
+  const latestSearchRequestIdRef = useRef(0);
 
   useEffect(() => {
-    let isMounted = true;
+    setIsReady(false);
+    setIsSearching(false);
+    setResults([]);
 
-    loadUniversalSentenceEncoder()
-      .then((model) => {
-        if (!isMounted) {
+    const worker = new Worker(
+      new URL("../workers/describeExperience.worker.ts", import.meta.url),
+    );
+
+    workerRef.current = worker;
+    latestSearchRequestIdRef.current = 0;
+
+    worker.addEventListener(
+      "message",
+      (event: MessageEvent<DescribeExperienceWorkerResponse>) => {
+        const message = event.data;
+
+        if (message.type === "init-complete") {
+          setIsReady(true);
           return;
         }
 
-        setIsModelReady(true);
-        return preVectorizeCandidateGames(model, candidateGames);
-      })
-      .then(() => {
-        if (isMounted) {
-          setIsCandidatesReady(true);
+        if (message.type === "search-results") {
+          if (message.requestId !== latestSearchRequestIdRef.current) {
+            return;
+          }
+
+          setResults(message.results);
+          setIsSearching(false);
+          return;
         }
-      })
-      .catch((error) => {
-        console.error("Error preparing describe experience:", error);
-      });
+
+        if (message.type === "error") {
+          console.error(
+            "Error in describe experience worker:",
+            message.message,
+          );
+
+          if (message.stage === "init") {
+            setIsReady(false);
+          }
+
+          if (
+            message.requestId === undefined ||
+            message.requestId === latestSearchRequestIdRef.current
+          ) {
+            setIsSearching(false);
+          }
+
+          if (message.stage === "search") {
+            setResults([]);
+          }
+        }
+      },
+    );
+
+    const initRequest: DescribeExperienceWorkerRequest = {
+      type: "init",
+      games: candidateGames,
+    };
+
+    worker.postMessage(initRequest);
 
     return () => {
-      isMounted = false;
+      worker.terminate();
+      workerRef.current = null;
     };
   }, [candidateGames]);
-
-  const isReady = isModelReady && isCandidatesReady;
 
   const placeholder = useMemo(
     () =>
@@ -73,42 +110,18 @@ export function DescribeExperience({
       return;
     }
 
-    const model = await loadUniversalSentenceEncoder();
+    const nextRequestId = latestSearchRequestIdRef.current + 1;
+    latestSearchRequestIdRef.current = nextRequestId;
+    setIsSearching(true);
 
-    startTransition(async () => {
-      try {
-        const queryEmbedding = await embedText(model, trimmedQuery);
-        const rankedCandidates = candidateGames
-          .map((game) => {
-            const embedding = getCandidateEmbedding(game.id);
-            return embedding ? { item: game, embedding } : null;
-          })
-          .filter(
-            (
-              candidate,
-            ): candidate is {
-              item: FormattedGameObject;
-              embedding: number[];
-            } => Boolean(candidate),
-          );
+    const searchRequest: DescribeExperienceWorkerRequest = {
+      type: "search",
+      query: trimmedQuery,
+      limit: 5,
+      requestId: nextRequestId,
+    };
 
-        const rankedResults = rankByCosineSimilarity(
-          queryEmbedding,
-          rankedCandidates,
-          5,
-        );
-
-        setResults(
-          rankedResults.map((result) => ({
-            ...result.item,
-            similarity: result.similarity,
-          })),
-        );
-      } catch (error) {
-        console.error("Error searching described games:", error);
-        setResults([]);
-      }
-    });
+    workerRef.current?.postMessage(searchRequest);
   }
 
   return (

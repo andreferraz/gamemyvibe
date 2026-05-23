@@ -1,4 +1,4 @@
-import { Container, Flex, Heading, Text } from "@radix-ui/themes";
+import { Box, Container, Flex, Heading, Text } from "@radix-ui/themes";
 import { DescribeExperience } from "../components/DescribeExperience";
 import type {
   APIResponse,
@@ -36,17 +36,29 @@ export default async function DescribePage() {
   return (
     <main className={styles.page}>
       <Container size="4" py="6" className={styles.container}>
-        <Flex direction="column" gap="5">
-          <div>
-            <Text className={styles.kicker}>Steamder Describe</Text>
-            <Heading size="7" className={styles.title}>
-              Conte o que voce quer jogar.
+        <Flex direction="column" justify="center" gap="5">
+          <Box>
+            <Heading align="center" as="h1" className={styles.kicker}>
+              Projeto experimental
             </Heading>
-            <Text size="3" color="gray" className={styles.subtitle}>
-              Descreva o tipo de jogo, o tema ou o estilo visual. A busca usa
-              embeddings locais para encontrar os 5 candidatos mais proximos.
+            <Text align="center" as="p" size="9" weight="bold">
+              Descreva o que quer jogar.
             </Text>
-          </div>
+            <Box maxWidth="62ch" mx="auto">
+              <Text
+                as="p"
+                align="center"
+                size="3"
+                color="gray"
+                mx="auto"
+                mt="4"
+              >
+                Descreva o tipo de jogo, o tema ou o estilo visual. A busca usa
+                embeddings locais para encontrar os 5 candidatos mais próximos
+                dentre uma lista de 500 jogos.
+              </Text>
+            </Box>
+          </Box>
 
           <DescribeExperience candidateGames={candidateGames} />
         </Flex>

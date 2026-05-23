@@ -1,7 +1,7 @@
 import { Box, Flex, Text } from "@radix-ui/themes";
 import Image from "next/image";
 import styles from "../app/page.module.css";
-import type { RankedGame } from "./RecommendationPanel";
+import type { RankedGame } from "./recommendationTypes";
 
 interface DescribeResultsListProps {
   games: RankedGame[];

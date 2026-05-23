@@ -19,13 +19,6 @@
   font-size: 0.78rem;
 }
 
-.title {
-  margin-top: 0.4rem;
-  max-width: 18ch;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
-}
-
 .subtitle {
   margin-top: 0.85rem;
   max-width: 62ch;

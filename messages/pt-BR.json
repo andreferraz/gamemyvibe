@@ -14,8 +14,21 @@
     "statusPreparing": "Ligando os motores...",
     "statusEmbedding": "Preparando a magica...",
     "statusReady": "Tudo pronto pra busca!",
+    "examplesLabel": "Exemplos:",
     "searchButton": "Buscar jogos",
-    "progressAria": "Progresso da vetorizacao"
+    "progressAria": "Progresso da vetorizacao",
+    "suggestions": {
+      "beachWithFriends": "Indo para a praia com amigos",
+      "fallingFromAirplane": "Caindo de um aviao",
+      "racingCopPursuit": "Corrida com perseguicao policial",
+      "travelingToSpace": "Viajando para o espaco",
+      "spiderverse": "No aranhaverso",
+      "horrorOuterSpace": "Terror no espaco sideral",
+      "adventureJungle": "Aventura na selva",
+      "medievalFantasyDragons": "Fantasia medieval com dragoes",
+      "cyberpunkNeonCity": "Cidade cyberpunk com luzes neon",
+	  "fightingDemons": "Lutando contra demonios"
+    }
   },
   "DescribeResultsList": {
     "loading": "Buscando jogos que melhor combinam com a descricao...",

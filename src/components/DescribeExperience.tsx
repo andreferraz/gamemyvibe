@@ -125,6 +125,22 @@ export function DescribeExperience({
     [isReady, t],
   );
 
+  const searchSuggestions = useMemo(
+    () => [
+      t("suggestions.racingCopPursuit"),
+      t("suggestions.horrorOuterSpace"),
+      t("suggestions.beachWithFriends"),
+      //t("suggestions.fallingFromAirplane"),
+      t("suggestions.travelingToSpace"),
+      t("suggestions.spiderverse"),
+      t("suggestions.adventureJungle"),
+      t("suggestions.fightingDemons"),
+      //t("suggestions.medievalFantasyDragons"),
+      //t("suggestions.cyberpunkNeonCity"),
+    ],
+    [t],
+  );
+
   const statusText = useMemo(() => {
     if (!isReady && !hasReceivedProgress) {
       return t("statusPreparing");
@@ -141,11 +157,9 @@ export function DescribeExperience({
     return "";
   }, [hasReceivedProgress, hasSearchedOnce, isReady, t]);
 
-  async function handleSearch(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-
-    const trimmedQuery = query.trim();
-    if (!trimmedQuery || !isReady) {
+  function runSearch(nextQuery: string) {
+    const trimmedQuery = nextQuery.trim();
+    if (!trimmedQuery || !isReady || isSearching) {
       return;
     }
 
@@ -164,8 +178,51 @@ export function DescribeExperience({
     workerRef.current?.postMessage(searchRequest);
   }
 
+  async function handleSearch(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    runSearch(query);
+  }
+
+  function handleSuggestionClick(suggestion: string) {
+    setQuery(suggestion);
+    runSearch(suggestion);
+  }
+
   return (
     <Flex direction="column" gap="4" mt="4">
+      <Flex
+        direction="column"
+        gap="2"
+        align="center"
+        maxWidth="800px"
+        mx="auto"
+      >
+        <Text as="p" size="2" color="gray">
+          {t("examplesLabel")}
+        </Text>
+
+        <Flex
+          direction="row"
+          wrap="wrap"
+          gap="2"
+          align="center"
+          justify="center"
+        >
+          {searchSuggestions.map((suggestion) => (
+            <Button
+              key={suggestion}
+              type="button"
+              size="2"
+              variant="soft"
+              disabled={!isReady || isSearching}
+              onClick={() => handleSuggestionClick(suggestion)}
+            >
+              {suggestion}
+            </Button>
+          ))}
+        </Flex>
+      </Flex>
+
       <form onSubmit={handleSearch}>
         <Flex direction="row" align="center" wrap="nowrap">
           <Box flexGrow="1">

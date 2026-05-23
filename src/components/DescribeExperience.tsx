@@ -22,6 +22,11 @@ export function DescribeExperience({
   const [results, setResults] = useState<RankedGame[]>([]);
   const [isReady, setIsReady] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
+  const [initProgress, setInitProgress] = useState({
+    processed: 0,
+    total: 0,
+    percent: 0,
+  });
   const workerRef = useRef<Worker | null>(null);
   const latestSearchRequestIdRef = useRef(0);
 
@@ -29,6 +34,7 @@ export function DescribeExperience({
     setIsReady(false);
     setIsSearching(false);
     setResults([]);
+    setInitProgress({ processed: 0, total: 0, percent: 0 });
 
     const worker = new Worker(
       new URL("../workers/describeExperience.worker.ts", import.meta.url),
@@ -43,7 +49,20 @@ export function DescribeExperience({
         const message = event.data;
 
         if (message.type === "init-complete") {
+          setInitProgress((current) => ({
+            ...current,
+            percent: 100,
+          }));
           setIsReady(true);
+          return;
+        }
+
+        if (message.type === "init-progress") {
+          setInitProgress({
+            processed: message.processed,
+            total: message.total,
+            percent: message.percent,
+          });
           return;
         }
 
@@ -146,7 +165,7 @@ export function DescribeExperience({
             <Text size="2" color="gray">
               {isReady
                 ? "Use uma frase livre para guiar a busca."
-                : "Carregando Universal Sentence Encoder e catalogo de candidatos..."}
+                : "Gerando embeddings do catalogo de candidatos..."}
             </Text>
             <Button
               type="submit"
@@ -155,13 +174,37 @@ export function DescribeExperience({
               Buscar jogos
             </Button>
           </Flex>
+
+          {!isReady ? (
+            <div className={styles.embeddingProgressWrap}>
+              <Flex justify="between" align="center" mb="2">
+                <Text size="1" color="gray">
+                  Processando embeddings
+                </Text>
+                <Text size="1" color="gray">
+                  {initProgress.processed}/{initProgress.total || "?"} (
+                  {initProgress.percent}%)
+                </Text>
+              </Flex>
+              <div
+                className={styles.embeddingProgressTrack}
+                role="progressbar"
+                aria-valuemin={0}
+                aria-valuemax={100}
+                aria-valuenow={initProgress.percent}
+                aria-label="Progresso da vetorizacao"
+              >
+                <div
+                  className={styles.embeddingProgressFill}
+                  style={{ width: `${initProgress.percent}%` }}
+                />
+              </div>
+            </div>
+          ) : null}
         </Flex>
       </form>
 
-      <DescribeResultsList
-        games={results}
-        isLoading={!isReady || isSearching}
-      />
+      <DescribeResultsList games={results} isLoading={isSearching} />
     </Flex>
   );
 }

@@ -21,6 +21,13 @@ export interface DescribeExperienceWorkerInitComplete {
   type: "init-complete";
 }
 
+export interface DescribeExperienceWorkerInitProgress {
+  type: "init-progress";
+  processed: number;
+  total: number;
+  percent: number;
+}
+
 export interface DescribeExperienceWorkerSearchResults {
   type: "search-results";
   requestId: number;
@@ -36,5 +43,6 @@ export interface DescribeExperienceWorkerError {
 
 export type DescribeExperienceWorkerResponse =
   | DescribeExperienceWorkerInitComplete
+  | DescribeExperienceWorkerInitProgress
   | DescribeExperienceWorkerSearchResults
   | DescribeExperienceWorkerError;

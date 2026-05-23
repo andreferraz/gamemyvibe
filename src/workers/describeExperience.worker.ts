@@ -13,14 +13,46 @@ import type {
   DescribeExperienceWorkerResponse,
 } from "./describeExperienceWorker.types";
 
+const PROGRESS_EMIT_INTERVAL_MS = 100;
+
 let candidateGames: FormattedGameObject[] = [];
 let isReady = false;
 
 async function initializeWorker(games: FormattedGameObject[]) {
   const model = await loadUniversalSentenceEncoder();
-  await preVectorizeCandidateGames(model, games);
+  let lastProgressSentAt = 0;
+
+  const emitProgress = (processed: number, total: number) => {
+    const now = Date.now();
+    const isComplete = total > 0 && processed >= total;
+
+    if (!isComplete && now - lastProgressSentAt < PROGRESS_EMIT_INTERVAL_MS) {
+      return;
+    }
+
+    lastProgressSentAt = now;
+    const percent = total > 0 ? Math.round((processed / total) * 100) : 100;
+
+    self.postMessage({
+      type: "init-progress",
+      processed,
+      total,
+      percent,
+    } satisfies DescribeExperienceWorkerResponse);
+  };
+
+  await preVectorizeCandidateGames(model, games, {
+    batchSize: 16,
+    yieldEveryBatches: 1,
+    yieldMs: 8,
+    onProgress: ({ processed, total }) => {
+      emitProgress(processed, total);
+    },
+  });
   candidateGames = games;
   isReady = true;
+
+  emitProgress(candidateGames.length, candidateGames.length);
 }
 
 async function searchGames(query: string, limit: number) {

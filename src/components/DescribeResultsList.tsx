@@ -30,66 +30,78 @@ export function DescribeResultsList({
   }
 
   return (
-    <Box className={styles.resultsHorizontalList} mt="6">
-      {games.map((game, index) => (
-        <GameDetailsDialog key={game.id} game={game} rank={index + 1}>
-          <button
-            type="button"
-            className={styles.gameCardButton}
-            aria-label={t("detailsAria", { name: game.name })}
-          >
-            <Card className={styles.gameCard} style={{ height: "100%" }}>
-              {game.coverUrl || game.thumbnailUrl ? (
-                <Box className={styles.gameCardImageWrap}>
-                  <Image
-                    src={game.coverUrl || game.thumbnailUrl || ""}
-                    alt={game.name}
-                    fill
-                    sizes="(max-width: 768px) 70vw, 220px"
-                    style={{ objectFit: "cover" }}
-                  />
-                </Box>
-              ) : (
-                <Box className={styles.gameCardImageFallback}>
-                  <Text color="gray" size="2">
-                    {t("noImage")}
+    <>
+      <Box className={styles.resultsHorizontalList} mt="6">
+        {games.map((game, index) => (
+          <GameDetailsDialog key={game.id} game={game} rank={index + 1}>
+            <button
+              type="button"
+              className={styles.gameCardButton}
+              aria-label={t("detailsAria", { name: game.name })}
+            >
+              <Card className={styles.gameCard} style={{ height: "100%" }}>
+                {game.coverUrl || game.thumbnailUrl ? (
+                  <Box className={styles.gameCardImageWrap}>
+                    <Image
+                      src={game.coverUrl || game.thumbnailUrl || ""}
+                      alt={game.name}
+                      fill
+                      sizes="(max-width: 768px) 70vw, 220px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </Box>
+                ) : (
+                  <Box className={styles.gameCardImageFallback}>
+                    <Text color="gray" size="2">
+                      {t("noImage")}
+                    </Text>
+                  </Box>
+                )}
+
+                <Flex
+                  direction="column"
+                  gap="2"
+                  className={styles.gameCardBody}
+                >
+                  <Flex justify="between" align="center" gap="2">
+                    <Text className={styles.rank}>#{index + 1}</Text>
+                    <Text className={styles.similarity}>
+                      {game.similarity}%
+                    </Text>
+                  </Flex>
+
+                  <Text size="3" weight="bold">
+                    {game.name}
                   </Text>
-                </Box>
-              )}
 
-              <Flex direction="column" gap="2" className={styles.gameCardBody}>
-                <Flex justify="between" align="center" gap="2">
-                  <Text className={styles.rank}>#{index + 1}</Text>
-                  <Text className={styles.similarity}>{game.similarity}%</Text>
-                </Flex>
-
-                <Text size="3" weight="bold">
-                  {game.name}
-                </Text>
-
-                <Flex gap="1" wrap="wrap">
-                  {game.genres.length > 0 ? (
-                    game.genres.map((genre, genreIndex) => (
-                      <Badge
-                        key={`${game.id}-${genre}-${genreIndex}`}
-                        size="1"
-                        variant="soft"
-                        color="gray"
-                      >
-                        {genre}
+                  <Flex gap="1" wrap="wrap">
+                    {game.genres.length > 0 ? (
+                      game.genres.map((genre, genreIndex) => (
+                        <Badge
+                          key={`${game.id}-${genre}-${genreIndex}`}
+                          size="1"
+                          variant="soft"
+                          color="gray"
+                        >
+                          {genre}
+                        </Badge>
+                      ))
+                    ) : (
+                      <Badge size="1" variant="soft" color="gray">
+                        {t("noGenre")}
                       </Badge>
-                    ))
-                  ) : (
-                    <Badge size="1" variant="soft" color="gray">
-                      {t("noGenre")}
-                    </Badge>
-                  )}
+                    )}
+                  </Flex>
                 </Flex>
-              </Flex>
-            </Card>
-          </button>
-        </GameDetailsDialog>
-      ))}
-    </Box>
+              </Card>
+            </button>
+          </GameDetailsDialog>
+        ))}
+      </Box>
+
+      <Text color="gray" size="2" mt="3" align="center">
+        {t("datasetNote")}
+      </Text>
+    </>
   );
 }

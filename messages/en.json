@@ -34,7 +34,8 @@
     "loading": "Looking for games that best match your description...",
     "detailsAria": "View details for {name}",
     "noImage": "No image",
-    "noGenre": "No genre"
+    "noGenre": "No genre",
+    "datasetNote": "ⓘ Search is currently limited to a dataset of 500 games. If an obvious game did not appear, it was likely not included in the database."
   },
   "GameDetailsDialog": {
     "description": "Card #{rank} with {similarity}% compatibility.",

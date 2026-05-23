@@ -34,7 +34,8 @@
     "loading": "Buscando jogos que melhor combinam com a descricao...",
     "detailsAria": "Ver detalhes de {name}",
     "noImage": "Sem imagem",
-    "noGenre": "Sem genero"
+    "noGenre": "Sem genero",
+    "datasetNote": "ⓘ A busca esta atualmente limitada a uma base de 500 jogos. Se um jogo obvio nao apareceu, e muito provavel que ele nao esteja na base de dados."
   },
   "GameDetailsDialog": {
     "description": "Carta #{rank} com {similarity}% de compatibilidade.",

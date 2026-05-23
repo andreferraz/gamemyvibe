@@ -136,7 +136,7 @@ export function DescribeExperience({
     }
 
     if (!hasSearchedOnce) {
-      return "Tudo pronto! Vamos lá.";
+      return "Tudo pronto pra busca!";
     }
 
     return "";

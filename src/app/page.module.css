@@ -15,8 +15,8 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #4ecdc4;
-  font-weight: 600;
-  font-size: 0.78rem;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .subtitle {
@@ -167,6 +167,94 @@
   padding-top: 0;
 }
 
+.resultsHorizontalList {
+  display: flex;
+  gap: 0.85rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  scroll-snap-type: x proximity;
+}
+
+.gameCardButton {
+  all: unset;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  min-width: 182px;
+  scroll-snap-align: start;
+}
+
+.gameCard {
+  border: 1px solid rgb(255 255 255 / 14%);
+  background: linear-gradient(180deg, rgb(21 36 52 / 94%), rgb(12 22 36 / 92%));
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 24%);
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.gameCardButton:hover .gameCard,
+.gameCardButton:focus-visible .gameCard {
+  transform: translateY(-2px);
+  border-color: rgb(102 239 189 / 56%);
+  box-shadow: 0 12px 30px rgb(0 0 0 / 30%);
+}
+
+.gameCardImageWrap {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  position: relative;
+}
+
+.gameCardImageFallback {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(140deg, rgb(42 55 70 / 76%), rgb(27 37 51 / 86%));
+}
+
+.gameCardBody {
+  padding: 0.7rem;
+}
+
+.gameDialogContent {
+  max-height: min(86vh, 760px);
+  overflow: auto;
+}
+
+.gameDialogMediaWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.gameDialogImageWrap {
+  width: min(100%, 320px);
+  aspect-ratio: 3 / 4;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgb(255 255 255 / 14%);
+}
+
+.gameDialogImageFallback {
+  width: min(100%, 320px);
+  aspect-ratio: 3 / 4;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(140deg, rgb(42 55 70 / 76%), rgb(27 37 51 / 86%));
+}
+
+.gameDialogSummary {
+  white-space: pre-wrap;
+  line-height: 1.55;
+}
+
 @media (min-width: 940px) {
   .splitGrid {
     grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
@@ -181,5 +269,9 @@
   .discoveryCoverWrap {
     width: 150px;
     height: 195px;
+  }
+
+  .gameCardButton {
+    min-width: 206px;
   }
 }

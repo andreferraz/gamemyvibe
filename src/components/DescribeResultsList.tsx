@@ -1,5 +1,6 @@
-import { Badge, Box, Flex, Text } from "@radix-ui/themes";
+import { Badge, Box, Card, Flex, Text } from "@radix-ui/themes";
 import Image from "next/image";
+import { GameDetailsDialog } from "@/components/GameDetailsDialog";
 import styles from "../app/page.module.css";
 import type { RankedGame } from "./recommendationTypes";
 
@@ -28,57 +29,66 @@ export function DescribeResultsList({
   }
 
   return (
-    <Flex direction="column" gap="2">
+    <Box className={styles.resultsHorizontalList} mt="6">
       {games.map((game, index) => (
-        <Flex
-          key={game.id}
-          justify="between"
-          align="center"
-          gap="3"
-          className={styles.recRow}
-        >
-          <Flex align="center" gap="3">
-            <Text className={styles.rank}>{index + 1}</Text>
-            {game.thumbnailUrl || game.coverUrl ? (
-              <Box className={styles.recThumbWrap}>
-                <Image
-                  src={game.thumbnailUrl || game.coverUrl || ""}
-                  alt={game.name}
-                  fill
-                  sizes="52px"
-                  style={{ objectFit: "cover" }}
-                />
-              </Box>
-            ) : null}
-            <div>
-              <Text size="3" weight="medium">
-                {game.name}
-              </Text>
-              <Flex gap="1" wrap="wrap" mt="1">
-                {game.genres.length > 0 ? (
-                  game.genres.map((genre, genreIndex) => (
-                    <Badge
-                      key={`${game.id}-${genre}-${genreIndex}`}
-                      size="1"
-                      variant="soft"
-                      color="gray"
-                    >
-                      {genre}
+        <GameDetailsDialog key={game.id} game={game} rank={index + 1}>
+          <button
+            type="button"
+            className={styles.gameCardButton}
+            aria-label={`Ver detalhes de ${game.name}`}
+          >
+            <Card className={styles.gameCard} style={{ height: "100%" }}>
+              {game.coverUrl || game.thumbnailUrl ? (
+                <Box className={styles.gameCardImageWrap}>
+                  <Image
+                    src={game.coverUrl || game.thumbnailUrl || ""}
+                    alt={game.name}
+                    fill
+                    sizes="(max-width: 768px) 70vw, 220px"
+                    style={{ objectFit: "cover" }}
+                  />
+                </Box>
+              ) : (
+                <Box className={styles.gameCardImageFallback}>
+                  <Text color="gray" size="2">
+                    Sem imagem
+                  </Text>
+                </Box>
+              )}
+
+              <Flex direction="column" gap="2" className={styles.gameCardBody}>
+                <Flex justify="between" align="center" gap="2">
+                  <Text className={styles.rank}>#{index + 1}</Text>
+                  <Text className={styles.similarity}>{game.similarity}%</Text>
+                </Flex>
+
+                <Text size="3" weight="bold">
+                  {game.name}
+                </Text>
+
+                <Flex gap="1" wrap="wrap">
+                  {game.genres.length > 0 ? (
+                    game.genres.map((genre, genreIndex) => (
+                      <Badge
+                        key={`${game.id}-${genre}-${genreIndex}`}
+                        size="1"
+                        variant="soft"
+                        color="gray"
+                      >
+                        {genre}
+                      </Badge>
+                    ))
+                  ) : (
+                    <Badge size="1" variant="soft" color="gray">
+                      Sem gênero
                     </Badge>
-                  ))
-                ) : (
-                  <Badge size="1" variant="soft" color="gray">
-                    Sem gênero
-                  </Badge>
-                )}
+                  )}
+                </Flex>
               </Flex>
-            </div>
-          </Flex>
-          <Text color="gray" size="2" weight="bold" style={{ opacity: 0.65 }}>
-            {game.similarity}%
-          </Text>
-        </Flex>
+            </Card>
+          </button>
+        </GameDetailsDialog>
       ))}
-    </Flex>
+    </Box>
   );
 }

@@ -39,7 +39,10 @@ export default async function DescribePage() {
         <Flex direction="column" justify="center" gap="5">
           <Box mt="8">
             <Heading align="center" as="h1" className={styles.kicker}>
-              Projeto experimental
+              🎮
+              <Text ml="2" style={{ display: "inline-block" }}>
+                Game my vibe
+              </Text>
             </Heading>
             <Text align="center" as="p" size="9" weight="bold">
               Descreva o que quer jogar.
@@ -53,9 +56,9 @@ export default async function DescribePage() {
                 mx="auto"
                 mt="4"
               >
-                Descreva o tipo de jogo, o tema ou o estilo visual. A busca usa
+                Escreva o tipo de jogo, o tema ou o estilo visual. A busca usa
                 embeddings locais para encontrar os 5 candidatos mais próximos
-                dentre uma lista de 500 jogos.
+                dentre uma lista mais de 500 jogos.
               </Text>
             </Box>
           </Box>

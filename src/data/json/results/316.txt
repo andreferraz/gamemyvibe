@@ -1,1 +1,0 @@
-SWAT 4 simulates realistic police work, requiring non‑lethal force and strict protocol. Lethal fire is only allowed if a suspect threatens an officer or civilian. Higher difficulties demand higher scores and penalize any infractions.

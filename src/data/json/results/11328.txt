@@ -1,2 +1,0 @@
-Shadow Complex is a 2.5D action game with 3D world, 2D movement, auto‑aim, laser sight.  
-It offers exploration, experience upgrades, Proving Grounds, and a release for PS4, Xbox One, PC.

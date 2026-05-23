@@ -1,1 +1,0 @@
-Players control one of three Houses, harvesting Spice to build units and structures. Early missions earn credits; later missions require destroying all enemies. Each House has buildings, units, and palace effects.

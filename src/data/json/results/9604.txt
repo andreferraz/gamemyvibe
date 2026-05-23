@@ -1,2 +1,0 @@
-TagPro is a free-to-play capture the flag game by Nick Riggs, released Feb 2013.  
-It is named after one of its three power-ups and includes spikes and other map elements.

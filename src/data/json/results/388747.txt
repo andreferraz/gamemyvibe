@@ -1,1 +1,0 @@
-Marble Racing Manager is an idle racing game where players collect marbles that race automatically every 60 seconds. Marbles earn rewards while the player is away, and gems can be used to buy new ones.

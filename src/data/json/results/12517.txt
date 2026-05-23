@@ -1,1 +1,0 @@
-A child falls into the Underground, where monsters hunt humans. The player guides the child back to the Surface, using turn‑based combat, puzzles, and bullet‑hell mechanics.

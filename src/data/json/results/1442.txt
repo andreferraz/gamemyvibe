@@ -1,1 +1,0 @@
-Radiant Dawn is a turn‑based tactics RPG, a direct sequel to Path of Radiance, set three years later. It adds new magic, class upgrades, weapons, and a reworked forging system. The engine is upgraded, and only normal or hard mode save files from the previous game can be carried over.

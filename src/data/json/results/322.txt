@@ -1,1 +1,0 @@
-Blade Runner is an adventure game focused on detective work. Players question suspects, gather evidence, and can use a gun in action scenes. Choices determine one of six endings.

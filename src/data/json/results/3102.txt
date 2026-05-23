@@ -1,1 +1,0 @@
-Build spacecraft from parts and launch Kerbals into orbit. Use realistic physics to explore moons, planets, and construct bases and stations in the Kerbol system. Keep crew alive throughout missions.

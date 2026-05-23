@@ -1,1 +1,0 @@
-Suikoden is a Japanese-style RPG with three combat types: turn-based party battles (up to six active), army battles controlling units, and one-on-one duels. Characters equip magic runes for limited spells.

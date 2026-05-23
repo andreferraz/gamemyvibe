@@ -1,1 +1,0 @@
-FTL is a spaceship simulation roguelike where you manage a crew to survive a randomly generated galaxy. Each encounter offers unique challenges with multiple solutions.

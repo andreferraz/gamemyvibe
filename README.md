@@ -1,3 +1,5 @@
+# 🎮 Game My Vibe 💬
+
 This is a [Next.js](https://nextjs.org) project with focus on exploring real-time game recommendation algorithms using client-side machine learning.
 
 ## Technologies Used

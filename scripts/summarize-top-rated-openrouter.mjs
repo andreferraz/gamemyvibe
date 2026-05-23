@@ -97,7 +97,7 @@ async function callOpenRouter(prompt, model, apiKey) {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
       "HTTP-Referer": process.env.OPENROUTER_HTTP_REFERER || "http://localhost",
-      "X-Title": process.env.OPENROUTER_APP_TITLE || "Steamder Summaries",
+      "X-Title": process.env.OPENROUTER_APP_TITLE || "Summarizer",
     },
     body: JSON.stringify({
       model,

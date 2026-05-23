@@ -68,18 +68,13 @@ export function rankByCosineSimilarity<T>(
     return cosineTensor.arraySync() as number[];
   });
 
-  // Interpret cosine logits as a preference distribution to expose per-item
-  // recommendation confidence in percentage form.
-  const maxCosine = Math.max(...cosineScores);
-  const expScores = cosineScores.map((score) => Math.exp(score - maxCosine));
-  const expSum = expScores.reduce((sum, score) => sum + score, 0);
-
   return candidates
     .map((candidate, index) => ({
       item: candidate.item,
       cosineScore: cosineScores[index],
-      similarity:
-        expSum > 0 ? Math.round((expScores[index] / expSum) * 100) : 0,
+      // Expose cosine similarity directly as a 0-100 score instead of
+      // normalizing across the whole candidate set.
+      similarity: Math.round(Math.max(0, cosineScores[index]) * 100),
     }))
     .sort((left, right) => right.cosineScore - left.cosineScore)
     .slice(0, limit)

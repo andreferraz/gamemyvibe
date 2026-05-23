@@ -1,11 +1,13 @@
 import { Box, Container, Flex, Heading, Text } from "@radix-ui/themes";
-import { DescribeExperience } from "../components/DescribeExperience";
-import { getCandidateGames } from "./api/json/candidates/getCandidateGames";
-import type { FormattedGameObject } from "./api/json/types";
-import { toFormattedGame } from "./api/json/utils";
-import styles from "./page.module.css";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getCandidateGames } from "@/app/api/json/candidates/getCandidateGames";
+import type { FormattedGameObject } from "@/app/api/json/types";
+import { toFormattedGame } from "@/app/api/json/utils";
+import { DescribeExperience } from "@/components/DescribeExperience";
+import styles from "../page.module.css";
 
 async function fetchCandidateGames(): Promise<FormattedGameObject[]> {
+  console.log("Fetching candidate games...");
   try {
     const candidateGames = await getCandidateGames();
     return candidateGames.map(toFormattedGame);
@@ -17,7 +19,15 @@ async function fetchCandidateGames(): Promise<FormattedGameObject[]> {
   }
 }
 
-export default async function DescribePage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function DescribePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations("HomePage");
   const candidateGames = await fetchCandidateGames();
 
   return (
@@ -28,11 +38,11 @@ export default async function DescribePage() {
             <Heading align="center" as="h1" className={styles.kicker}>
               🎮
               <Text ml="2" style={{ display: "inline-block" }}>
-                Game my vibe
+                {t("brand")}
               </Text>
             </Heading>
             <Text align="center" as="p" size="9" weight="bold">
-              Descreva o que quer jogar.
+              {t("title")}
             </Text>
             <Box maxWidth="62ch" mx="auto">
               <Text
@@ -43,9 +53,7 @@ export default async function DescribePage() {
                 mx="auto"
                 mt="4"
               >
-                Escreva o tipo de jogo, o tema ou o estilo visual. A busca usa
-                embeddings locais para encontrar os 5 candidatos mais próximos
-                dentre uma lista mais de 500 jogos.
+                {t("description")}
               </Text>
             </Box>
           </Box>

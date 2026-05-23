@@ -1,6 +1,7 @@
 "use client";
 
-import { Box, Button, Flex, Heading, Text, TextField } from "@radix-ui/themes";
+import { Box, Button, Flex, Text, TextField } from "@radix-ui/themes";
+import { useTranslations } from "next-intl";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { FormattedGameObject } from "@/app/api/json/types";
 import type { RankedGame } from "@/components/recommendationTypes";
@@ -18,6 +19,7 @@ interface DescribeExperienceProps {
 export function DescribeExperience({
   candidateGames,
 }: DescribeExperienceProps) {
+  const t = useTranslations("DescribeExperience");
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<RankedGame[]>([]);
   const [isReady, setIsReady] = useState(false);
@@ -119,28 +121,25 @@ export function DescribeExperience({
   }, [candidateGames]);
 
   const placeholder = useMemo(
-    () =>
-      isReady
-        ? "Ex: A racing game with some stunning cars"
-        : "Carregando modelo...",
-    [isReady],
+    () => (isReady ? t("placeholderReady") : t("placeholderLoading")),
+    [isReady, t],
   );
 
   const statusText = useMemo(() => {
     if (!isReady && !hasReceivedProgress) {
-      return "Ligando os motores…";
+      return t("statusPreparing");
     }
 
     if (!isReady && hasReceivedProgress) {
-      return "Preparando a mágica ✨";
+      return t("statusEmbedding");
     }
 
     if (!hasSearchedOnce) {
-      return "Tudo pronto pra busca!";
+      return t("statusReady");
     }
 
     return "";
-  }, [hasReceivedProgress, hasSearchedOnce, isReady]);
+  }, [hasReceivedProgress, hasSearchedOnce, isReady, t]);
 
   async function handleSearch(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -184,7 +183,7 @@ export function DescribeExperience({
               size="3"
               disabled={!isReady || isSearching || !query.trim()}
             >
-              Buscar jogos
+              {t("searchButton")}
             </Button>
           </Flex>
         </Flex>
@@ -204,7 +203,7 @@ export function DescribeExperience({
                 aria-valuemin={0}
                 aria-valuemax={100}
                 aria-valuenow={initProgress.percent}
-                aria-label="Progresso da vetorizacao"
+                aria-label={t("progressAria")}
               >
                 <div
                   className={styles.embeddingProgressFill}

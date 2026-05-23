@@ -1,5 +1,6 @@
 import { Badge, Box, Card, Flex, Text } from "@radix-ui/themes";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { GameDetailsDialog } from "@/components/GameDetailsDialog";
 import styles from "../app/page.module.css";
 import type { RankedGame } from "./recommendationTypes";
@@ -13,13 +14,13 @@ export function DescribeResultsList({
   games,
   isLoading,
 }: DescribeResultsListProps) {
+  const t = useTranslations("DescribeResultsList");
+
   if (isLoading) {
     return (
       <Flex direction="column" align="center" gap="3" py="6">
         <div className={styles.resultsSpinner} aria-hidden="true" />
-        <Text color="gray">
-          Buscando jogos que melhor combinam com a descrição...
-        </Text>
+        <Text color="gray">{t("loading")}</Text>
       </Flex>
     );
   }
@@ -35,7 +36,7 @@ export function DescribeResultsList({
           <button
             type="button"
             className={styles.gameCardButton}
-            aria-label={`Ver detalhes de ${game.name}`}
+            aria-label={t("detailsAria", { name: game.name })}
           >
             <Card className={styles.gameCard} style={{ height: "100%" }}>
               {game.coverUrl || game.thumbnailUrl ? (
@@ -51,7 +52,7 @@ export function DescribeResultsList({
               ) : (
                 <Box className={styles.gameCardImageFallback}>
                   <Text color="gray" size="2">
-                    Sem imagem
+                    {t("noImage")}
                   </Text>
                 </Box>
               )}
@@ -80,7 +81,7 @@ export function DescribeResultsList({
                     ))
                   ) : (
                     <Badge size="1" variant="soft" color="gray">
-                      Sem gênero
+                      {t("noGenre")}
                     </Badge>
                   )}
                 </Flex>

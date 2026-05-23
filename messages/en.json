@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "Game My Vibe",
+    "description": "A game recommendation experience based on local embeddings."
+  },
+  "HomePage": {
+    "brand": "Game my vibe",
+    "title": "What do you feel like playing?",
+    "description": "Type a scene, a mood, or the vibe of the game you're looking for."
+  },
+  "DescribeExperience": {
+    "placeholderReady": "Search by scene, mood, or vibe...",
+    "placeholderLoading": "Preparing search...",
+    "statusPreparing": "Warming up the engine...",
+    "statusEmbedding": "Preparing the magic...",
+    "statusReady": "Everything is ready for search!",
+    "searchButton": "Search games",
+    "progressAria": "Vectorization progress"
+  },
+  "DescribeResultsList": {
+    "loading": "Looking for games that best match your description...",
+    "detailsAria": "View details for {name}",
+    "noImage": "No image",
+    "noGenre": "No genre"
+  },
+  "GameDetailsDialog": {
+    "description": "Card #{rank} with {similarity}% compatibility.",
+    "noCoverImage": "No cover image",
+    "similarity": "Similarity: {similarity}%",
+    "rating": "Rating: {rating}",
+    "popularity": "Popularity: {popularity}",
+    "noGenre": "No genre",
+    "summaryUnavailable": "Summary is not available for this game.",
+    "close": "Close"
+  }
+}

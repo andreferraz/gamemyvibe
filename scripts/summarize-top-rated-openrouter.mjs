@@ -14,15 +14,16 @@ const MAX_RETRIES = 3;
 
 // Keep this prompt simple here and refine it as needed.
 const SUMMARY_PROMPT_TEMPLATE = [
-  "You are a concise game copywriter.",
-  "Rewrite the game summary in plain text with 1 to 3 short sentences.",
-  "Keep only important information and avoid hype words.",
-  "Limit to up to 30 words.",
-  "Use only the information provided in the original summary. Do not add any new information.",
-  "Output only the rewritten text.",
+  "Você é um redator de jogos conciso.",
+  "Reescreva o resumo do jogo em texto simples, de 1 a 3 frases, no idioma português brasileiro.",
+  "Mantenha apenas as informações importantes e evite palavras de exagero publicitário (hype).",
+  "Limite-se a no máximo 30 palavras.",
+  "Use apenas as informações fornecidas no resumo original. Não adicione nenhuma informação nova.",
+  "Mantenha o nome do jogo e outras palavras mais comunmente usadas em inglês em seu idioma original.",
+  "Forneça como resposta apenas o texto reescrito em português.",
   "",
-  "Game: {{name}}",
-  "Original summary:",
+  "Jogo: {{name}}",
+  "Resumo original (em inglês):",
   "{{summary}}",
 ].join("\n");
 

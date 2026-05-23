@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "Game My Vibe",
+    "description": "Uma experiencia de recomendacao de jogos baseada em embeddings locais."
+  },
+  "HomePage": {
+    "brand": "Game my vibe",
+    "title": "Descreva o que quer jogar.",
+    "description": "Digite uma cena, um clima ou a vibe do jogo que você procura."
+  },
+  "DescribeExperience": {
+    "placeholderReady": "Busque por cena, clima ou vibe...",
+    "placeholderLoading": "Preparando busca...",
+    "statusPreparing": "Ligando os motores...",
+    "statusEmbedding": "Preparando a magica...",
+    "statusReady": "Tudo pronto pra busca!",
+    "searchButton": "Buscar jogos",
+    "progressAria": "Progresso da vetorizacao"
+  },
+  "DescribeResultsList": {
+    "loading": "Buscando jogos que melhor combinam com a descricao...",
+    "detailsAria": "Ver detalhes de {name}",
+    "noImage": "Sem imagem",
+    "noGenre": "Sem genero"
+  },
+  "GameDetailsDialog": {
+    "description": "Carta #{rank} com {similarity}% de compatibilidade.",
+    "noCoverImage": "Sem imagem de capa",
+    "similarity": "Similaridade: {similarity}%",
+    "rating": "Nota: {rating}",
+    "popularity": "Popularidade: {popularity}",
+    "noGenre": "Sem genero",
+    "summaryUnavailable": "Resumo nao disponivel para este jogo.",
+    "close": "Fechar"
+  }
+}

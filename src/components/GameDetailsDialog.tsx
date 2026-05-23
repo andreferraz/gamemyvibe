@@ -1,5 +1,6 @@
 import { Badge, Box, Button, Dialog, Flex, Text } from "@radix-ui/themes";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import type { ReactNode } from "react";
 import styles from "../app/page.module.css";
 import type { RankedGame } from "./recommendationTypes";
@@ -15,6 +16,7 @@ export function GameDetailsDialog({
   rank,
   children,
 }: GameDetailsDialogProps) {
+  const t = useTranslations("GameDetailsDialog");
   const imageSrc = game.coverUrl || game.thumbnailUrl;
 
   return (
@@ -23,7 +25,7 @@ export function GameDetailsDialog({
       <Dialog.Content className={styles.gameDialogContent} maxWidth="760px">
         <Dialog.Title>{game.name}</Dialog.Title>
         <Dialog.Description>
-          Carta #{rank} com {game.similarity}% de compatibilidade.
+          {t("description", { rank, similarity: game.similarity })}
         </Dialog.Description>
 
         <Flex direction="column" gap="4" mt="4">
@@ -40,23 +42,23 @@ export function GameDetailsDialog({
               </Box>
             ) : (
               <Box className={styles.gameDialogImageFallback}>
-                <Text color="gray">Sem imagem de capa</Text>
+                <Text color="gray">{t("noCoverImage")}</Text>
               </Box>
             )}
           </div>
 
           <Flex wrap="wrap" gap="2">
             <Badge size="2" variant="soft" color="green">
-              Similaridade: {game.similarity}%
+              {t("similarity", { similarity: game.similarity })}
             </Badge>
             {typeof game.rating === "number" ? (
               <Badge size="2" variant="soft" color="blue">
-                Nota: {game.rating.toFixed(1)}
+                {t("rating", { rating: game.rating.toFixed(1) })}
               </Badge>
             ) : null}
             {typeof game.popularity === "number" ? (
               <Badge size="2" variant="soft" color="orange">
-                Popularidade: {game.popularity}
+                {t("popularity", { popularity: game.popularity })}
               </Badge>
             ) : null}
           </Flex>
@@ -75,19 +77,19 @@ export function GameDetailsDialog({
               ))
             ) : (
               <Badge size="1" variant="soft" color="gray">
-                Sem gênero
+                {t("noGenre")}
               </Badge>
             )}
           </Flex>
 
           <Text className={styles.gameDialogSummary} size="2" color="gray">
-            {game.summary || "Resumo não disponível para este jogo."}
+            {game.summary || t("summaryUnavailable")}
           </Text>
 
           <Flex justify="end" mt="2">
             <Dialog.Close>
               <Button variant="soft" color="gray">
-                Fechar
+                {t("close")}
               </Button>
             </Dialog.Close>
           </Flex>

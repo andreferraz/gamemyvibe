@@ -37,9 +37,10 @@ export default async function DescribePage({ params }: Props) {
           <Box mt="8">
             <Heading align="center" as="h1" className={styles.kicker}>
               🎮
-              <Text ml="2" style={{ display: "inline-block" }}>
+              <Text mx="2" style={{ display: "inline-block" }}>
                 {t("brand")}
               </Text>
+              💬
             </Heading>
             <Text align="center" as="p" size="9" weight="bold">
               {t("title")}

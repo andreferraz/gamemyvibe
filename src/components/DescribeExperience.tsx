@@ -163,6 +163,8 @@ export function DescribeExperience({
       return;
     }
 
+    const normalizedQuery = trimmedQuery.toLocaleLowerCase();
+
     const nextRequestId = latestSearchRequestIdRef.current + 1;
     latestSearchRequestIdRef.current = nextRequestId;
     setIsSearching(true);
@@ -170,7 +172,7 @@ export function DescribeExperience({
 
     const searchRequest: DescribeExperienceWorkerRequest = {
       type: "search",
-      query: trimmedQuery,
+      query: normalizedQuery,
       limit: 5,
       requestId: nextRequestId,
     };
@@ -224,7 +226,7 @@ export function DescribeExperience({
       </Flex>
 
       <form onSubmit={handleSearch}>
-        <Flex direction="row" align="center" wrap="nowrap">
+        <Flex direction="row" gap="2" align="center" wrap="nowrap">
           <Box flexGrow="1">
             <TextField.Root
               size="3"

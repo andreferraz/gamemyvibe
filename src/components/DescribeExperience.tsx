@@ -132,7 +132,7 @@ export function DescribeExperience({
     }
 
     if (!isReady && hasReceivedProgress) {
-      return "Preparando a mágica";
+      return "Preparando a mágica ✨";
     }
 
     if (!hasSearchedOnce) {

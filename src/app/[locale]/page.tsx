@@ -32,7 +32,7 @@ export default async function DescribePage({ params }: Props) {
 
   return (
     <main className={styles.page}>
-      <Container size="4" py="6" className={styles.container}>
+      <Container size="4" py="6" px="5">
         <AppHeader />
 
         <Flex direction="column" justify="center" gap="5">

@@ -10,10 +10,10 @@
   },
   "DescribeExperience": {
     "placeholderReady": "Search by scene, mood, or vibe...",
-    "placeholderLoading": "Preparing search...",
-    "statusPreparing": "Warming up the engine...",
-    "statusEmbedding": "Preparing the magic...",
-    "statusReady": "Everything is ready for search!",
+    "placeholderLoading": "Preparing search…",
+    "statusPreparing": "Fetching game candidates…",
+    "statusEmbedding": "Vectorizing descriptions…",
+    "statusReady": "Ready for search!",
     "examplesLabel": "Examples:",
     "searchButton": "Search games",
     "progressAria": "Vectorization progress",
@@ -22,7 +22,7 @@
       "fallingFromAirplane": "Falling from an airplane",
       "racingCopPursuit": "Racing with cop pursuit",
       "travelingToSpace": "Traveling to space",
-      "spiderverse": "Into the spiderverse",
+      "spiderVerse": "Into the spider-verse",
       "horrorOuterSpace": "Horror in outer space",
       "adventureJungle": "Adventure into the jungle",
       "medievalFantasyDragons": "Medieval fantasy with dragons",
@@ -35,7 +35,7 @@
     "detailsAria": "View details for {name}",
     "noImage": "No image",
     "noGenre": "No genre",
-    "datasetNote": "ⓘ Search is currently limited to a dataset of 500 games. If an obvious game did not appear, it was likely not included in the database."
+    "datasetNote": "ⓘ Search is currently limited to a dataset of {count} games. If an obvious game did not appear, it was likely not included in the database."
   },
   "GameDetailsDialog": {
     "description": "Card #{rank} with {similarity}% compatibility.",

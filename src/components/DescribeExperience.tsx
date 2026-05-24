@@ -3,6 +3,7 @@
 import { Box, Button, Flex, Text, TextField } from "@radix-ui/themes";
 import { useTranslations } from "next-intl";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { FaCheck } from "react-icons/fa6";
 import type { FormattedGameObject } from "@/app/api/json/types";
 import type { RankedGame } from "@/components/recommendationTypes";
 import type {
@@ -132,7 +133,7 @@ export function DescribeExperience({
       t("suggestions.beachWithFriends"),
       //t("suggestions.fallingFromAirplane"),
       t("suggestions.travelingToSpace"),
-      t("suggestions.spiderverse"),
+      t("suggestions.spiderVerse"),
       t("suggestions.adventureJungle"),
       t("suggestions.fightingDemons"),
       //t("suggestions.medievalFantasyDragons"),
@@ -198,6 +199,7 @@ export function DescribeExperience({
         align="center"
         maxWidth="800px"
         mx="auto"
+        mb="6"
       >
         <Text as="p" size="2" color="gray">
           {t("examplesLabel")}
@@ -249,12 +251,28 @@ export function DescribeExperience({
       </form>
 
       {statusText && (
-        <Flex direction="column" align="center" gap="3" py="6">
-          <Text as="p" align="center" size="4" weight="bold" color="gray">
-            {statusText}
+        <Flex direction="row" gap="2" py="2" align="center" justify="center">
+          {isReady ? (
+            <Flex asChild align="center" gap="1">
+              <Text color="teal">
+                <FaCheck color="currentColor" />
+              </Text>
+            </Flex>
+          ) : (
+            <span className={styles.resultsSpinner} />
+          )}
+          <Text as="p" color="gray" weight="medium" align="center">
+            {statusText}{" "}
+            {!isReady && hasReceivedProgress ? (
+              <Text color="gray">
+                {initProgress.percent}%{" "}
+                <span style={{ opacity: 0.6 }}>
+                  (from {initProgress.total} games)
+                </span>
+              </Text>
+            ) : null}
           </Text>
-
-          {!isReady && hasReceivedProgress ? (
+          {/* {!isReady && hasReceivedProgress ? (
             <div className={styles.embeddingProgressWrap}>
               <div
                 className={styles.embeddingProgressTrack}
@@ -270,11 +288,15 @@ export function DescribeExperience({
                 />
               </div>
             </div>
-          ) : null}
+          ) : null} */}
         </Flex>
       )}
 
-      <DescribeResultsList games={results} isLoading={isSearching} />
+      <DescribeResultsList
+        games={results}
+        isLoading={isSearching}
+        datasetCount={candidateGames.length}
+      />
     </Flex>
   );
 }

@@ -8,11 +8,13 @@ import type { RankedGame } from "./recommendationTypes";
 interface DescribeResultsListProps {
   games: RankedGame[];
   isLoading: boolean;
+  datasetCount: number;
 }
 
 export function DescribeResultsList({
   games,
   isLoading,
+  datasetCount,
 }: DescribeResultsListProps) {
   const t = useTranslations("DescribeResultsList");
 
@@ -31,7 +33,7 @@ export function DescribeResultsList({
 
   return (
     <>
-      <Box className={styles.resultsHorizontalList} mt="6">
+      <Box className={styles.resultsHorizontalList} mt="6" py="1">
         {games.map((game, index) => (
           <GameDetailsDialog key={game.id} game={game} rank={index + 1}>
             <button
@@ -100,7 +102,7 @@ export function DescribeResultsList({
       </Box>
 
       <Text color="gray" size="2" mt="3" align="center">
-        {t("datasetNote")}
+        {t("datasetNote", { count: datasetCount })}
       </Text>
     </>
   );

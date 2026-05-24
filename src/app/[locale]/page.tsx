@@ -35,7 +35,14 @@ export default async function DescribePage({ params }: Props) {
       <Container size="4" py="6" className={styles.container}>
         <Flex direction="column" justify="center" gap="5">
           <Box mt="8">
-            <Heading align="center" as="h1" className={styles.kicker}>
+            <Heading
+              align="center"
+              as="h1"
+              size="2"
+              color="teal"
+              className={styles.kicker}
+              mb="4"
+            >
               🎮
               <Text mx="2" style={{ display: "inline-block" }}>
                 {t("brand")}
@@ -48,8 +55,8 @@ export default async function DescribePage({ params }: Props) {
             <Box maxWidth="62ch" mx="auto">
               <Text
                 as="p"
+                size="4"
                 align="center"
-                size="3"
                 color="gray"
                 mx="auto"
                 mt="4"

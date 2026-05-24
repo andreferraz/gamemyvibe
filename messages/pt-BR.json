@@ -22,7 +22,7 @@
       "fallingFromAirplane": "Caindo de um aviao",
       "racingCopPursuit": "Corrida com perseguicao policial",
       "travelingToSpace": "Viajando para o espaco",
-      "spiderverse": "No aranhaverso",
+      "spiderVerse": "No aranhaverso",
       "horrorOuterSpace": "Terror no espaco sideral",
       "adventureJungle": "Aventura na selva",
       "medievalFantasyDragons": "Fantasia medieval com dragoes",
@@ -35,7 +35,7 @@
     "detailsAria": "Ver detalhes de {name}",
     "noImage": "Sem imagem",
     "noGenre": "Sem genero",
-    "datasetNote": "ⓘ A busca esta atualmente limitada a uma base de 500 jogos. Se um jogo obvio nao apareceu, e muito provavel que ele nao esteja na base de dados."
+    "datasetNote": "ⓘ A busca esta atualmente limitada a uma base de {count} jogos. Se um jogo obvio nao apareceu, e muito provavel que ele nao esteja na base de dados."
   },
   "GameDetailsDialog": {
     "description": "Carta #{rank} com {similarity}% de compatibilidade.",

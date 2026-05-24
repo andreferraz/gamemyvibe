@@ -3,11 +3,11 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getCandidateGames } from "@/app/api/json/candidates/getCandidateGames";
 import type { FormattedGameObject } from "@/app/api/json/types";
 import { toFormattedGame } from "@/app/api/json/utils";
+import { AppHeader } from "@/components/AppHeader";
 import { DescribeExperience } from "@/components/DescribeExperience";
 import styles from "../page.module.css";
 
 async function fetchCandidateGames(): Promise<FormattedGameObject[]> {
-  console.log("Fetching candidate games...");
   try {
     const candidateGames = await getCandidateGames();
     return candidateGames.map(toFormattedGame);
@@ -33,6 +33,8 @@ export default async function DescribePage({ params }: Props) {
   return (
     <main className={styles.page}>
       <Container size="4" py="6" className={styles.container}>
+        <AppHeader />
+
         <Flex direction="column" justify="center" gap="5">
           <Box mt="8">
             <Heading
@@ -49,7 +51,12 @@ export default async function DescribePage({ params }: Props) {
               </Text>
               💬
             </Heading>
-            <Text align="center" as="p" size="9" weight="bold">
+            <Text
+              align="center"
+              as="p"
+              size={{ initial: "8", md: "9" }}
+              weight="bold"
+            >
               {t("title")}
             </Text>
             <Box maxWidth="62ch" mx="auto">

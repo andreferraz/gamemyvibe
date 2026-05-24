@@ -3,6 +3,11 @@
     "title": "Game My Vibe",
     "description": "A game recommendation experience based on local embeddings."
   },
+  "Header": {
+    "developedBy": "Developed by",
+    "githubTitle": "GitHub repository",
+    "authorTitle": "Andre Ferraz's portfolio"
+  },
   "HomePage": {
     "brand": "Game my vibe",
     "title": "What do you feel like playing?",

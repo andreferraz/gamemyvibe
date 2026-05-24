@@ -97,7 +97,7 @@ export function DescribeResultsList({
         ))}
       </Box>
 
-      <Text color="gray" size="2" mt="3" align="center">
+      <Text color="gray" size="1" mt="3" align="center">
         {t("datasetNote", { count: datasetCount })}
       </Text>
     </>

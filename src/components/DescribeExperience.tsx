@@ -192,7 +192,7 @@ export function DescribeExperience({
   }
 
   return (
-    <Flex direction="column" gap="4" mt="4">
+    <Flex direction="column" gap="4" my="4">
       <Flex
         direction="column"
         gap="2"
@@ -272,26 +272,8 @@ export function DescribeExperience({
               </Text>
             ) : null}
           </Text>
-          {/* {!isReady && hasReceivedProgress ? (
-            <div className={styles.embeddingProgressWrap}>
-              <div
-                className={styles.embeddingProgressTrack}
-                role="progressbar"
-                aria-valuemin={0}
-                aria-valuemax={100}
-                aria-valuenow={initProgress.percent}
-                aria-label={t("progressAria")}
-              >
-                <div
-                  className={styles.embeddingProgressFill}
-                  style={{ width: `${initProgress.percent}%` }}
-                />
-              </div>
-            </div>
-          ) : null} */}
         </Flex>
       )}
-
       <DescribeResultsList
         games={results}
         isLoading={isSearching}

@@ -1,0 +1,1 @@
+Ikaruga é um vertical scrolling spaceship shooter onde você controla uma nave que muda de polaridade. Como azul/branco, destrua inimigos vermelhos/pretos; como vermelho/preto, o contrário.

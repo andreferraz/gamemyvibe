@@ -1,0 +1,1 @@
+Kingdom Hearts Birth by Sleep é um RPG que apresenta Command System, permitindo criar deck de Deck Commands. Ataques carregam, ativando Styles que trocam ataque por Surge ou Storm, combos.

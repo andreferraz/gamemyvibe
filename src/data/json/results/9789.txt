@@ -1,0 +1,1 @@
+RimWorld é um simulador de colônia de ficção científica guiado por uma IA storyteller inteligente. Gera histórias simulando psicologia, ecologia, combate, clima, diplomacia, relações, arte, medicina, comércio e mais.

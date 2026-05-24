@@ -1,0 +1,1 @@
+TimeSplitters 2 é um shooter onde o jogador mata inimigos e completa objetivos; barras de armadura e saúde caem ao ser atingido e aumentam ao pegar armadura corporal kits médicos.

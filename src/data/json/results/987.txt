@@ -1,0 +1,1 @@
+Halo 3 é shooter em pessoa com combate e veículos. Ajusta o 'Golden Triangle' (arma, granada, ataque corpo a corpo) e adiciona armas de apoio e um equipamento por vez.

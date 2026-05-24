@@ -1,0 +1,1 @@
+Pizza Tower é um plataforma 2D inspirado em Wario Land e Earthworm Jim. Você controla Peppino Spaghetti, que corre, salta e desvia, subindo a torre, coletando chaves e salvando pessoas.

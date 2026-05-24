@@ -1,0 +1,1 @@
+{"title":"Dune II: The Building of a Dynasty","description":"Dune II: The Building of a Dynasty is a RTS where the player chooses House among three, uses Spice in credits to build units and structures, and terrain determines strategy.","image":"https://example.com/image.png","url":"https://example.com/dune2"}

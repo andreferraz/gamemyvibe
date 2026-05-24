@@ -1,0 +1,1 @@
+Um jogador está preso em uma sala com uma bomba que deve ser desativada. Os outros são os “Experts” que dão instruções, mas não veem a bomba, então conversar rápido.

@@ -58,7 +58,9 @@ export async function preVectorizeCandidateGames(
     const batchIndex = Math.floor(start / batchSize);
     const chunk = uncachedGames.slice(start, start + batchSize);
     const embeddingInput = chunk.map(
-      (game) => game.summary?.trim() || game.name,
+      (game) =>
+        game.summary?.trim().toLocaleLowerCase() ||
+        game.name.toLocaleLowerCase(),
     );
     const embeddingsTensor = await model.embed(embeddingInput);
 

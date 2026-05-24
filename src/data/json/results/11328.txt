@@ -1,0 +1,1 @@
+Shadow Complex apresenta 2.5D, com movimento 2D e inimigos 3D. Jogador ganha XP, níveis e habilidades, usa mira laser e auto-aim. Inclui Proving Grounds e leaderboard online.

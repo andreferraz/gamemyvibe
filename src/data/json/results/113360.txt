@@ -1,0 +1,1 @@
+Hytale combina sandbox e roleplaying game, colocando jogadores em um mundo gerado proceduralmente com torres e masmorras que oferecem recompensas. Suporta construção block‑by‑block, scripting e minigames com ferramentas fáceis.

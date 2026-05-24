@@ -60,11 +60,7 @@ export function DescribeResultsList({
                   </Box>
                 )}
 
-                <Flex
-                  direction="column"
-                  gap="2"
-                  className={styles.gameCardBody}
-                >
+                <Flex direction="column" gap="2" py="3">
                   <Flex justify="between" align="center" gap="2">
                     <Text className={styles.rank}>#{index + 1}</Text>
                     <Text className={styles.similarity}>

@@ -11,8 +11,8 @@
   "DescribeExperience": {
     "placeholderReady": "Search by scene, mood, or vibe...",
     "placeholderLoading": "Preparing search…",
-    "statusPreparing": "Fetching game candidates…",
-    "statusEmbedding": "Vectorizing descriptions…",
+    "statusPreparing": "Fetching games",
+    "statusEmbedding": "Analysing descriptions…",
     "statusReady": "Ready for search!",
     "examplesLabel": "Examples:",
     "searchButton": "Search games",

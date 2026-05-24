@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "Game My Vibe",
+    "title": "Game My Vibe | Game recommendation based on descriptions",
     "description": "A game recommendation experience based on local embeddings."
   },
   "Header": {

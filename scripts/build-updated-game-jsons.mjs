@@ -5,8 +5,8 @@ import { resolve } from "node:path";
 import dotenv from "dotenv";
 
 const DATA_DIR = resolve(process.cwd(), "src/data/json");
-const RESULTS_DIR = resolve(DATA_DIR, "results/pt");
-const OUTPUT_DIR = resolve(DATA_DIR, "top-rated-resume-batches/pt");
+const RESULTS_DIR = resolve(DATA_DIR, "results");
+const OUTPUT_DIR = resolve(DATA_DIR, "top-rated-resume-batches");
 const BATCH_SIZE = 100;
 
 function extractTopRatedIndex(fileName) {
@@ -96,7 +96,7 @@ async function readResumeForGame(gameId) {
 async function writeBatch(batchGames, batchNumber, totalGamesProcessed) {
   const outputPath = resolve(
     OUTPUT_DIR,
-    `top-rated-resume-batch-pt-${batchNumber}.json`,
+    `top-rated-resume-batch-${batchNumber}.json`,
   );
   const startIndex = totalGamesProcessed - batchGames.length + 1;
 

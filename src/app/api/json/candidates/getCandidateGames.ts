@@ -3,8 +3,8 @@ import { loadDatasetsByPattern } from "../datasetLoader";
 import type { CompactGame } from "../types";
 import { toCompactGame } from "../utils";
 
-const MAX_LIMIT = 375;
-const TOP_RATED_FILE_PATTERN = /^top-rated-resume-batch-pt-(\d+)\.json$/;
+const MAX_LIMIT = 500;
+const TOP_RATED_FILE_PATTERN = /^top-rated-resume-batch-(\d+)\.json$/;
 
 export async function getCandidateGames(): Promise<CompactGame[]> {
   const sources = await loadDatasetsByPattern(TOP_RATED_FILE_PATTERN);

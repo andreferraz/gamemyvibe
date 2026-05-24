@@ -4,8 +4,8 @@ import { access, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import dotenv from "dotenv";
 
-//const OPENROUTER_CHAT_URL = "https://openrouter.ai/api/v1/chat/completions";
-const OPENROUTER_CHAT_URL = "http://localhost:11434/v1/chat/completions";
+const OPENROUTER_CHAT_URL = "https://openrouter.ai/api/v1/chat/completions";
+//const OPENROUTER_CHAT_URL = "http://localhost:11434/v1/chat/completions";
 const DATA_DIR = resolve(process.cwd(), "src/data/json");
 const RESULTS_DIR = resolve(DATA_DIR, "results");
 const REQUEST_DELAY_MS = 250;
@@ -249,7 +249,7 @@ async function run() {
   dotenv.config({ path: resolve(process.cwd(), ".env.local") });
   dotenv.config({ path: resolve(process.cwd(), ".env") });
 
-  const apiKey = "ollama"; //process.env.OPENROUTER_API_KEY;
+  const apiKey = process.env.OPENROUTER_API_KEY;
   const model = process.env.OPENROUTER_MODEL || "openai/gpt-oss-20b:free";
   const topRatedFileSelector = process.env.TOP_RATED_FILE;
   if (!apiKey) {

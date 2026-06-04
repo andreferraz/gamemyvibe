@@ -8,13 +8,11 @@ Live (demo): [https://gamemyvibe.vercel.app/](https://gamemyvibe.vercel.app/)
 
 ## How it works
 
-In the app, the user can type a brief description of the game they have in mind, and the app will show a list of games that best match that description given a set of available games.
+In the app, the user can type a brief description of the mood, scene or vibe of the game they have in mind, and the app will show a list of games that best match that description given a limited set of available games.
 
 The results are ranked by similarity percentage, which is calculated using vector math and cosine similarity between the user's description and the game descriptions.
 
-The app uses TensorFlow.js to perform all the machine learning inference directly in the browser, using the Universal Sentence Encoder model to convert text into vectors.
-
-> At the moment, the UI is only available in Portuguese, but the search only works with English phrases. This may change in a future update.
+The app uses TensorFlow.js to perform all the machine learning inference directly in the browser, using the Universal Sentence Encoder model to convert text into vectors (that's why it takes some time to get ready).
 
 ## Technologies Used
 
@@ -33,7 +31,7 @@ This project was build with help from the following technologies:
 
 ### Data
 - **Gemini**: For iterating ideas and building roadmaps.
-- **IGDB API**: For fetching game data and metadata.
+- **IGDB API**: For fetching game data and metadata (further cached and pre-processed).
 - **gpt-oss:20b**: The open-source model used for optimizing game descriptions.
 
 ## Getting Started
